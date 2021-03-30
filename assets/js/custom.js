@@ -1,0 +1,47 @@
+var tag = document.createElement('script');
+tag.src = "//www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+function onYouTubeIframeAPIReady() {
+    $('.youtube-video').inViewAutoplay({
+        autohide: 1,
+        modestbranding: 1,
+        rel: 0,
+        quality: 'hd720'
+    });
+    $('.youtube-video-second').inViewAutoplay({
+        autohide: 1,
+        modestbranding: 1,
+        rel: 0,
+        quality: 'hd720'
+    });
+
+}
+
+
+
+
+
+
+let buttons = document.querySelector(".mobile-slider__menu")
+let element = document.querySelector(".header__menu-icon")
+let closeBtn = document.querySelector(".closebtn")
+
+element.addEventListener("click", function () {
+    buttons.classList.toggle("visible")
+    document.body.classList.add("lock-scroll")
+
+})
+closeBtn.addEventListener("click", function () {
+    buttons.classList.toggle("visible")
+    document.body.classList.remove("lock-scroll")
+})
+
+
+
+
+
+
+
+
