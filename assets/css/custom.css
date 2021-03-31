@@ -52,6 +52,12 @@ p span{
 .desktop-menu li  {
 display: none;
 }
+.youtube-video,.youtube-video-second{
+    height: 350px;
+}
+.video__title{
+    margin-bottom: 19%;
+}
 .desktop-menu{
     display: none;
 }
@@ -187,7 +193,7 @@ svg{
 }
 .desktop__display-show {
     display: block  !important;
-    width: 60%;
+    width: 89%;
     margin: 0 auto ;
 }
 p.services__item__text {
@@ -494,7 +500,7 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-evenly;
     text-align: left;
-    /* margin-top:23rem; */
+     margin-top: 5%;
 
 }
 .desktop_services ul{
@@ -1246,7 +1252,7 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-evenly;
     text-align: left;
-     margin-top:8rem; 
+     margin-top: 5%; 
 
 }
 .desktop_services ul{
@@ -1838,12 +1844,14 @@ p{
     line-height: 150%;
 }
 
+
+
 body {
 	line-height: 1;
-    width: 100%;
     margin: 0 auto;
     overflow-x: hidden;
 -webkit-font-smoothing: antialiased;
+position: relative;
 }
 ol, ul {
 	list-style: none;
