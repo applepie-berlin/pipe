@@ -8,13 +8,17 @@ function onYouTubeIframeAPIReady() {
         autohide: 1,
         modestbranding: 1,
         rel: 0,
-        quality: 'hd720'
+        quality: 'hd720',
+        controls: 0,
+        showinfo: 0
     });
     $('.youtube-video-second').inViewAutoplay({
         autohide: 1,
         modestbranding: 1,
         rel: 0,
-        quality: 'hd720'
+        quality: 'hd720',
+        controls: 0,
+        showinfo: 0
     });
 
 }
