@@ -853,6 +853,13 @@ display: flex;
         border-top: 1px solid white;
         display: block;
     }
+    .page-number-addition{
+        position: absolute;
+        bottom: 0;
+        right: -2%;
+        border-top: 1px solid white;
+        display: block;
+    }
     .section__buttons{
         display: flex;
         justify-content: space-between;
