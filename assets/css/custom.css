@@ -271,10 +271,20 @@ display: none;
 
 /*medium device */
  @media (min-width: 768px)  {
+     .first-pipe{
+         position: relative;
+     }
+     .miku__svg{
+         height: 650px;
+         width: 700px;
+        
+     }
     /* .mobile-slider__menu{
         display: none;
     } */
-   
+   .for-customers{
+       position: relative;
+   }
     .section_four{
         margin-top: 15%;
     }
@@ -633,6 +643,19 @@ li{
 
  /* large-device */
 @media (min-width: 992px) {
+    .customer__fouth,.customer__fouth ,.customer__fouth, .customer__fouth{
+        height: 100%;
+        position: relative;
+    }
+    .miku__svg{
+         height: 650px;
+         width: 700px;
+        
+     }
+    .for-customers{
+       position: relative;
+       height: 100%;
+   }
      .desktop__display-hide{
     display: none;
 }
@@ -1004,6 +1027,11 @@ li{
 
  /* X-large-device */
 @media (min-width: 1200px) {
+    
+    .for-customers{
+       position: relative;
+       height: 100%;
+   }
     .desktop__display-hide{
     display: none;
 }
@@ -1412,6 +1440,14 @@ li{
 
  /* XX-large-device */
 @media (min-width: 1400px) {
+    #section__three{
+        height: 100%;
+    }
+    
+    .for-customers{
+       position: relative;
+       height: 100%;
+   }
     .desktop__display-hide{
     display: none;
 }
@@ -2314,6 +2350,11 @@ position: relative;
 
       /* media styles for customers page */
     @media (min-width: 768px) {
+       .miku__svg {
+    height: 500px;
+    width: 800px;
+        margin-left: 20%;
+     }
       
           .desktop__display-hide{
     display: none;
@@ -2371,9 +2412,11 @@ position: relative;
 
         .for-customers__svg,
         .for-customers-text-container {
-            width: 50%;
+            width: 57%;
         }
-
+        .for-customers__first-text{
+            width: 32%;
+        }
         .for-customers__svg {
             padding-left: 100px;
             padding-right: 30%;
