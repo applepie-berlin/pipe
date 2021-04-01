@@ -46,6 +46,7 @@ time, mark, audio, video {
 *, :after, :before {
     box-sizing: border-box;
 }
+
 p span{
     color:var(--main-button-color);
 }
@@ -58,6 +59,9 @@ display: none;
 .video__title{
     margin-bottom: 19%;
 }
+ .what-we-do__svg{
+        height: 500px;
+    }
 .desktop-menu{
     display: none;
 }
@@ -441,7 +445,7 @@ display: flex;
 }
     .main{
         position: relative;
-        height: 100vh;
+        height: 70vh;
     }
     .your-web__multi-dots-desktop{
         display: block;
@@ -560,7 +564,7 @@ li{
     position: absolute;
 }
 .you-plus-your-things{
-    margin-top:30rem;
+    margin-top:5%;
 }
 
 .team-members{
@@ -631,6 +635,9 @@ li{
 
  /* large-device */
 @media (min-width: 992px) {
+    .what-we-do__svg{
+        height: 500px;
+    }
 .section__one{
     position: relative;
 }
@@ -809,7 +816,7 @@ display: flex;
 }
     .main{
         position: relative;
-        height: 100vh;
+        height: 100%;
     }
     .your-web__multi-dots-desktop{
         display: block;
@@ -878,7 +885,7 @@ ul.services__list.text-center {
     position: relative;
 }
 .section-button-margin{
-    margin-top: 32rem !important;
+    margin-top: 5% !important;
 }
     ul.services__item,ul.our-services__item  {
      display: flex;
@@ -928,7 +935,7 @@ li{
     position: absolute;
 }
 .you-plus-your-things{
-    margin-top:30rem;
+    margin-top:5%;
 }
 
 .team-members{
@@ -1193,7 +1200,7 @@ display: flex;
 }
     .main{
         position: relative;
-        height: 100vh;
+        height: 100%;
     }
     .your-web__multi-dots-desktop{
         display: block;
