@@ -142,6 +142,9 @@ svg{
     height: auto;
     width: auto ;
 }
+.general-container{
+    width: 100vw;
+}
 .mobile-slider__menu{
     transform:translate(100%);
     transition: 0.5s;
@@ -152,7 +155,9 @@ svg{
     background-color: black;
     z-index: 3;
     color: white;
-    overflow: scroll;
+    overflow-y: scroll;
+    width: 100vw;
+
 }
 .closebtn {
   position: absolute;
