@@ -575,6 +575,7 @@ li{
     margin-top:5%;
 }
 
+
 .team-members{
     position: relative;
 }
@@ -626,8 +627,8 @@ li{
     margin: 0 auto;
     bottom: -160px;
     position: absolute;
-    bottom: -197px;
-    left:240px;
+     bottom: -87%;
+    left: 14%;
 }
 }
 
@@ -1013,8 +1014,8 @@ li{
     margin: 0 auto;
     bottom: -160px;
     position: absolute;
-    bottom: -197px;
-    left:240px;
+    bottom: -48%;
+    left:15%;
 }
 }
 
