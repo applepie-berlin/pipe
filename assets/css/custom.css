@@ -2314,6 +2314,10 @@ position: relative;
 
       /* media styles for customers page */
     @media (min-width: 768px) {
+      
+          .desktop__display-hide{
+    display: none;
+}
         /* 
         .benefits__text,
         .benefits__svg {
