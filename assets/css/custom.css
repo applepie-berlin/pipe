@@ -207,9 +207,7 @@ p.services__item__text {
 position: relative;
 margin: 0 !important;
 }
-.desktop__display-hide{
-    display: none;
-}
+
 .webrtic-agent{
     position: relative;
 }
@@ -635,6 +633,9 @@ li{
 
  /* large-device */
 @media (min-width: 992px) {
+     .desktop__display-hide{
+    display: none;
+}
     .what-we-do__svg{
         height: 500px;
     }
@@ -1003,6 +1004,9 @@ li{
 
  /* X-large-device */
 @media (min-width: 1200px) {
+    .desktop__display-hide{
+    display: none;
+}
 
     .section__one{
     position: relative;
@@ -1408,6 +1412,9 @@ li{
 
  /* XX-large-device */
 @media (min-width: 1400px) {
+    .desktop__display-hide{
+    display: none;
+}
     .video__svg{
         margin-top: 8% !important;
     }
@@ -1813,6 +1820,7 @@ li{
 
 
 @media (max-width:767px){
+   
     .container {
     width: 90% !important;
     position: relative;
