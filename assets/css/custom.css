@@ -144,6 +144,7 @@ svg{
 }
 .general-container{
     width: 100vw;
+    overflow-x: hidden;
 }
 .mobile-slider__menu{
     transform:translate(100%);
@@ -278,6 +279,10 @@ display: none;
  @media (min-width: 768px)  {
      .first-pipe{
          position: relative;
+     }
+     .desktop-menu .header__menu__list a{
+         font-size: 19px;
+
      }
      .miku__svg{
          height: 650px;
@@ -625,6 +630,7 @@ li{
 .members-names__inventions-tim{
     padding-right: 10%;
 }
+
 .members-names__inventions{
    display: flex !important;
     width: 80%;
@@ -1040,6 +1046,10 @@ li{
 
  /* X-large-device */
 @media (min-width: 1200px) {
+     .desktop-menu .header__menu__list a{
+         font-size: 19px;
+
+     }
     
     .for-customers{
        position: relative;
@@ -1376,15 +1386,17 @@ li{
     left: 49%;
 }
 .main-text__blue-border::before {
-    content: '';
+   content: '';
     border-bottom: 10px solid var(--main-button-color);
-    width: 164px !important;
+    width: 47%!important;
     display: block;
-    right: 111px;
+    right: 66%;
     margin: 0.8rem auto;
     position: absolute !important;
-    top: 31px;
-    transform: rotate(91deg);
+    top: 7%;
+    transform: rotate(
+91deg
+);
 }
 .members-names__simon{
     display: block;
@@ -1456,7 +1468,10 @@ li{
     #section__three{
         height: 100%;
     }
-    
+     .desktop-menu .header__menu__list a{
+         font-size: 19px;
+
+     }
     .for-customers{
        position: relative;
        height: 100%;
@@ -1770,12 +1785,17 @@ li{
 }
 .team-members__image{
     position: relative;
+    width: 80%;
+}
+.we-believe__ex{
+    width: 80%;
 }
 .members-names__desktop{
     position: absolute;
     bottom: 0;
     left: 14%;
 }
+
 .members-names__inventions{
     position: absolute;
 }
@@ -1785,6 +1805,9 @@ li{
 
 .team-members{
     position: relative;
+    display: flex;
+    justify-content: space-between;
+
 }
 .members-names__simon{
        position: absolute;
@@ -1796,7 +1819,7 @@ li{
     border-bottom: 10px solid var(--main-button-color);
     width: 164px !important;
     display: block;
-    right: 111px;
+       left: 10%;
     margin: 0.8rem auto;
     position: absolute !important;
     top: 31px;
@@ -1812,7 +1835,8 @@ li{
     align-items: center;
 }
 .we-believe__explanation{
-    margin-left:2rem;
+    margin-left: 6%;
+    width: 52%;
 }
 .members-experience{
     margin-top:8rem;
@@ -1825,17 +1849,30 @@ li{
 }
 
 .members-names__inventions-tim{
-    padding-right: 10%;
+    padding-right: 0%;
+    
 }
+
+.we-believe p {
+        line-height: 190%;
+        font-size: 1.5rem;
+    }
+.members-names__inventions-tim{
+width: 43%;
+}
+.members-names__inventions-simon{
+    width: 42%;
+}
+
 .members-names__inventions{
    display: flex !important;
-    width: 80%;
+    width: 67%;
     justify-content: space-between;
     margin: 0 auto;
     bottom: -160px;
     position: absolute;
     bottom: -197px;
-    left:240px;
+    left:25%;
 }
 }
 
@@ -1895,7 +1932,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 p,li,a{
-    font-size:0.75rem ;
+    font-size:18px ;
     color:white;
     font-family: 'PT Sans', sans-serif;
     line-height: 180%;
@@ -2180,6 +2217,7 @@ display: flex;
   }
   .members-experience__conntainer{
 position: relative;
+
 
 }
 
