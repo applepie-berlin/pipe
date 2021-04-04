@@ -302,6 +302,7 @@ display: none;
 
     .your-hardware {
         margin-top: 8rem;
+        position: relative;
     }
 
     .hardware-icons {
@@ -1019,6 +1020,12 @@ li{
     text-align: left;
     padding-left: 4%;
 }
+.black-boxcontainer,.ptz-cam-container,.your-web__wrapper{
+    position: relative;
+}
+.for-developers{
+    position: relative;
+}
 .miku__svg-container {
     display: flex !important;
     justify-content: center;
@@ -1523,6 +1530,12 @@ li{
     width: 800px;
        
      }
+     .black-boxcontainer,.your-web__wrapper,.ptz-cam-container{
+    position: relative;
+}
+     .for-developers{
+    position: relative;
+}
      .security-assurance div{
     padding-right: 3%;
 }
@@ -1715,14 +1728,17 @@ li{
             margin-top: -5rem;
         }
 
-        .your-hardware__list,
-        .hardware-icons__conatainer {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            width: 90%;
-            margin: 6rem auto;
-        }
+        .your-hardware__list, .hardware-icons__conatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: 6rem auto;
+    position: relative;
+}
+.black-boxcontainer{
+    position: relative;
+}
 
 
 
@@ -2192,6 +2208,16 @@ li{
     width: 800px;
        
      }
+     .black-boxcontainer,.your-web__wrapper,.ptz-cam-container{
+    position: relative;
+}
+     .for-developers{
+    position: relative;
+}
+
+.hard-ware{
+    position: relative !important;
+}
      .security-assurance div{
     padding-right: 3%;
 }
@@ -2484,6 +2510,9 @@ width:30%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .for-developers{
+        position: relative;
     }
     #container {
     border: 1px solid red;
@@ -3654,6 +3683,7 @@ position: relative;
             display: flex;
 
         }
+
     }
 
 
@@ -3786,6 +3816,15 @@ p{
     list-style: none;
     display: inline;
     padding: 0 0 0 2.5rem;
+}
+.for-developers{
+    position: relative;
+}
+.black-boxcontainer{
+    position: relative !important;
+}
+.hardware-icons__conatainer{
+    position: relative;
 }
 }
  
