@@ -3584,6 +3584,8 @@ body {
 position: relative;
  background-color: black;
     color:white;
+     -webkit-backface-visibility: hidden;
+    -webkit-perspective: 1000;
 
 }
 ol, ul {
@@ -4539,15 +4541,17 @@ a.active {
     }
 
     .main-text__blue-border::before {
-      content: '';
-      border-bottom: 10px solid var(--main-button-color);
-      width: 110px !important;
-      display: block;
-      left: -5%;
-      margin: 0.8rem auto;
-      position: absolute !important;
-      top: 16%;
-      transform: rotate(91deg);
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 151px !important;
+    display: block;
+    left: -5%;
+    margin: 0.8rem auto;
+    position: absolute !important;
+    top: 21%;
+    transform: rotate(
+91deg
+);
     }
 
     .h1-padding {
@@ -4571,6 +4575,9 @@ a.active {
 }
 .contact-us {
     margin-left: 1%;
+}
+.we-belive___heading h1{
+    line-height: 68px;
 }
 
 /* about-desktop-style-end */
