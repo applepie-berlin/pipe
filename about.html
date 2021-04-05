@@ -14,55 +14,52 @@ layout: general
     <div class="our__image">
 
       <img class="team-members__image-first" src="{{site.baseurl}}/assets/images/Team.png" alt="">
+      <div class="names">
+        <div>
+          <p>Tim Panton</p>
+          <p>Founder & CTO</p>
+        </div>
+        <div>
+          <p>SIMON HOSSELL</p>
+          <p>Founder & CEO</p>
+        </div>
+
+      </div>
       <div class="text__container-members">
         <div class="text__container-tim">
 
-          <div class="about-names__tim">TIM PANTON founder & cto</div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          Tim writes all the |pipe| software and manages product development and - leveraging all this experience <br />
-          - he
-          helps
-          define WebRTC standards at the W3C and IETF <br />
-          Prior to starting |pipe| he cofounded a web-based telephony company and subsequently sold the IPR to Tropo
-          Inc.,
-          which
-          was then acquired by Cisco. Before that, Tim was technical cofounder of Westpoint, a web security company
-          recently
-          acquired by Capita.
-          <br>
-          <br>
-          Tim writes all the |pipe| software and manages product development and - leveraging all this experience - he
-          helps
-          define WebRTC standards at the W3C and IETF
+
+
+          <p class="text__container-tim-inner">
+            Tim invented the |pipe| technology and filed the technical patents.
+
+            Prior to starting |pipe| he cofounded a web-based telephony company and subsequently sold the IPR to Tropo
+            Inc., which
+            was then acquired by Cisco. Before that, Tim was technical cofounder of Westpoint, a web security company
+            recently
+            acquired by Capita.
+
+            Tim writes all the |pipe| software and manages product development and - leveraging all this experience - he
+            helps
+            define WebRTC standards at the W3C and IETF
+          </p>
+
         </div>
         <div class="text__container-simon">
-          <div class="about-names__simon">SIMON HOSSELL founder & cto</div>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          Simon is an experienced telecoms entrepreneur, a specialist in business strategy, sales and marketing,
-          finance,
-          legal and
-          media.
-          <br />
-          <br />
-          Prior to founding |pipe| he set up and ran European operations for:
-          <br />
-          <br />
-          Gracenote, a California-based company, licensing software and data services to large consumer electronics
-          OEMs,
-          automobile companies and entertainment services like Philips, Nokia, Sony Ericsson, VW, Spotify, etc.
-          Gracenote
-          was
-          acquired by Sony Corporation of America.
+
+          <p class="text__container-tim-inner">
+            Simon is an experienced telecoms entrepreneur, a specialist in business strategy, sales and marketing,
+            finance, legal
+            and media.
+
+            Prior to founding |pipe| he set up and ran European operations for:
+
+            Gracenote, a California-based company, licensing software and data services to large consumer electronics
+            OEMs,
+            automobile companies and entertainment services like Philips, Nokia, Sony Ericsson, VW, Spotify, etc.
+            Gracenote was
+            acquired by Sony Corporation of America.
+          </p>
         </div>
       </div>
     </div>
@@ -71,16 +68,20 @@ layout: general
 
   <div class="text__container-about">
 
-    <div class=" we-belive___heading  content-wrapper  members-experience__conntainer">
+    <div class=" we-belive___heading  content-wrapper  h1-padding members-experience__conntainer">
       <h1 class="content main-text__blue-border text-center">WE BELIEVE</h1>
     </div>
     <div class="we-belive-paragraph">
-      that the Internet of Things should be secure, private and simple. Yet all too often IoT developers are lacking in
-      security experience and missing the tools they require. So with |pipe| we’re offering them a complete security
-      toolkit -
-      an API/SDK - with device code, plus branding and technical support so they can just focus instead on building
-      awesome
-      connected products.
+      <p>
+        that the Internet of Things should be secure, private and simple. Yet all too often IoT developers are lacking
+        in
+        security experience and missing the tools they require. So with |pipe| we’re offering them a complete security
+        toolkit -
+        an API/SDK - with device code, plus branding and technical support so they can just focus instead on building
+        awesome
+        connected products.
+      </p>
+
     </div>
 
   </div>
@@ -89,60 +90,140 @@ layout: general
 
 
 <style>
-  .our__container {
-    display: flex;
-    width: 100%;
+  @media (max-width:768px) {
+    .we-belive-paragraph p {
+      width: 81%;
+      margin: 0 auto;
+    }
+
+    .our__image {
+      width: 100%;
+      position: relative;
+      margin-top: 14%;
+    }
+
+    .names {
+      display: flex;
+      justify-content: space-around;
+      padding: 10% 0 15% 0;
+    }
+
+    .our__container {
+      display: flex;
+      flex-direction: column;
+      margin: 15% 0 35% 0;
+    }
+
+    .text__container-about {
+      margin-top: 25%;
+    }
+
+    .text__container-tim-inner {
+      width: 81%;
+      margin: 0 auto;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+      border-bottom: 10px solid var(--main-button-color);
+      width: 100% !important;
+      display: block;
+      left: -5%;
+      margin: 0rem auto;
+      position: absolute !important;
+      top: -56%;
+      transform: rotate(180deg);
+    }
   }
 
-  .our_text {
-    width: 30%;
-    text-align: center;
-    padding-top: 6%;
-  }
 
 
-  .our__image {
-    width: 70%;
-    position: relative;
-  }
+  @media (min-width: 769px) {
+
+
+    .our__container {
+      display: flex;
+      width: 100%;
+    }
+
+    .our_text {
+      width: 30%;
+      text-align: center;
+      padding-top: 6%;
+    }
+
+
+    .our__image {
+      width: 70%;
+      position: relative;
+    }
 
 
 
 
-  .text__container-about {
-    display: flex;
-  }
+    .text__container-about {
+      display: flex;
+    }
 
 
 
-  .team-members__image-first {}
-
-  .text__container-about {
-    display: flex;
-    width: 100%;
-  }
 
 
-  .we-belive___heading {
-    width: 30%;
-  }
+    .text__container-about {
+      display: flex;
+      width: 100%;
+    }
 
-  .we-belive-paragraph {
-    width: 70%;
-    padding-right: 20%;
-  }
 
-  .text__container-tim,
-  .text__container-simon {
-    padding-right: 10%;
-  }
+    .we-belive___heading {
+      width: 30%;
+    }
 
-  .text__container-about {
-    margin-top: 10%;
-  }
+    .we-belive-paragraph {
+      width: 70%;
+      padding-right: 20%;
+    }
 
-  .text__container-members {
-    margin-top: -6%;
-    display: flex;
+    .text__container-tim,
+    .text__container-simon {
+      padding-right: 10%;
+    }
+
+    .text__container-about {
+      margin-top: 10%;
+    }
+
+    .names {
+      display: none;
+    }
+
+    .text__container-members {
+      margin-top: -6%;
+      display: flex;
+    }
+
+    .text__container-tim-inner {
+      margin-top: 30%;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+      border-bottom: 10px solid var(--main-button-color);
+      width: 110px !important;
+      display: block;
+      left: -5%;
+      margin: 0.8rem auto;
+      position: absolute !important;
+      top: 16%;
+      transform: rotate(91deg);
+    }
+
+    .h1-padding {
+      padding-right: 19%;
+
+      padding-left: 7%;
+      text-align: left;
+    }
+
   }
 </style>
