@@ -80,9 +80,7 @@ display: none;
 .youtube-video,.youtube-video-second{
     height: 350px;
 }
-.toggle-class{
-    display: none !important;
-}
+
 .border-on-button{
     border-bottom: 1px solid white;
 }
@@ -3431,6 +3429,9 @@ width: 43%;
 
 @media (max-width:767px){
 /*about-us mobile-start*/
+.toggle-class{
+    display: none !important;
+}
 .services {
     margin-top: 36%;
     width: 81%;
