@@ -33,13 +33,13 @@ let element = document.querySelector(".header__menu-icon")
 let closeBtn = document.querySelector(".closebtn")
 
 element.addEventListener("click", function () {
-    buttons.classList.toggle("visible")
-    document.body.classList.add("lock-scroll")
+    buttons.classList.add("visible")
+    // document.body.classList.add("lock-scroll")
 
 })
 closeBtn.addEventListener("click", function () {
-    buttons.classList.toggle("visible")
-    document.body.classList.remove("lock-scroll")
+    buttons.classList.remove("visible")
+    // document.body.classList.remove("lock-scroll")
 })
 
 
