@@ -248,7 +248,9 @@ svg{
   font-size: 36px;
   margin-left: 50px;
 }
-
+.lock-scroll {
+    overflow: hidden;
+}
 
 .mobile-slider__menu-list-item{
  padding: 3rem 0 0 0;

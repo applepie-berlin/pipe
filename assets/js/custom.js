@@ -34,12 +34,12 @@ let closeBtn = document.querySelector(".closebtn")
 
 element.addEventListener("click", function () {
     buttons.classList.add("visible")
-    // document.body.classList.add("lock-scroll")
+    document.body.classList.add("lock-scroll")
 
 })
 closeBtn.addEventListener("click", function () {
     buttons.classList.remove("visible")
-    // document.body.classList.remove("lock-scroll")
+    document.body.classList.remove("lock-scroll")
 })
 
 
