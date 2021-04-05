@@ -15,7 +15,6 @@ h2,h1,p,img{
     padding: 0px;
     margin: 0px;
         box-sizing: border-box;
-
 } */
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 /* general css */
@@ -121,8 +120,8 @@ display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top:2rem;
-    margin-right:7%;
+    margin-top: 2rem;
+    margin-right: 0%;
 }
 .desktop-hide{
         display:block;
@@ -515,7 +514,35 @@ display: none;
 
 
 
+@media (min-width: 600px) and (max-width: 768px) { 
 
+.section__buttons_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-right: -1%;
+}
+.main-text__blue-border::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 43% !important;
+    display: block;
+    left: 27%;
+    margin: 0rem auto;
+    position: absolute !important;
+    top: -71%;
+    transform: rotate(
+180deg
+);
+}
+.services__wrapper-first {
+    width: 70%;
+    text-align: center;
+    margin: 5rem auto 7rem auto;
+}
+}
 
 
 
@@ -526,7 +553,8 @@ display: none;
 
 
 /*medium device */
- @media (min-width: 768px)  {
+ @media (min-width: 769px)  {
+     
    /* media styles for customers page */
    
        .miku__svg {
@@ -3427,7 +3455,7 @@ width: 43%;
     }
 
 
-@media (max-width:767px){
+@media (max-width:769px){
 /*about-us mobile-start*/
 
 .toggle-class{
@@ -3621,7 +3649,6 @@ body {
    width:100%;
    margin: 0px auto;
    position: relative;
-   transform:translate(-50% -50%);
 }
 .header__menu-icon{
     float: right;
@@ -4122,7 +4149,7 @@ position: relative;
     .desktop-hidder{
             display: block;
         }
-    @media (min-width: 768px){
+    @media (min-width: 769px){
         .tim-padding,.simon-padding{
             padding-left:1rem;
         }
@@ -4279,7 +4306,7 @@ position: relative;
         margin-bottom: 3rem;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
         .blogs {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -4551,4 +4578,3 @@ a.active {
 /* about-desktop-style-end */
 
 }
- 
