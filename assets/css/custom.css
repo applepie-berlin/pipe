@@ -217,6 +217,8 @@ svg{
 .general-container{
     width: 100vw;
     overflow-x: hidden;
+    touch-action: none;
+-ms-touch-action: none;
 }
 .mobile-slider__menu{
     transform:translate(100%);
@@ -3520,6 +3522,8 @@ body {
     overflow-x: hidden;
 -webkit-font-smoothing: antialiased;
 position: relative;
+touch-action: none;
+-ms-touch-action: none;
 }
 ol, ul {
 	list-style: none;
