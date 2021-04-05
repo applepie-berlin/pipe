@@ -26,7 +26,10 @@ h2,h1,p,img{
 .miku__svg-container{
     display: none;
 }
+.active{
+    border-top: 1px solid #096EF3;
 
+}
 .webrtic-agent__List{
     display: none;
 }

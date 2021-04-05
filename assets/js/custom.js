@@ -45,7 +45,18 @@ closeBtn.addEventListener("click", function () {
 
 
 
+$(function () {
+    // this will get the full URL at the address bar
+    let url = window.location.href;
 
+    // passes on every "a" tag 
+    $("nav a").each(function () {
+        // checks if its the same on the address bar
+        if (url == (this.href)) {
+            $(this).addClass("active");
+        }
+    });
+});
 
 
 
