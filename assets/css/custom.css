@@ -3429,6 +3429,7 @@ width: 43%;
 
 @media (max-width:767px){
 /*about-us mobile-start*/
+
 .toggle-class{
     display: none !important;
 }
@@ -3445,6 +3446,8 @@ width: 43%;
     .we-belive-paragraph p {
       width: 81%;
       margin: 0 auto;
+    font-size: 22px;
+
     }
 
     .our__image {
