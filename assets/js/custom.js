@@ -60,3 +60,27 @@ $(function () {
 
 
 
+let showTimbtn = document.querySelector(".show-tim-btn");
+let toggleSimonBtn = document.querySelector(".toggle-simon-btn");
+let displaySimon = document.querySelector(".display-simon");
+let timDisplayed = document.querySelector(".tim-displayed");
+
+
+toggleSimonBtn.addEventListener("click", function () {
+    showTimbtn.classList.remove("border-on-button")
+    toggleSimonBtn.classList.add("border-on-button")
+    timDisplayed.style.display = "none";
+    displaySimon.classList.remove("toggle-class")
+    displaySimon.style.display = "block"
+
+}
+
+)
+
+showTimbtn.addEventListener("click", function () {
+    showTimbtn.classList.add("border-on-button")
+    toggleSimonBtn.classList.remove("border-on-button")
+    timDisplayed.style.display = "block";
+    displaySimon.style.display = "none";
+
+})

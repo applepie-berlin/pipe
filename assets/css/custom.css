@@ -80,7 +80,12 @@ display: none;
 .youtube-video,.youtube-video-second{
     height: 350px;
 }
-
+.toggle-class{
+    display: none !important;
+}
+.border-on-button{
+    border-bottom: 1px solid white;
+}
 .video__title{
     margin-bottom: 19%;
 }
@@ -1718,6 +1723,25 @@ li{
 
  /* X-large-device */
 @media (min-width: 1200px) {
+    .desktop-only{
+        display: inline;
+       
+    }
+     .page-number-about{
+        position: absolute;
+        bottom: 34%;
+        right: 1%;
+        border-top: 1px solid white;
+        display: block;
+        width: 33px;
+        padding-top: 9px;
+    }
+    .tim-large{
+        font-size: 30px;
+    }
+     .tim-small{
+        font-size: 15px;
+    }
     a.active {
     padding-top: 10px;
 }
@@ -1743,7 +1767,7 @@ li{
    
  .page-number-about{
         position: absolute;
-        bottom: 32%;
+        bottom: 40%;
         right: 1%;
         border-top: 1px solid white;
         display: block;
@@ -1799,7 +1823,7 @@ li{
 
     .text__container-tim,
     .text__container-simon {
-      padding-right: 10%;
+      padding-right: 9%;
     }
 
     .text__container-about {
@@ -2249,14 +2273,12 @@ width:600px;
 ul.desktop-list{
     display: flex;
 }
-.main-svg{
+.main-svg {
     display: block;
     position: absolute;
     left: -40px;
+    top: 145px;
    
-    /* width: 1200px; */
-
-    
 }
     .desktop__icons__container{
         display: block;
@@ -2435,7 +2457,14 @@ ul.services__list.text-center {
 }
 .services{
     
-    margin-top: 6%;
+   margin-top: 13%;
+}
+
+.section-three{
+    margin-bottom: 20%;
+}
+.second-section{
+    margin-bottom: 12%;
 }
 .services-border{
       border-top: 1px solid #707070;
@@ -2565,7 +2594,7 @@ li{
  /* about-desktop-style */
   .page-number-about{
         position: absolute;
-        bottom: 28%;
+        bottom: 34%;
         right: 1%;
         border-top: 1px solid white;
         display: block;
@@ -3449,7 +3478,7 @@ width: 43%;
       border-bottom: 10px solid var(--main-button-color);
       width: 100% !important;
       display: block;
-      left: -5%;
+      left: 0%;
       margin: 0rem auto;
       position: absolute !important;
       top: -56%;
