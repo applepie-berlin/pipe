@@ -158,6 +158,50 @@ display: none;
     position: relative;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* mobile-menu */
 
 
@@ -1043,6 +1087,106 @@ li{
 
  /* large-device */
 @media (min-width: 992px) {
+     /* about-desktop-style */
+.our__container p {
+      padding-right: 9%;
+    }
+
+    .our__container {
+      display: flex;
+      width: 100%;
+    }
+
+    .our_text {
+      width: 30%;
+      text-align: center;
+      padding-top: 6%;
+    }
+
+
+    .our__image {
+      width: 70%;
+      position: relative;
+    }
+
+
+
+
+    .text__container-about {
+      display: flex;
+    }
+
+
+
+
+
+    .text__container-about {
+      display: flex;
+      width: 100%;
+    }
+
+
+    .we-belive___heading {
+      width: 30%;
+    }
+
+    .we-belive-paragraph {
+      width: 70%;
+      padding-right: 20%;
+    }
+
+    .text__container-tim,
+    .text__container-simon {
+      padding-right: 10%;
+    }
+
+    .text__container-about {
+      margin-top: 10%;
+    }
+
+    .names {
+      display: none;
+    }
+
+    .text__container-members {
+      margin-top: -6%;
+      display: flex;
+    }
+
+    .text__container-tim-inner {
+      margin-top: 30%;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+      border-bottom: 10px solid var(--main-button-color);
+      width: 110px !important;
+      display: block;
+      left: -5%;
+      margin: 0.8rem auto;
+      position: absolute !important;
+      top: 16%;
+      transform: rotate(91deg);
+    }
+
+    .h1-padding {
+      padding-right: 19%;
+
+      padding-left: 7%;
+      text-align: left;
+    }
+
+    .about-us__svg {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .about-us__svg-mobile {
+      display: none;
+    }
+
+/* about-desktop-style-end */
 
  /* for-develors-styles */
   p.text-center.for-devs-title {
@@ -1498,16 +1642,19 @@ li{
     bottom: 101px;
     left: 49%;
 }
+
 .main-text__blue-border::before {
     content: '';
     border-bottom: 10px solid var(--main-button-color);
-    width: 164px !important;
+    width: 90px !important;
     display: block;
-    right: 111px;
+    right: 188px;
     margin: 0.8rem auto;
     position: absolute !important;
     top: 31px;
-    transform: rotate(91deg);
+    transform: rotate(
+91deg
+);
 }
 .members-names__simon{
     display: block;
@@ -1555,6 +1702,132 @@ li{
 
  /* X-large-device */
 @media (min-width: 1200px) {
+    .security-assurance{
+        display: flex;
+        flex-direction: row  !important;
+
+    }
+ /* about-desktop-style */
+ .text__container-about{
+     position: relative;
+ }
+   
+ .page-number-about{
+        position: absolute;
+        bottom: 32%;
+        right: 1%;
+        border-top: 1px solid white;
+        display: block;
+        width: 33px;
+        padding-top: 9px;
+    }
+.our__container p {
+      padding-right: 9%;
+    }
+
+    .our__container {
+      display: flex;
+      width: 100%;
+    }
+
+    .our_text {
+      width: 30%;
+      text-align: center;
+      padding-top: 6%;
+    }
+
+
+    .our__image {
+      width: 70%;
+      position: relative;
+    }
+
+
+
+
+    .text__container-about {
+      display: flex;
+    }
+
+
+
+
+
+    .text__container-about {
+      display: flex;
+      width: 100%;
+    }
+
+
+    .we-belive___heading {
+      width: 30%;
+    }
+
+    .we-belive-paragraph {
+      width: 70%;
+      padding-right: 20%;
+    }
+
+    .text__container-tim,
+    .text__container-simon {
+      padding-right: 10%;
+    }
+
+    .text__container-about {
+      margin-top: 10%;
+    }
+
+    .names {
+      display: none;
+    }
+
+    .text__container-members {
+      margin-top: -6%;
+      display: flex;
+    }
+
+    .text__container-tim-inner {
+      margin-top: 30%;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+      border-bottom: 10px solid var(--main-button-color);
+      width: 110px !important;
+      display: block;
+      left: -5%;
+      margin: 0.8rem auto;
+      position: absolute !important;
+      top: 16%;
+      transform: rotate(91deg);
+    }
+
+    .h1-padding {
+      padding-right: 19%;
+
+      padding-left: 7%;
+      text-align: left;
+    }
+
+    .about-us__svg {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .about-us__svg-mobile {
+      display: none;
+    }
+
+/* about-desktop-style-end */
+
+
+
+
+
+
+
+
    /* media styles for customers page */
    .first-pipe {
     margin: 4rem 0 2rem 0 !important;
@@ -2040,6 +2313,15 @@ display: flex;
         width: 33px;
         padding-top: 9px;
     }
+    .page-number-text{
+        position: absolute;
+        bottom: 39% ;
+        right: 1%;
+        border-top: 1px solid white;
+        display: block;
+        width: 33px;
+        padding-top: 9px;
+    }
     .section__buttons{
         display: flex;
         justify-content: space-between;
@@ -2163,17 +2445,17 @@ li{
     left: 49%;
 }
 .main-text__blue-border::before {
-   content: '';
+    content: '';
     border-bottom: 10px solid var(--main-button-color);
-    width: 47%!important;
+    width: 27%!important;
     display: block;
     right: 66%;
     margin: 0.8rem auto;
     position: absolute !important;
-    top: 7%;
-    transform: rotate(
+    top: 16%;
+    transform: rotate( 
 91deg
-);
+ );
 }
 .members-names__simon{
     display: block;
@@ -2242,6 +2524,141 @@ li{
 
  /* XX-large-device */
 @media (min-width: 1400px) {
+    .security-assurance{
+        display: flex;
+        flex-direction: row  !important;
+
+    }
+
+ /* about-desktop-style */
+  .page-number-about{
+        position: absolute;
+        bottom: 28%;
+        right: 1%;
+        border-top: 1px solid white;
+        display: block;
+        width: 33px;
+        padding-top: 9px;
+    }
+.our__container p {
+      padding-right: 9%;
+    }
+
+    .our__container {
+      display: flex;
+      width: 100%;
+    }
+
+    .our_text {
+      width: 30%;
+      text-align: center;
+      padding-top: 6%;
+    }
+
+
+    .our__image {
+      width: 70%;
+      position: relative;
+    }
+
+
+
+
+    .text__container-about {
+      display: flex;
+    }
+
+
+
+
+
+    .text__container-about {
+      display: flex;
+      width: 100%;
+    }
+
+
+    .we-belive___heading {
+      width: 30%;
+    }
+
+    .we-belive-paragraph {
+      width: 70%;
+      padding-right: 20%;
+    }
+
+    .text__container-tim,
+    .text__container-simon {
+      padding-right: 10%;
+    }
+
+    .text__container-about {
+      margin-top: 10%;
+    }
+
+    .names {
+      display: none;
+    }
+
+    .text__container-members {
+      margin-top: -6%;
+      display: flex;
+    }
+
+    .text__container-tim-inner {
+      margin-top: 30%;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 109px !important;
+    display: block;
+    left: -3%;
+    margin: 0.8rem auto;
+    position: absolute !important;
+    top: 31px;
+    transform: rotate(
+91deg
+);
+    }
+
+    .h1-padding {
+      padding-right: 19%;
+
+      padding-left: 7%;
+      text-align: left;
+    }
+
+    .about-us__svg {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .about-us__svg-mobile {
+      display: none;
+    }
+
+/* about-desktop-style-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
        /* media styles for customers page */
    .first-pipe {
     margin: 4rem 0 2rem 0 !important;
@@ -2858,13 +3275,15 @@ li{
 .main-text__blue-border::before {
     content: '';
     border-bottom: 10px solid var(--main-button-color);
-    width: 164px !important;
+    width: 107px !important;
     display: block;
-       left: 10%;
+    left: -6%;
     margin: 0.8rem auto;
     position: absolute !important;
     top: 31px;
-    transform: rotate(91deg);
+    transform: rotate(
+91deg
+);
 }
 .members-names__simon{
     display: block;
@@ -2947,6 +3366,72 @@ width: 43%;
 
 
 @media (max-width:767px){
+/*about-us mobile-start*/
+  .desktop-only,
+    .about-us__svg-desktop,.page-number-text,.page-number-about {
+      display: none;
+    }
+
+    .we-belive-paragraph p {
+      width: 81%;
+      margin: 0 auto;
+    }
+
+    .our__image {
+      width: 100%;
+      position: relative;
+      margin-top: 14%;
+    }
+
+    .names {
+      display: flex;
+      justify-content: space-around;
+      padding: 10% 0 15% 0;
+    }
+
+    .our__container {
+      display: flex;
+      flex-direction: column;
+      margin: 15% 0 35% 0;
+    }
+
+    .text__container-about {
+      margin-top: 25%;
+    }
+
+    .text__container-tim-inner {
+      width: 81%;
+      margin: 0 auto;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+      border-bottom: 10px solid var(--main-button-color);
+      width: 100% !important;
+      display: block;
+      left: -5%;
+      margin: 0rem auto;
+      position: absolute !important;
+      top: -56%;
+      transform: rotate(180deg);
+    }
+
+    .about-us__svg {
+      display: flex;
+      justify-content: center;
+      margin-top: 10%;
+    }
+
+
+
+/*about-us mobile-end*/
+
+
+
+
+
+
+
    
     .container {
     width: 90% !important;
@@ -3878,5 +4363,109 @@ p{
 .hardware-icons__conatainer{
     position: relative;
 }
+
+
+
+ /* about-desktop-style */
+.our__container p {
+      padding-right: 9%;
+    }
+
+    .our__container {
+      display: flex;
+      width: 100%;
+    }
+
+    .our_text {
+      width: 30%;
+      text-align: center;
+      padding-top: 6%;
+    }
+
+
+    .our__image {
+      width: 70%;
+      position: relative;
+    }
+
+
+
+
+    .text__container-about {
+      display: flex;
+    }
+
+
+
+
+
+    .text__container-about {
+      display: flex;
+      width: 100%;
+    }
+
+
+    .we-belive___heading {
+      width: 30%;
+    }
+
+    .we-belive-paragraph {
+      width: 70%;
+      padding-right: 20%;
+    }
+
+    .text__container-tim,
+    .text__container-simon {
+      padding-right: 10%;
+    }
+
+    .text__container-about {
+      margin-top: 10%;
+    }
+
+    .names {
+      display: none;
+    }
+
+    .text__container-members {
+      margin-top: -6%;
+      display: flex;
+    }
+
+    .text__container-tim-inner {
+      margin-top: 30%;
+    }
+
+    .main-text__blue-border::before {
+      content: '';
+      border-bottom: 10px solid var(--main-button-color);
+      width: 110px !important;
+      display: block;
+      left: -5%;
+      margin: 0.8rem auto;
+      position: absolute !important;
+      top: 16%;
+      transform: rotate(91deg);
+    }
+
+    .h1-padding {
+      padding-right: 19%;
+
+      padding-left: 7%;
+      text-align: left;
+    }
+
+    .about-us__svg {
+      display: flex;
+      justify-content: center;
+
+    }
+
+    .about-us__svg-mobile {
+      display: none;
+    }
+
+/* about-desktop-style-end */
+
 }
  
