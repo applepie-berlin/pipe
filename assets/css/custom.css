@@ -25,6 +25,12 @@ h2,h1,p,img{
 .miku__svg-container{
     display: none;
 }
+.for-developers__svg img{
+width: 161px;
+}
+.for-developers__svg svg{
+    display: inline;
+}
 .active{
     border-top: 1px solid #096EF3;
 }
@@ -726,8 +732,9 @@ display: none;
         }
 
         .for-developers__svg {
-            align-self: center;
-            margin: 0 auto;
+           display: flex;
+           justify-content: center;
+           align-items: center;
         }
 
         .tl-dr__list {
