@@ -62,7 +62,7 @@ $(function () {
     let mobileUrl = window.location.href;
 
     // passes on every "a" tag 
-    $("mobile-slider__menu-list-item a").each(function () {
+    $(".mobile-slider__menu-list-item a").each(function () {
         // checks if its the same on the address bar
         if (mobileUrl == (this.href)) {
             $(this).addClass("active");
