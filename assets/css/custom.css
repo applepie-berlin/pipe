@@ -4607,9 +4607,14 @@ position: relative;
     letter-spacing: 0.57px;
 }
 .for-customers__first-text {
-    width: 45% !important;
+    width: 63% !important;
     padding-right: 2%;
     letter-spacing: 0.57px;
+}
+.benefits__second-svg {
+    width: 30%;
+    position: absolute;
+    right: -20% !important;
 }
 .miku__svg {
     height: 483px;
@@ -4621,8 +4626,8 @@ position: relative;
     margin-left: 5%;
 }
 .benefits__text {
-    width: 40%;
-    padding-left: 4rem;
+    width: 48%;
+    padding-left: 10%;
     margin-top: -1%;
 }
 .reasons-for__pipe-explanation {
@@ -5183,6 +5188,19 @@ a.active {
     font-size: 25px;
     font-weight: bold;
     font-family: 'PT Sans';
+}
+.for-customers__svg-mobile {
+    width: 459px;
+    padding-bottom: 13%;
+}
+.customer__second .for-customers__svg{
+    margin-top: -4%;
+}
+.for-customers__svg {
+    width: 47% !important;
+}
+.customer__first .for-customers__svg svg {
+width: 450px;
 }
 
 /* about-desktop-style-end */
