@@ -3875,7 +3875,9 @@ body {
 	line-height: 1;
     margin: 0 auto;
     overflow-x: hidden;
--webkit-font-smoothing: antialiased;
+      -webkit-overflow-scrolling: touch !important;
+
+
 position: relative;
  background-color: black;
     color:white;
