@@ -26,11 +26,11 @@ function onYouTubeIframeAPIReady() {
 
 
 
-
-
 let buttons = document.querySelector(".mobile-slider__menu")
 let element = document.querySelector(".header__menu-icon")
 let closeBtn = document.querySelector(".closebtn")
+
+
 
 element.addEventListener("click", function () {
     buttons.classList.add("visible")

@@ -297,13 +297,13 @@ layout: general
 
 </section>
 <section class="your-hardware  hard-ware">
-
+    <div class="page-number">2</div>
 
     <div class=" your-hardware__title content-wrapper main-text">
         <p class="content-small">|pipe| on</p>
         <h1 class="content">YOUR HARDWARE</h1>
     </div>
-    <div class="your-hardware__list">
+    <div class="your-hardware__list your-hardware__list-width">
         <ul class="your-hardware__item">
             <li>
                 <p><span>BABY MONITOR</span></p>
@@ -1210,7 +1210,7 @@ layout: general
         </li>
 
     </ul>
-    <div class="page-number">2</div>
+
 </section>
 
 
@@ -2034,8 +2034,8 @@ layout: general
     </div>
     <div class="your-web__list-mobile-container">
 
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="363" height="794"
-            viewBox="0 0 363 794">
+        <svg class="your-web__list-mobile-container__svg" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" width="363" height="794" viewBox="0 0 399 794">
             <defs>
                 <clipPath id="clip-path">
                 </clipPath>
@@ -2817,17 +2817,17 @@ layout: general
                 </li>
                 <li>
 
-                    <p class="your-web__list-mobile-p">&nbsp; &nbsp; &nbsp; &nbsp; Video RTP </p>
+                    <p class="your-web__list-mobile-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&#8226; Video RTP </p>
                 </li>
                 <li>
 
-                    <p class="your-web__list-mobile-p"> &nbsp; &nbsp; &nbsp; &nbsp;Audio</p>
+                    <p class="your-web__list-mobile-p">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&#8226; Audio</p>
                 </li>
 
                 <li>
-                    <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
+                    <!-- <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" /> -->
 
-                    <p>&nbsp; &nbsp; &nbsp; http/websocket and other on request</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&#8226;http/websocket and other on request</p>
                 </li>
                 <li>
                     <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
@@ -3639,12 +3639,14 @@ layout: general
                 <p>Exports local services</p>
             </li>
             <li>
-                <p>Video RTP </p>
+                <p class="webrtic-agent__List-bullet">&bull;Video RTP </p>
             </li>
             <li>
-                <p> Audio </p>
+                <p class="webrtic-agent__List-bullet">&bull; Audio </p>
             </li>
-            <li> http/websocket and other on request </li>
+            <li>
+                <p class="webrtic-agent__List-bullet">&#8226; http/websocket and other on request</p>
+            </li>
 
             <li class="webrtic-agent__item">
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
@@ -3671,7 +3673,7 @@ layout: general
 
         <div class="webrtic-text">
             <h1 class="content">A BLACK BOX </h1>
-            <p> THAT„DOES WEBRTC“ </p>
+            <h2 class="webrtic-text__sub"> THAT „DOES WEBRTC“ </h2>
         </div>
     </div>
 
@@ -4625,6 +4627,8 @@ layout: general
         </div>
 
         <div class="desktop-hide black-box-below">
+            <p class="black-box__below-text">Inside view of IoT device / camera</p>
+
             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="331.306"
                 height="986.477" viewBox="0 0 366.306 986.477">
                 <defs>
@@ -5446,8 +5450,14 @@ layout: general
                     </g>
                 </g>
             </svg>
+            <div>
 
+                <p class="black-block__svg-bottom__text">|pipe| works in every smartphone browser
+                </p>
+            </div>
         </div>
+
+    </div>
 
     </div>
 
@@ -5970,33 +5980,29 @@ layout: general
         <ul>
             <li>
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
-                <p>Pure JavaScript (pipe.js) supported in all browsers / phones</p>
+                <p> <span>Pure JavaScript (pipe.js)</span> supported in all browsers / phones</p>
             </li>
             <li>
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
 
-                <p>Device services into webpage</p>
-            </li>
-            <li>
-                <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
-
-                <p>Src for video tag</p>
-            </li>
-            <li>
-                <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
-
-                <p>Source and sink for webAudio and <audio> tag</p>
+                <p><span>Device services into webpage</span></p>
             </li>
             <li>
 
-                <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
-                <p>Web socket eg „ws://localjost:8181/sensor“</p>
+                <p>&nbsp;&nbsp;&nbsp; &nbsp;&#8226;Src for video tag</p>
+            </li>
+            <li>
+
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;Source and sink for webAudio and <audio> tag</p>
+            </li>
+            <li>
+
+                <p>&nbsp;&nbsp;&nbsp; &nbsp;&#8226;Web socket eg „ws://localjost:8181/sensor“</p>
             </li>
 
             <li>
-                <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
 
-                <p>http via device workers - maps device web services </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&#8226;http via device workers - maps device web services </p>
             </li>
             <li>
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
@@ -6006,17 +6012,17 @@ layout: general
             <li>
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
 
-                <p>ID management / pairing pages as sample code</p>
+                <p> <span>ID management / pairing pages as sample code</span></p>
             </li>
             <li>
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
 
-                <p>Sample code for Native apps on iOS and Android</p>
+                <p><span>Sample code for Native apps</span> on iOS and Android</p>
             </li>
             <li>
                 <img class="img__mini-size" src="{{site.baseurl}}/assets/images/Rectangle1577.png" />
 
-                <p>Device config controls which services are proxied and to whom</p>
+                <p><span>Device config controls</span> which services are proxied and to whom</p>
             </li>
 
 
