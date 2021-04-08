@@ -3549,8 +3549,41 @@ width: 43%;
 
 
 
-@media only screen and (min-width: 900px) and (max-width: 1199px)  {
- 
+@media (min-width: 900px) and (max-width: 1199px)  {
+ .header__menu__list a {
+     font-size: 12px;
+ }
+.your-web__multi-dots-desktop {
+    margin-left: 6%;
+}
+ .your-web__list-mobile-container{
+     display: none ;
+
+ }
+ .what-we-do__svg {
+    height: 388px;
+    margin-left: 14%;
+}
+.container__text.desktop__display-show {
+    width: 79% !important;
+    margin: 0rem auto 5rem auto;
+}
+.section-explanation{
+    margin-left: 26%;
+}
+.youtube-video, .youtube-video-second {
+    margin-left: 15%;
+    height: 350px;
+    width: 63%;
+}
+.desktop-menu li {
+    list-style: none;
+    display: inline;
+    padding: 0 0 0 2rem;
+}
+.benefits__list-item{
+    padding: 2rem !important;
+}
     }
 
 
@@ -3778,18 +3811,7 @@ line-height: 30px !important;
     letter-spacing: 0.12px;
     line-height: 30px;
 }
-.your-web__list-mobile-p::before{
-    content: "\2022";
-    background-color: red;
-     position: absolute;
-    left: 19%;
-    top: 32px;
-    height: 1px;
-    background: #096EF3;
-    content: '';
-    width: 37px;
 
-}
     .about-us__svg {
       display: flex;
       justify-content: center;
