@@ -4617,6 +4617,9 @@ position: relative;
     margin: 1% 4% 0 0;
 
 }
+.about-us__svg-desktop{
+    margin-left: 5%;
+}
 .benefits__text {
     width: 40%;
     padding-left: 4rem;
@@ -5176,7 +5179,7 @@ a.active {
 .we-belive___heading h1 {
     line-height: 90px;
 }
-.page-number {
+.page-number,.page-number-about {
     font-size: 25px;
     font-weight: bold;
     font-family: 'PT Sans';
@@ -5188,7 +5191,11 @@ a.active {
 
 
 @media(min-width:1200px) and (max-width:1899px){
-  
+  .page-number,.page-number-about  {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'PT Sans';
+}
   .what-we-do__svg {
     height: 450px;
     margin-left: 10%;
