@@ -5280,4 +5280,49 @@ font-size: 12px;
     font-size: 21px;
     letter-spacing: 0.93px;
 }
+.benefits__text {
+    width: 40%;
+    padding-left: 9%;
+}
+.webrtic-agent__List {
+    position: absolute;
+    top: 19%;
+    right: 30%;
+    display: block;
+}
+.your-web__list {
+    padding-left: 17%;
+}
+.our__container p {
+    padding-right: 8%;
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    line-height: 32px;
+}
+.about-us__svg-desktop{
+    margin-left: 2%;
+}
+.our_text {
+    width: 30%;
+    text-align: center;
+    padding: 6% 0 0 4%;
+}
+.h1-padding {
+    padding-right: 16%;
+    padding-left: 12%;
+    text-align: left;
+}
+.main-text__blue-border::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 27%!important;
+    display: block;
+    right: 32%;
+    margin: 0.8rem auto;
+    position: absolute !important;
+    top: 16%;
+    transform: rotate( 
+91deg
+ );
+}
 }
