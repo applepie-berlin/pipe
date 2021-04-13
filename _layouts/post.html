@@ -74,19 +74,80 @@
                         <a href="{{site.baseurl}}/contact-us"> CONTACT </a>
 
                     </li>
-                    <li class="mobile-slider__menu-list-item">
-                        <a href="{{site.baseurl}}/contact-us"> MEDIA </a>
-
-                    </li>
                 </ul>
             </div>
             {% include mobile-menu.html %}
-            {{content}}
+
+
+            <div class="blog">
+                {{content}}
+
+                <div class="author-and-date">
+
+                    <p class="title is-3">{{page.author}},</p>
+                    <p class="content">{{ page.date | date: '%B %d,%Y'}}
+                    </p>
+                </div>
+
+                <div class="more-articles">
+                    <h2>MORE ARTICLES</h2>
+                </div>
+
+                <div>
+
+                    <ul>
+
+
+                        <div class="blogs">
+                            {% for post in site.posts %}
+                            <div class="blog-container">
+                                <div class="post-svg">
+                                    <svg class="blog__post-svg" xmlns="http://www.w3.org/2000/svg" width="16"
+                                        height="16" viewBox="0 0 16 16">
+                                        <g id="Group_3882" data-name="Group 3882" transform="translate(-165 -897)">
+                                            <g id="Ellipse_19981" data-name="Ellipse 19981"
+                                                transform="translate(165 897)" fill="#0a0606" stroke="#fff"
+                                                stroke-width="0.5">
+                                                <circle cx="8" cy="8" r="8" stroke="none" />
+                                                <circle cx="8" cy="8" r="7.75" fill="none" />
+                                            </g>
+                                            <path id="Polygon_7" data-name="Polygon 7"
+                                                d="M2.85,1.747a1,1,0,0,1,1.782,0L6.741,5.883A1,1,0,0,1,5.85,7.337H1.632A1,1,0,0,1,.742,5.883Z"
+                                                transform="translate(177.635 901.349) rotate(90)" fill="#fff" />
+                                        </g>
+                                    </svg>
+
+                                </div>
+                                <div class="blog__post">
+                                    <h1 class="blog__item-number">{{ post.number }}</h1>
+
+                                </div>
+                                <p class="content-small">{{ post.subtitle }}</p>
+
+                                <h2 class="blog__item-title"><a href="/pipe/{{ post.url }}">{{ post.title }}</a></h2>
+                                <p>
+                                    Lorem eram isse eram es
+                                    Ipsum dolor esse est sum.
+                                    Summa suam ella lorem
+                                    mialur eteram mehr
+                                </p>
+                            </div>
+                            {% endfor %}
+                        </div>
+
+
+
+                    </ul>
+                </div>
+
+            </div>
+
             {% include footer.html %}
 
         </div>
 
     </div>
+
 </body>
 <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/jquery.inview.min.js"></script>

@@ -110,7 +110,10 @@ display: none;
     .page-number{
        display: none;
     }
-
+.blog {
+    width: 73%;
+    margin: 0 auto;
+}
 .desktop__display-show{
     display: none !important;
 }
@@ -4110,6 +4113,16 @@ display: flex;
    margin-bottom: 2rem ;
    
      }
+     .blogs p.content-small {
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    padding: 8px 0 1px 0;
+    line-height: 0px;
+}
+.blog__item-number{
+    margin: -23px 0 34px 0;
+}
     .footer__image-social{
      margin-right:7%;
      }
@@ -4132,7 +4145,10 @@ display: flex;
   .team-members__image-img {
     margin-bottom: 2rem;
   }
-
+.author-and-date{
+    display: flex;
+    gap: 5px;
+}
   .we-believe {
     margin-bottom: 5rem;
     width: 90%;
@@ -4576,11 +4592,12 @@ position: relative;
 
     .blog-container {
         position: relative;
-        padding: 48px 0 15px 0;
+        padding: 45px 13px 31px 13px;
 
-        border-top: 1px solid white;
-        border-right: 1px solid white;
-        border-bottom: 1px solid white;
+        border: 1px solid white;
+    }
+    .blog__item-title a{
+font-size: 28px;
     }
 
     .blog__item-number:after {
@@ -4601,18 +4618,20 @@ position: relative;
 
     }
 
-    .blog__item-title {
-        margin-bottom: 3rem;
-    }
+   .blog__item-title {
+    margin-bottom: 0rem;
+    margin-top: -4px;
+}
 
     @media (min-width: 769px) {
-        .blogs {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        
 
-            width: 80%;
-            margin: 7rem auto 0 auto;
-        }
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    margin: 7rem auto 0 auto;
+}
 
         .blog__title-container {
             display: flex;
