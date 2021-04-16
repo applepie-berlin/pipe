@@ -94,6 +94,11 @@ display: none;
 .video__title{
     margin-bottom: 19%;
 }
+.PageNavigation{
+    display: flex;
+    justify-content: center;
+}
+
  .what-we-do__svg{
         height: 500px;
     }
@@ -103,6 +108,14 @@ display: none;
 .desktop_services{
      display: none;
    
+}
+.blog-svg-icon svg{
+  position: absolute;
+    right: 0%;
+    bottom: 14%;
+}
+.blogs{
+    position: relative;
 }
 .ytp-chrome-top{
     display: none;
@@ -143,6 +156,12 @@ display: none;
 .footer__image-logo{
     margin-left: 4%;
 }
+
+.footer__image .footer__list-item a {
+    padding: 11px !important;
+font-size: 14px !important;
+}
+
 .desktop-logo{
     display: none;
 }
@@ -1559,10 +1578,7 @@ display: flex;
 .header__menu-icon{
     display: none;
 }
-    .main{
-        position: relative;
-        height: 100%;
-    }
+   
     .your-web__multi-dots-desktop{
         display: block;
     }
@@ -1771,6 +1787,9 @@ li{
     .hardware-icons {
     margin-bottom: 1rem;
     margin-left:0rem;
+}
+.main-first-section__svg{
+    display: none;
 }
     .your-web__list li {
     display: flex;
@@ -2427,10 +2446,7 @@ display: flex;
 .header__menu-icon{
     display: none;
 }
-    .main{
-        position: relative;
-        height: 100%;
-    }
+    
     .your-web__multi-dots-desktop{
         display: block;
     }
@@ -4582,13 +4598,13 @@ position: relative;
         font-size: 1.3rem;
     }
 
-    .post-svg {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 0.7rem;
-
-    }
+  
+.post-svg {
+    position: absolute;
+    top: -5%;
+    right: 0;
+    margin: 0.7rem;
+}
 
     .blog-container {
         position: relative;
@@ -4598,8 +4614,15 @@ position: relative;
     }
     .blog__item-title a{
 font-size: 28px;
+text-decoration: none;
     }
-
+    .author-and-date{
+        padding-top: 3%;
+        margin-bottom: 10%;
+    }
+    .PageNavigation{
+        margin-bottom: 8%;
+    }
     .blog__item-number:after {
         position: absolute;
 
@@ -4909,10 +4932,7 @@ p.content-small {
     margin-top: 10%;
     padding-bottom: 3%;
 }
-.main {
-    position: relative;
-    height: 100%;
-}
+
 .video.video-container {
     display: flex;
     justify-content: center;
