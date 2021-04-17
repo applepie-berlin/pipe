@@ -81,8 +81,16 @@ time, mark, audio, video {
 p span{
     color:var(--main-button-color);
 }
+.mobile-icon {
+    width: 28px !important;
+    float: right;
+}
 .desktop-menu li  {
 display: none;
+}
+.absolute-pic{
+    position: absolute;
+    z-index: -10;
 }
 .youtube-video,.youtube-video-second{
     height: 350px;
