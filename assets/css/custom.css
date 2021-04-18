@@ -3573,7 +3573,7 @@ width: 43%;
 
 
 
-@media (min-width: 900px) and (max-width: 1199px)  {
+@media (min-width: 800px) and (max-width: 1199px)  {
  .header__menu__list a {
      font-size: 12px;
  }
@@ -3611,7 +3611,7 @@ width: 43%;
     }
 
 
-@media (max-width:860px){
+@media (max-width:992px){
 
     .container__text.desktop__display-show{
         width: 100%;
