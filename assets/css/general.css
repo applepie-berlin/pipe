@@ -1616,13 +1616,7 @@ width:600px;
 ul.desktop-list{
     display: flex;
 }
-.main-svg {
-    display: block;
-    position: absolute;
-    left: -40px;
-    top: 145px;
-   
-}
+
     .desktop__icons__container{
         display: block;
     }
@@ -2464,13 +2458,16 @@ width:30%;
 ul.desktop-list{
     display: flex;
 }
-.main-svg{
+.main-svg {
     display: block;
     position: absolute;
-    left: -40px;
-    top: 180px;
-    
+    left: -4%;
+    bottom: 1%;
+    width: 100%;
+    height: 97%;
 }
+
+
 
     .desktop__icons__container{
         display: block;
@@ -2774,6 +2771,9 @@ width: 43%;
     .main-svg{
         width: 1820px;
         height: 5595px;
+    }
+    .main-svg{
+        width: 1820px;
     }
     .mobile-slider__menu{
     display: none;
@@ -3362,8 +3362,7 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    top: 145px;
-   
+    bottom: 3%;
 }
     .desktop__icons__container{
         display: block;

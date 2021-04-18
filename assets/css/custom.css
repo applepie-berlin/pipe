@@ -656,6 +656,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+.container__for__svg{
+    position: relative;
+}
 p,li,a{
     font-size:18px ;
     color:white;
