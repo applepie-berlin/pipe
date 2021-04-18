@@ -2,7 +2,9 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media screen and (min-width : 320px) and (max-width : 480px) {
 /* Styles */
-
+.section__button{
+ font-family: 'PT Sans', sans-serif;
+}
 .mobile-svg {
     position: absolute;
     top: 80px;
@@ -14,9 +16,38 @@
     position: relative;
 }
 }
+@media screen and (max-width : 280px) {
 
+
+}
+
+
+
+
+@media only screen and (max-width : 500px) {
+h1, h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+    /* padding-left: 10px; */
+    font-size: 40px;
+    font-weight: Bold;
+    line-height: 52px;
+}
+.container__text{
+    padding:15% 0 15% 0;
+}
+.desktop__display-show {
+    display: block !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+}
 @media only screen and (max-width : 310px) {
 /* Styles */
+.section__button{
+ font-family: 'PT Sans', sans-serif;
+}
+
 .inner__container {
     max-width: 1920px;
     width: 85%;
@@ -55,13 +86,18 @@ p.services__item__text {
 }
 }
 /* iPads (portrait) ----------- */
-@media screen and (min-width : 769px) and (max-width : 1024px) {
+@media screen and (min-width : 769px) and (max-width : 1099px) {
 /* Styles */
 li.footer__list-item {
     padding: 0rem !important;
 }
 .mobile-slider__menu-list-item {
     padding: 11% 0 0 0;
+}
+.service__wrapper-second .services__item {
+    text-align: center;
+    margin-bottom: 5rem;
+    padding: 0% 20% 0% 28%;
 }
 p.services__item__text {
     text-align: center;
@@ -78,7 +114,7 @@ p.services__item__text {
 
 
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1100px) and (max-width: 1399px) {
     /* Styles */
 .mobile-logo-new{
     display: none;
