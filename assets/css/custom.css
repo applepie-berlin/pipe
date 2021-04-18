@@ -110,9 +110,7 @@ display: none;
     justify-content: center;
 }
 
- .what-we-do__svg{
-        height: 500px;
-    }
+ 
 .desktop-menu{
     display: none;
 }
@@ -1499,12 +1497,10 @@ font-style: italic;
     letter-spacing: 1.46px;
 }
 .section__button span {
-    margin-left: 0.2rem;
+    margin-left: 1rem;
     font-family: 'PT Sans';
 }
-ul.services__list.text-center li {
-    padding: 0 3rem 0 1rem;
-}
+
 .services__wrapper-first {
     width: 80%;
     text-align: center;
@@ -1607,12 +1603,7 @@ p.content-small {
     width: 70%;
     margin-left: -6%;
 }
-.webrtic-agent__List {
-    position: absolute;
-    top: 40%;
-    right: 28%;
-    display: block;
-}
+
 .your-web__list span{
 
     margin: 0.57px 0;

@@ -80,14 +80,18 @@
                     </li>
                 </ul>
             </div>
-            {% include mobile-menu.html %}
-            {{content}}
-            {% include footer.html %}
+            <div class="inner__container">
 
+
+                {% include mobile-menu.html %}
+                {{content}}
+                {% include footer.html %}
+            </div>
         </div>
 
     </div>
 </body>
+
 <script src="//code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/jquery.inview.min.js"></script>
 <script src="{{site.baseurl}}/assets/js/jquery.youtube-inview-autoplay.js"></script>
