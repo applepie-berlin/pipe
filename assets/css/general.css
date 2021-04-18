@@ -727,8 +727,9 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    top: 145px;
-   
+    width: 96%;
+    bottom: -3%;
+    height: 100%;
 }
     .desktop__icons__container{
         display: block;
@@ -919,7 +920,7 @@ ul.services__list.text-center {
 }
 
 .section-three{
-    margin-bottom: 20%;
+    margin-bottom: 8%;
 }
 .second-section {
     margin-bottom: 15%;
