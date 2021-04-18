@@ -977,10 +977,7 @@ display: flex;
 .header__menu-icon{
     display: none;
 }
-    .main{
-        position: relative;
-        height: 70vh;
-    }
+   
     .your-web__multi-dots-desktop{
         display: block;
     }
@@ -3614,7 +3611,7 @@ width: 43%;
     }
 
 
-@media (max-width:769px){
+@media (max-width:860px){
 
     .container__text.desktop__display-show{
         width: 100%;
