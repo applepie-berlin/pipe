@@ -29,12 +29,6 @@ li.footer__list-item {
 
 
 
-
-
-
-
-
-
 @media (min-width: 1200px) and (max-width: 1399px) {
     /* Styles */
 .mobile-logo-new{
@@ -2395,6 +2389,7 @@ ul.desktop-list{
     top: 180px;
     
 }
+
     .desktop__icons__container{
         display: block;
     }
@@ -2692,6 +2687,13 @@ width: 43%;
     .desktop-only{
         display: inline;
        
+    }
+    .video-container iframe {
+    padding-left: 10%;
+}
+    .main-svg{
+        width: 1820px;
+        height: 5595px;
     }
     .mobile-slider__menu{
     display: none;
@@ -3152,9 +3154,9 @@ width: 43%;
     display: none;
 }
 
-    .section__one{
+  .section__one {
     position: relative;
-    margin-bottom: 15%;
+    margin-bottom: 10%;
 }
     /* .mobile-slider__menu{
         display: none;
@@ -3176,11 +3178,10 @@ width: 43%;
   .video-container{
       margin-top:15% ;
   }
-  .youtube-video{
-height: 410px;
-width:600px;
-
-  }
+ .youtube-video,.youtube-video-second{
+    height: 620px;
+    width: 1221px;
+}
 .what-we-do__svg{
     height: 450px;
 }
@@ -3264,7 +3265,7 @@ width:600px;
 }
 .container__text.desktop__display-show{
    width: 57% !important;
-    margin: -4rem auto 5rem 24%;
+ 
     padding-right: 3%;
 }
 .services__item__text::before{
@@ -3424,7 +3425,7 @@ ul.services__list.text-center {
     text-align: left;
 }
 .main-text {
-    margin-left: 14% !important;
+    margin-left: 10% !important;
 }
 .webrtic-agent__List li {
     display: flex;
@@ -3443,7 +3444,7 @@ ul.services__list.text-center {
     text-align: left;
     margin-top: 5%;
     width: 79%;
-    margin: 0 auto;
+    margin: 15% auto 0 auto;
 
 }
 .desktop_services ul{
@@ -3452,8 +3453,11 @@ ul.services__list.text-center {
 .services__item  {
     position: relative;
 }
-.section-button-margin{
-    margin-top: 7rem !important;
+.section-button-margin {
+    margin-top: 15% ;
+}
+.secure-yet-simple{
+    padding-top: 5%;
 }
     ul.services__item,ul.our-services__item  {
      display: flex;
@@ -3481,11 +3485,9 @@ ul.services__list.text-center {
    margin-top: 13%;
 }
 
-.section-three{
-    margin-bottom: 20%;
-}
+
 .second-section {
-    margin-bottom: 15%;
+    margin-bottom: 4%;
 }
  .section_four{
      margin-bottom: 12%;

@@ -30,6 +30,9 @@ h2,h1,p,img{
 .for-developers__svg img{
 width: 161px;
 }
+section{
+    position: relative;
+}
 .for-developers__svg svg{
     display: inline;
 }
@@ -1480,9 +1483,7 @@ font-style: italic;
     justify-content: space-between;
     width: 77%;
 }
-.video-container iframe {
-    padding-left: 7%;
-}
+
 .you-plus__number{
     font-size: 49px;
 }
@@ -1635,7 +1636,7 @@ p.content-small {
     margin-bottom: 15%;
 }
 .second-section {
-    margin-top: 10%;
+   
     padding-bottom: 3%;
 }
 
@@ -1644,10 +1645,7 @@ p.content-small {
     justify-content: center;
     margin-top: 7% !important;
 }
-.section-three {
-    margin-top: -8%;
-    padding-bottom: 4%;
-}
+
 .services__wrapper-first {
     width: 80%;
     text-align: center;
@@ -1669,10 +1667,7 @@ p.content-small {
 .desktop-logo {
     display: block;
 }
-.section-button-margin {
-    margin-top: 15% !important;
-    position: relative;
-}
+
 .mobile-logo{
     display: none;
 }
@@ -1754,9 +1749,7 @@ h1.h1_large, .benefits__title {
     line-height: 90px;
     letter-spacing: 3px;
 }
-    .content-small{
-        padding-bottom: 1%;
-    }
+   
     .services__item-number ::after {
     content: '';
     border-bottom: 4px solid var(--main-button-color);
@@ -1769,14 +1762,15 @@ h1.h1_large, .benefits__title {
 .what-we-do__svg {
     height: 650px;
     width: 1146px;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 .container__text.desktop__display-show {
     width: 64% !important;
     padding-right: 0;
-    padding-left: 7%;
-    margin-top: -3%;
+    padding-left: 6%;
+  
 }
+
 p{
     font-size: 18px;
 }
