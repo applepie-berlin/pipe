@@ -35,6 +35,9 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.visible {
+    transform: translateX(-10%);
+}
 p.services__item__text {
     text-align: center;
 }
@@ -102,8 +105,8 @@ font-size: 8px;
     margin-bottom: 10%;
     margin-top: 18%;
 }
-.mobile-logo-new{
-    margin-left: -4%;
+.mobile-logo-new {
+    margin-left: -20%;
 }
 .about-us__svg-desktop{
     display: none;
