@@ -70,7 +70,12 @@ $(function () {
     });
 });
 
-
+$(document).ready(function () {
+    $('.scroll-to-top').click(function (e) {
+        e.preventDefault();
+        $('html, body').animate({ scrollTop: 0 }, 400);
+    })
+})
 
 
 
@@ -98,3 +103,4 @@ showTimbtn.addEventListener("click", function () {
     displaySimon.style.display = "none";
 
 })
+
