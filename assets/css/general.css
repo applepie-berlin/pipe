@@ -149,13 +149,54 @@ font-size: 8px;
 
 }
 @media screen and (min-width : 500px) and (max-width : 768px) {
+    .visible {
+    transform: translateX(-10%);
+}
+.section__button {
+  
+    font-size: 14px;
+    font-family: 'PT Sans';
+}
     .inner__container {
     max-width: 1920px;
     width: 85%;
     margin: 0px auto;
     position: relative;
 }
-
+.names {
+    display: flex;
+    padding: 10% 8% 10% 8%;
+    justify-content: space-between;
+}
+.we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 87%;
+    display: block;
+    left: 6%;
+    margin: 0rem auto;
+    position: absolute;
+    top: -28%;
+    transform: rotate( 
+180deg
+ );
+}
+.main-text__blue-border {
+    margin-bottom: 7%;
+    margin-top: 16%;
+}
+.about-us__svg-desktop{
+    display: none;
+}
+.desktop-only{
+    display: none;
+}
+.mobile-logo-new {
+    margin-left: -20%;
+}
+.page-number-about {
+    display: none;
+}
 p.services__item__text {
     text-align: center;
 }
@@ -191,6 +232,9 @@ p.services__item__text {
 /* Styles */
 li.footer__list-item {
     padding: 0rem !important;
+}
+.visible {
+    transform: translateX(-10%);
 }
 .mobile-slider__menu-list-item {
     padding: 11% 0 0 0;
