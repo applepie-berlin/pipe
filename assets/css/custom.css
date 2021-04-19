@@ -927,6 +927,10 @@ display: flex;
 }
 .blog__item-number {
     margin: 0 0 34px 0;
+    font-family: 'PT Sans' !important;
+}
+.blog__item-title a {
+    text-decoration: none;
 }
     .footer__image-social{
      margin-right:7%;
@@ -1684,11 +1688,7 @@ p.content-small {
     padding-right: 0;
     margin: 0rem 5% 5rem 22%;
 }
-.for-customers {
-    position: relative;
-    height: 100%;
-    margin-bottom: 12%;
-}
+
 .benefits.customer__fouth{
 margin-top: 12%;
 }
