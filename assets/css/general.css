@@ -233,8 +233,51 @@ p.services__item__text {
 li.footer__list-item {
     padding: 0rem !important;
 }
+.mobile-logo-new {
+    margin-left: -20%;
+}
+.section__button {
+   
+    font-family: 'PT Sans';
+}
 .visible {
-    transform: translateX(-10%);
+    transform: translateX(0%);
+}
+.names {
+    display: flex;
+    padding: 10% 8% 10% 8%;
+    justify-content: space-between;
+}
+.we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 87%;
+    display: block;
+    left: 6%;
+    margin: 0rem auto;
+    position: absolute;
+    top: -28%;
+    transform: rotate( 
+180deg
+ );
+}
+.text__container-members {
+    padding: 0% 5% 0% 5%;
+}
+.desktop-only{
+    display: none;
+}
+.about-us__svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .main-text__blue-border {
+    margin-bottom: 9%;
+    margin-top: 12%;
+}
+.page-number-about {
+    display: none;
 }
 .mobile-slider__menu-list-item {
     padding: 11% 0 0 0;
