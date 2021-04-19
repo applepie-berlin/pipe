@@ -295,9 +295,8 @@ svg{
     overflow: hidden;
 }
 
-.mobile-slider__menu-list-item{
- padding: 3rem 0 0 0;
-
+.mobile-slider__menu-list-item {
+    padding: 5% 0 0 0;
 }
 .mobile-slider__menu-list-logo{
     margin: 6rem 0 4rem 0;
@@ -675,7 +674,10 @@ p{
     line-height: 180%;
 }
 
+.page-number{
+        font-family: 'PT Sans', sans-serif;
 
+}
 
 body {
 	line-height: 1;
@@ -923,8 +925,8 @@ display: flex;
     padding: 8px 0 1px 0;
     line-height: 0px;
 }
-.blog__item-number{
-    margin: -23px 0 34px 0;
+.blog__item-number {
+    margin: 0 0 34px 0;
 }
     .footer__image-social{
      margin-right:7%;

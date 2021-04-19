@@ -24,13 +24,68 @@
 
 
 
-@media only screen and (max-width : 500px) {
+@media only screen and (max-width : 600px) {
 h1, h2, h3 {
     font-family: 'PT Sans', sans-serif;
     /* padding-left: 10px; */
     font-size: 40px;
     font-weight: Bold;
     line-height: 52px;
+}
+.page-number-about{
+    display: none;
+}
+.desktop-only{
+    display: none;
+}
+.about-us__svg{
+    display: flex;
+}
+.text__container-tim-inner{
+    font-size: 14px;
+}
+.show-tim-Simon-task,.show-tim-btn__Simon-task{
+font-size: 8px;
+}
+.show-tim-btn__Tim,.show-tim-btn__Simon{
+    font-size: 16px;
+}
+.names {
+    display: flex;
+    padding: 10% 0 10% 0;
+    justify-content: space-around;
+}
+.we-belive___heading h1::before {
+    content: '';
+    border-bottom: 10px solid var(--main-button-color);
+    width: 87%;
+    display: block;
+    left: 6%;
+    margin: 0rem auto;
+    position: absolute;
+    top: -28%;
+    transform: rotate( 
+180deg
+ );
+}
+.container {
+    width: 86%;
+    position: relative;
+    margin: 0 auto;
+}
+.blog {
+    width: 87%;
+    margin: 0 auto;
+}
+.main-text__blue-border {
+    margin-bottom: 10%;
+    margin-top: 18%;
+}
+.mobile-logo-new{
+    margin-left: -4%;
+}
+.about-us__svg-desktop{
+    display: none;
 }
 .container__text{
     padding:15% 0 15% 0;
@@ -94,10 +149,22 @@ li.footer__list-item {
 .mobile-slider__menu-list-item {
     padding: 11% 0 0 0;
 }
+.blog-container{
+    position: relative;
+}
+.blogs {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
 .service__wrapper-second .services__item {
     text-align: center;
     margin-bottom: 5rem;
     padding: 0% 20% 0% 28%;
+}
+.about-us__svg-desktop{
+    display: none;
 }
 p.services__item__text {
     text-align: center;
@@ -124,6 +191,32 @@ p.services__item__text {
 }
 .main-first{
     display: none;
+}
+.blog-container {
+    position: relative;
+    padding: 1%;
+    border: 1px solid white;
+}
+.post-svg {
+    position: absolute;
+    top: -8%;
+    right: 0%;
+}
+.blogs {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.tim-small {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.38px;
+}
+.tim-small {
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 0.38px;
 }
 .section__button {
     border: 2px solid var(--main-button-color);
@@ -167,9 +260,11 @@ p.services__item__text {
     }
     .tim-large{
         font-size: 30px;
+         font-family: 'PT Sans', sans-serif;
     }
      .tim-small{
         font-size: 15px;
+         font-family: 'PT Sans', sans-serif;
     }
     a.active {
     padding-top: 10px;
@@ -710,8 +805,8 @@ width:600px;
     margin: 0 auto;
 }
 .container__text.desktop__display-show {
-    padding-right: 1%;
-    padding-left: 24%;
+    padding-right: 4%;
+    padding-left: 25%;
     margin-top: -6%;
 }
 .container__text {
@@ -748,6 +843,13 @@ ul.desktop-list{
     .desktop__icons__container{
         display: block;
     }
+    .miku__svg-container {
+    display: flex;
+    justify-content: center;
+}
+.we-believe{
+    display: none;
+}
 .desktop__icons{
     display:flex;
     flex-direction: row;
@@ -1045,6 +1147,26 @@ li{
 }
 .main-first{
     display: none;
+}
+.blog-container{
+    position: relative;
+}
+.blogs {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+  .tim-large{
+        font-size: 30px;
+         font-family: 'PT Sans', sans-serif;
+    }
+     .tim-small{
+        font-size: 15px;
+         font-family: 'PT Sans', sans-serif;
+    }
+ .miku__svg-container {
+    display: block;
 }
 .container__text {
     margin-bottom: 0;
@@ -2095,11 +2217,11 @@ li{
    .first-pipe {
     margin: 4rem 0 2rem 0 !important;
 }
-       .miku__svg {
+    .miku__svg {
     height: 500px;
-    width: 800px;
-       
-     }
+    width: 1200px;
+    padding-left: 20%;
+}
      .desktop-menu li {
     list-style: none;
     display: inline;
@@ -2782,6 +2904,15 @@ width: 43%;
     }
     .video-container iframe {
     padding-left: 10%;
+}
+.blog-container{
+    position: relative;
+}
+.blogs {
+    position: relative;
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
 }
     .main-svg{
         width: 1820px;
