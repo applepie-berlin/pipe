@@ -129,6 +129,12 @@ display: none;
 .ytp-chrome-top{
     display: none;
 }
+.footer__image-social a {
+    text-decoration: none;
+}
+.pipe_youtube_logo{
+    width: 30px;
+}
     .page-number{
        display: none;
     }
