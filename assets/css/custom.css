@@ -1460,9 +1460,8 @@ position: relative;
 }
 
 
-.for-customers__text,.for-customers__first-text {
-   
-    font-size: 25px;
+.for-customers__text, .for-customers__first-text {
+    font-size: 23px;
     letter-spacing: 0.57px;
 }
 .for-customers__text-medium{

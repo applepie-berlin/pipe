@@ -3103,6 +3103,9 @@ width: 43%;
     top: 0;
     left: 0;
 }
+.we-belive-paragraph p{
+    font-size: 31px !important;
+}
 .blog__title{
     margin-top: 5%;
 }
@@ -3492,14 +3495,25 @@ width: 43%;
             grid-template-columns: auto 1fr;
         }
 
-        .your-web__list {
-            padding-left: 4rem;
-        }
+.your-web__list {
+    padding-top: 2rem;
+    padding-left: 8rem;
+}
+.your-web__multi-dots-desktop{
+    width: 800px;
+}
+.ptz-cam {
+    margin: 20rem 0 11rem 0;
+}
 
-        .position-absolute {
-            position: absolute;
-            right: -29%
-        }
+
+.ptz-cam__svg svg{
+    width: 612px;
+}
+   .position-absolute {
+    position: absolute;
+    right: -29%;
+}
 
         .your-web__wrapper {
     position: relative;
@@ -3544,13 +3558,18 @@ width: 43%;
             margin-top: -5rem;
         }
 
-        .your-hardware__list, .hardware-icons__conatainer {
+      .your-hardware__list, .hardware-icons__conatainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin: 6rem auto;
+    margin: 10rem auto;
     position: relative;
+}
+.blog {
+     width: 100%;
+    margin: 0 auto;
+    padding: 4% 10% 10% 10%;
 }
 .black-boxcontainer {
     position: relative;
@@ -3856,6 +3875,28 @@ display: flex;
 ul.services__list.text-center {
     text-align: left;
 }
+ul.services__list.text-center {
+    text-align: left;
+}
+.our_text {
+    width: 30%;
+    text-align: center;
+    padding: 6% 0 0 0%;
+}
+.your-hardware {
+    margin-top: 16rem;
+    position: relative;
+}
+ul.services__list.text-center {
+    text-align: left;
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    margin: 0% 10% 0% 22% !important;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 0%;
+}
 .main-text {
     margin-left: 10% !important;
 }
@@ -3969,7 +4010,7 @@ li{
     right: 66%;
     margin: 0.8rem auto;
     position: absolute !important;
-    top: 16%;
+    top: 21%;
     transform: rotate( 
 91deg
  );
