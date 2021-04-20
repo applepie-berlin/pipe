@@ -242,7 +242,7 @@ p.services__item__text {
 .blog-svg-icon svg {
     position: absolute;
     right: 39%;
-    bottom: 8%;
+    bottom: 6%;
 }
 .more-articles {
     padding: 10% 0 15% 0;
@@ -274,6 +274,11 @@ p.services__item__text {
 /* Styles */
 li.footer__list-item {
     padding: 0rem !important;
+}
+.blog-svg-icon svg {
+    position: absolute;
+    right: 48%;
+    bottom: 8%;
 }
 .display-simon{
     display: none;
@@ -4154,4 +4159,5 @@ li{
   .mobile-slider__menu-list-item {
     padding: 5% 0 0 0;
 }
+
 }
