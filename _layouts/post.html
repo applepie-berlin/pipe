@@ -81,7 +81,7 @@ layout: general
 
 
             <div class="blogs__list">
-                {% for post in site.posts %}
+                {% for post in site.posts limit:4 %}
                 <div class="blog-container">
                     <div class="post-svg">
                         {% if post.number == "2" %}
