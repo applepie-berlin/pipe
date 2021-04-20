@@ -1,27 +1,4 @@
-var tag = document.createElement('script');
-tag.src = "//www.youtube.com/player_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
 
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-function onYouTubeIframeAPIReady() {
-    $('.youtube-video').inViewAutoplay({
-        autohide: 1,
-        modestbranding: 1,
-        rel: 0,
-        quality: 'hd720',
-        controls: 0,
-        showinfo: 0
-    });
-    $('.youtube-video-second').inViewAutoplay({
-        autohide: 1,
-        modestbranding: 1,
-        rel: 0,
-        quality: 'hd720',
-        controls: 0,
-        showinfo: 0
-    });
-
-}
 
 
 
@@ -32,9 +9,11 @@ let closeBtn = document.querySelector(".closebtn")
 
 
 
-element.addEventListener("click", function () {
+element.addEventListener("click", function (e) {
     buttons.classList.add("visible")
     document.body.classList.add("lock-scroll")
+    console.log("added")
+    e.preventDefault();
 
 })
 closeBtn.addEventListener("click", function () {
@@ -104,3 +83,29 @@ showTimbtn.addEventListener("click", function () {
 
 })
 
+var tag = document.createElement('script');
+tag.src = "//www.youtube.com/player_api";
+var firstScriptTag = document.getElementsByTagName('script')[0];
+
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+function onYouTubeIframeAPIReady() {
+    $('.youtube-video').inViewAutoplay({
+        autohide: 1,
+        modestbranding: 1,
+        rel: 0,
+        quality: 'hd720',
+        controls: 0,
+        showinfo: 0,
+
+    });
+    $('.youtube-video-second').inViewAutoplay({
+        autohide: 1,
+        modestbranding: 1,
+        rel: 0,
+        quality: 'hd720',
+        controls: 0,
+        showinfo: 0,
+
+    });
+
+}

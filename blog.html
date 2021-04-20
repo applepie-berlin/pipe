@@ -597,11 +597,11 @@ layout: general
                 <h1 class="blog__item-number">{{post.number}}</h1>
 
             </div>
-            <p>In the Media</p>
+            <p class="blog__post-subtitle">In the Media</p>
             <h2 class="blog__item-title">
                 <a href="/pipe/{{ post.url }}">{{ post.title }}</a>
             </h2>
-            <p>
+            <p class="blog__post-excerpt">
                 {{ post.content | strip_html | truncatewords:25 }}
             </p>
         </div>

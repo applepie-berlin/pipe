@@ -45,6 +45,9 @@ section{
 .for-customers__text {
     padding-right: 0%;
 }
+.ytp-chrome-top, .ytp-chrome-bottom {
+    display: none !important;
+}
 .for-customers__svg-mobile{
     width: 300px;
     padding-bottom: 13%;
@@ -290,11 +293,11 @@ svg{
     
 }
 .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+    position: absolute;
+    top: 4%;
+    right: 7%;
+    font-size: 36px;
+    margin-left: 50px;
 }
 .lock-scroll {
    position: fixed;
@@ -935,6 +938,12 @@ display: flex;
 .blog__item-number {
     margin: 0 0 34px 0;
     font-family: 'PT Sans' !important;
+    font-size: 52px;
+}
+.blog__post-subtitle{
+    font-style: italic;
+    letter-spacing: 0.66px;
+    line-height: 41px;
 }
 .blog__item-title a {
     text-decoration: none;
