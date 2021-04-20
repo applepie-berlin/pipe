@@ -182,7 +182,7 @@ font-size: 8px;
     transform: translateX(0%);
 }
 .blog {
-    width: 87%;
+    width: 100%;
     margin: 0 auto;
 }
 .section__button {
@@ -235,8 +235,11 @@ p.services__item__text {
 }
 .blog-svg-icon svg {
     position: absolute;
-    right: -5%;
-    bottom: 14%;
+    right: 39%;
+    bottom: 8%;
+}
+.more-articles {
+    padding: 10% 0 15% 0;
 }
 .post-svg {
     position: absolute;
