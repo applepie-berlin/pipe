@@ -67,5 +67,9 @@ text-decoration: none;
             display: flex;
             margin-top: 5%;
         }
+        .blogs__list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
 
 }
