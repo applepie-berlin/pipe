@@ -183,10 +183,7 @@ layout: general
 
                     <h2 class="blog__item-title"><a href="/pipe{{ post.url }}">{{ post.title }}</a></h2>
                     <p>
-                        Lorem eram isse eram es
-                        Ipsum dolor esse est sum.
-                        Summa suam ella lorem
-                        mialur eteram mehr
+                        {{ post.content | strip_html | truncatewords:25 }}
                     </p>
                 </div>
                 {% endfor %}
