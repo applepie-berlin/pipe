@@ -23,11 +23,7 @@
     top: 80px;
     left: -21%;
 }
-.inner__container {
-    width: 95%;
-    margin: 0px auto;
-    position: relative;
-}
+
 p.services__item__text {
     text-align: center;
 }
@@ -48,6 +44,13 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.blog {
+    width: 100%;
+    margin: 0 auto;
+}
+.mobile-container{
+    width: 100% !important;
+}
 .display-simon{
     display: none;
 }
@@ -55,7 +58,7 @@ h1, h2, h3 {
     font-size: 15px;
 }
 .visible {
-    transform: translateX(-10%);
+    transform: translateX(0%);
 }
 p.services__item__text {
     text-align: center;
@@ -117,16 +120,23 @@ font-size: 8px;
     margin: 0 auto;
 }
 .blog {
-    width: 87%;
-    margin: 0 auto;
+    width: 100%;
+
+}
+.mobile-logo-new {
+    margin-left: -11%;
+}
+.container__wrapper {
+    max-width: 1920px;
+    width: 89%;
+    margin: 0px auto;
+    position: relative;
 }
 .main-text__blue-border {
     margin-bottom: 10%;
     margin-top: 18%;
 }
-.mobile-logo-new {
-    margin-left: -20%;
-}
+
 .about-us__svg-desktop{
     display: none;
 }
@@ -169,16 +179,20 @@ font-size: 8px;
 }
 @media screen and (min-width : 500px) and (max-width : 768px) {
     .visible {
-    transform: translateX(-10%);
+    transform: translateX(0%);
+}
+.blog {
+    width: 87%;
+    margin: 0 auto;
 }
 .section__button {
   
     font-size: 14px;
     font-family: 'PT Sans';
 }
-    .inner__container {
+   .inner__container {
     max-width: 1920px;
-    width: 85%;
+    width: 100%;
     margin: 0px auto;
     position: relative;
 }
@@ -252,6 +266,7 @@ p.services__item__text {
 li.footer__list-item {
     padding: 0rem !important;
 }
+
 .mobile-logo-new {
     margin-left: -20%;
 }
@@ -1316,6 +1331,9 @@ li{
     
 .mobile-logo-new{
     display: none;
+}
+.page-number-about {
+     font-family: 'PT Sans', sans-serif;
 }
 .blog__item-number:after {
     position: absolute;
@@ -4052,5 +4070,13 @@ li{
     position: absolute;
     bottom: -197px;
     left:240px;
+}
+}
+
+
+@media only screen and (min-device-width: 769px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  .mobile-slider__menu-list-item {
+    padding: 5% 0 0 0;
 }
 }
