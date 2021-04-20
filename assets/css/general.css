@@ -181,6 +181,9 @@ font-size: 8px;
     .visible {
     transform: translateX(0%);
 }
+.display-simon{
+    display: none;
+}
 .blog {
     width: 100%;
     margin: 0 auto;
@@ -269,7 +272,9 @@ p.services__item__text {
 li.footer__list-item {
     padding: 0rem !important;
 }
-
+.display-simon{
+    display: none;
+}
 .mobile-logo-new {
     margin-left: -20%;
 }
