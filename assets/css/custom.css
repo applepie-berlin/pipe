@@ -292,6 +292,9 @@ svg{
     color: white;
     
 }
+.blog-container a{
+    text-decoration: none;
+}
 .closebtn {
     position: absolute;
     top: 4%;
@@ -936,14 +939,20 @@ display: flex;
     line-height: 0px;
 }
 .blog__item-number {
-    margin: 0 0 34px 0;
+    padding: 0 0 13% 0;
     font-family: 'PT Sans' !important;
     font-size: 52px;
 }
-.blog__post-subtitle{
+.blog__post-subtitle {
+    font-size: 11px;
     font-style: italic;
     letter-spacing: 0.66px;
-    line-height: 41px;
+    line-height: 26px;
+}
+.blog__item-title{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.79px;
 }
 .blog__item-title a {
     text-decoration: none;

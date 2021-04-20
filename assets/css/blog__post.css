@@ -13,17 +13,19 @@
   
 .post-svg {
     position: absolute;
-    top: 4%;
-    right: 0;
-    margin: 0.7rem;
+    top: 2%;
+   
+    right: 7%;
+ 
 }
 
-    .blog-container {
-        position: relative;
-        padding: 45px 13px 31px 13px;
-
-        border: 1px solid white;
-    }
+.blog-container {
+    position: relative;
+    padding: 23% 18% 21% 9%;
+    border-top: 0.7px solid white;
+    border-right: 0.7px solid white;
+    border-bottom: 0.5px solid white;
+}
     .blog__item-title a{
 font-size: 18px;
 text-decoration: none;
@@ -37,17 +39,15 @@ letter-spacing: 0.79px;
     .PageNavigation{
         margin-bottom: 8%;
     }
-    .blog__item-number:after {
-        position: absolute;
-
-        height: 0.6rem;
-        background: white;
-        content: '';
-        width: 91px;
-        top: 0;
-        left: 0;
-
-    }
+   .blog__item-number:after {
+    position: absolute;
+    height: 2%;
+    background: white;
+    content: '';
+    width: 89px;
+    top: 0;
+    left: 0;
+}
 
     .blog__post {
         display: flex;

@@ -44,10 +44,11 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
-.blog__post-excerpt{
+.blog__post-excerpt {
     font-size: 11px;
     letter-spacing: 0.25px;
     line-height: 18px;
+    padding: 17% 0 0 0;
 }
 
 .blog__svg svg {
@@ -72,11 +73,7 @@ h1, h2, h3 {
 p.services__item__text {
     text-align: center;
 }
-.blog-container {
-    position: relative;
-    padding: 1%;
-    border: 1px solid white;
-}
+
 .blog-svg-icon svg {
     position: absolute;
     right: 30%;
