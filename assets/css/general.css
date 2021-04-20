@@ -373,7 +373,7 @@ p.services__item__text {
 }
 .blogs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr !important;
     width: 100%;
     margin: 7rem auto 0 auto;
     padding: 0% 4% 0% 14%;
