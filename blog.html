@@ -574,7 +574,8 @@ layout: general
 
 
     <div class="blogs">
-        {% for post in site.posts limit:10 %}
+        {% assign sorted = site.posts | sort: 'date' %}
+        {% for post in sorted limit:20 reversed %}
         <div class="blog-container">
             <div class="post-svg">
                 <svg class="blog__post-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -597,7 +598,9 @@ layout: general
 
             </div>
             <p>In the Media</p>
-            <h2 class="blog__item-title">{{post.title}}</h2>
+            <h2 class="blog__item-title">
+                <a href="/pipe/{{ post.url }}">{{ post.title }}</a>
+            </h2>
             <p>
                 Lorem eram isse eram es
                 Ipsum dolor esse est sum.

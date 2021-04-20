@@ -81,7 +81,8 @@ layout: general
 
 
             <div class="blogs__list">
-                {% for post in site.posts limit:4 %}
+                {% assign sorted = site.posts | sort: 'date' %}
+                {% for post in sorted limit:4 %}
                 <div class="blog-container">
                     <div class="post-svg">
                         {% if post.number == "2" %}
@@ -180,7 +181,7 @@ layout: general
                     </div>
                     <p class="content-small">{{ post.subtitle }}</p>
 
-                    <h2 class="blog__item-title"><a href="/pipe/{{ post.url }}">{{ post.title }}</a></h2>
+                    <h2 class="blog__item-title"><a href="/pipe{{ post.url }}">{{ post.title }}</a></h2>
                     <p>
                         Lorem eram isse eram es
                         Ipsum dolor esse est sum.
