@@ -183,7 +183,8 @@ layout: general
 
                     <h2 class="blog__item-title"><a href="/pipe{{ post.url }}">{{ post.title }}</a></h2>
                     <p>
-                        {{ post.content | strip_html | truncatewords:25 }}
+                        {{ post.excerpt | strip_html | truncatewords:25 }}
+
                     </p>
                 </div>
                 {% endfor %}
