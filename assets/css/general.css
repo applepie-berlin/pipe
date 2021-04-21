@@ -425,6 +425,9 @@ p.services__item__text {
     letter-spacing: 5.52px;
     font-size: 67px;
 }
+.we-belive-paragraph p{
+    font-size: 22px;
+}
 .blog-container svg{
     width: 51px;
 }
@@ -3737,10 +3740,15 @@ margin: 0 auto;
 
 .your-web__list {
     padding-top: 2rem;
-    padding-left: 8rem;
+    padding-left: 17%;
 }
 .your-web__multi-dots-desktop{
     width: 800px;
+}
+.our__image-relative .page-number-about {
+    right: 4% !important;
+    bottom: 32% !important;
+    
 }
 .ptz-cam {
     margin: 20rem 0 11rem 0;
@@ -3903,14 +3911,14 @@ margin: 0 auto;
      justify-content: center;
 
  }
- .webrtic-agent__List {
+.webrtic-agent__List {
     position: absolute;
     top: 40%;
-    right: 31%;
+    right: 29%;
     display: block;
 }
 .black-box-large-svg {
-    height: 541px;
+    height: 763px;
     padding-right: 15%;
 }
 
