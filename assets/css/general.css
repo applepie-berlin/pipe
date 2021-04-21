@@ -50,6 +50,13 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.more-articles{
+    padding: 20% 0 20% 0;
+}
+.blog__lower__index-svg {
+  display: none;
+   
+}
 .blog-container svg{
     width: 40px;
 }
