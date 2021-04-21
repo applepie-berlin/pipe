@@ -91,8 +91,8 @@ h1, h2, h3 {
 .blog-container svg{
     width: 40px;
 }
-.blogs .blog__post-svg{
-    width: 17px ;
+.blogs .blog__post-svg {
+    width: 47px;
 }
 .blog__post-excerpt {
     font-size: 11px;
@@ -159,10 +159,6 @@ font-size: 8px;
 }
 .we-belive-paragraph p{
 font-size: 22px;
-padding: 15% 0 15% 0 ;
-}
-.we-belive___heading{
-    padding-top: 15%;
 }
 .we-belive___heading h1::before {
     content: '';
@@ -172,7 +168,7 @@ padding: 15% 0 15% 0 ;
     left: 6%;
     margin: 0rem auto;
     position: absolute;
-    top: 56%;
+    top: -28%;
     transform: rotate( 
 180deg
  );
@@ -486,6 +482,13 @@ p.services__item__text {
 .mobile-logo-new{
     display: none;
 }
+.desktop-logo {
+    display: block;
+    width: 145px;
+}
+ .header__menu__list a {
+    font-size: 15px;
+}
 .blog__lower__index-svg {
     position: absolute;
     top: 29% !important;
@@ -510,8 +513,8 @@ p.services__item__text {
 .blog-container svg{
     width: 51px;
 }
-.blogs .blog__post-svg{
-    width: 17px ;
+.blogs .blog__post-svg {
+    width: 47px;
 }
 .blog-container {
     position: relative;
@@ -819,10 +822,10 @@ p.services__item__text {
      .your-web__list-mobile-container{
          display: none !important;
      }
-     .desktop-menu li {
+    .desktop-menu li {
     list-style: none;
     display: inline;
-    padding: 0 0 0 3rem;
+    padding: 0 0 0 2rem;
 }
      .black-boxcontainer,.your-web__wrapper,.ptz-cam-container{
     position: relative;
@@ -1565,8 +1568,12 @@ li{
 .blog-container svg{
     width: 53px;
 }
-.blogs .blog__post-svg{
-    width: 17px ;
+.blogs .blog__post-svg {
+    width: 47px;
+}
+.desktop-logo {
+    display: block;
+    width: 129px;
 }
 .blog__item-title {
     font-size: 18px;
@@ -2085,10 +2092,9 @@ li{
 
 
 
-     .desktop-menu .header__menu__list a{
-         font-size: 19px;
-
-     }
+     .header__menu__list a {
+    font-size: 17px;
+}
     .for-customers__svg{
    width: 45% !important;
     }
@@ -3415,7 +3421,7 @@ width: 43%;
     .blog__post-subtitle {
         font-size: 22px;
         letter-spacing: 1.32px;
-        line-height: 81px;
+        line-height: 100px;
     }
     .blog__item-number{
         letter-spacing: 5.52px;

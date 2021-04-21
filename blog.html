@@ -662,19 +662,92 @@ layout: general
         <div class="blog-container">
             <a href="/pipe/{{ post.url }}">
                 <div class="post-svg">
-                    <svg class="blog__post-svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
-                        viewBox="0 0 16 16">
-                        <g id="Group_3882" data-name="Group 3882" transform="translate(-165 -897)">
-                            <g id="Ellipse_19981" data-name="Ellipse 19981" transform="translate(165 897)"
-                                fill="#0a0606" stroke="#fff" stroke-width="0.5">
-                                <circle cx="8" cy="8" r="8" stroke="none" />
-                                <circle cx="8" cy="8" r="7.75" fill="none" />
+
+                    {% if post.svg-specification == "media" %}
+                    <svg class="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="99" height="98" viewBox="0 0 99 98">
+                        <defs>
+                            <clipPath id="clip-Icon_text">
+                                <rect width="99" height="98" />
+                            </clipPath>
+                        </defs>
+                        <g id="Icon_text" clip-path="url(#clip-Icon_text)">
+                            <g id="Gruppe_4958" data-name="Gruppe 4958" transform="translate(28.667 27.666)">
+                                <g id="Gruppe_3776" data-name="Gruppe 3776" transform="translate(0 0)">
+                                    <g id="Ellipse_20007" data-name="Ellipse 20007" transform="translate(0.333 0.333)"
+                                        fill="none" stroke="#fff" stroke-width="0.5">
+                                        <circle cx="21" cy="21" r="21" stroke="none" />
+                                        <circle cx="21" cy="21" r="20.75" fill="none" />
+                                    </g>
+                                    <path id="Pfad_12505" data-name="Pfad 12505" d="M0,0V26.592"
+                                        transform="translate(34.672 22.342) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                    <path id="Pfad_12507" data-name="Pfad 12507" d="M0,0V26.592"
+                                        transform="translate(34.672 27.053) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                    <path id="Pfad_12506" data-name="Pfad 12506" d="M0,0V26.592"
+                                        transform="translate(34.672 17.63) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                </g>
                             </g>
-                            <path id="Polygon_7" data-name="Polygon 7"
-                                d="M2.85,1.747a1,1,0,0,1,1.782,0L6.741,5.883A1,1,0,0,1,5.85,7.337H1.632A1,1,0,0,1,.742,5.883Z"
-                                transform="translate(177.635 901.349) rotate(90)" fill="#fff" />
                         </g>
                     </svg>
+
+
+                    {% endif %}
+                    {% if post.svg-specification == "letter" %}
+                    <svg class="blog__post-svg" class="blog__post-svg" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="98" viewBox="0 0 99 98">
+                        <defs>
+                            <clipPath id="clip-Icon_text">
+                                <rect width="99" height="98" />
+                            </clipPath>
+                        </defs>
+                        <g id="Icon_text" clip-path="url(#clip-Icon_text)">
+                            <g id="Gruppe_4958" data-name="Gruppe 4958" transform="translate(28.667 27.666)">
+                                <g id="Gruppe_3776" data-name="Gruppe 3776" transform="translate(0 0)">
+                                    <g id="Ellipse_20007" data-name="Ellipse 20007" transform="translate(0.333 0.333)"
+                                        fill="none" stroke="#fff" stroke-width="0.5">
+                                        <circle cx="21" cy="21" r="21" stroke="none" />
+                                        <circle cx="21" cy="21" r="20.75" fill="none" />
+                                    </g>
+                                    <path id="Pfad_12505" data-name="Pfad 12505" d="M0,0V26.592"
+                                        transform="translate(34.672 22.342) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                    <path id="Pfad_12507" data-name="Pfad 12507" d="M0,0V26.592"
+                                        transform="translate(34.672 27.053) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                    <path id="Pfad_12506" data-name="Pfad 12506" d="M0,0V26.592"
+                                        transform="translate(34.672 17.63) rotate(90)" fill="none" stroke="#fff"
+                                        stroke-width="2" />
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+
+                    {% endif %}
+                    {% if post.svg-specification == "video" %}
+                    <svg class="blog__post-svg" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" width="98" height="98" viewBox="0 0 98 98">
+                        <defs>
+                            <clipPath id="clip-Icon_play">
+                                <rect width="98" height="98" />
+                            </clipPath>
+                        </defs>
+                        <g id="Icon_play" clip-path="url(#clip-Icon_play)">
+                            <g id="Ellipse_19981" data-name="Ellipse 19981" transform="translate(29 24.499)" fill="none"
+                                stroke="#fff" stroke-width="0.5">
+                                <circle cx="21" cy="21" r="21" stroke="none" />
+                                <circle cx="21" cy="21" r="20.75" fill="none" />
+                            </g>
+                            <path id="Polygon_7" data-name="Polygon 7"
+                                d="M8.958,1.747a1,1,0,0,1,1.782,0l8.217,16.115a1,1,0,0,1-.891,1.454H1.632a1,1,0,0,1-.891-1.454Z"
+                                transform="translate(61.652 35.467) rotate(90)" fill="#fff" />
+                        </g>
+                    </svg>
+
+
+                    {% endif %}
 
                 </div>
                 <div class="blog__post">
