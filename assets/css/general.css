@@ -672,9 +672,10 @@ p.services__item__text {
         display: none;
     }
     
-    .desktop-logo{
-        display: block;
-    }
+   .desktop-logo {
+    display: block;
+    margin-left: 15%;
+}
     .security-assurance{
         display: flex;
         flex-direction: row  !important;
@@ -1701,9 +1702,10 @@ li{
         display: none;
     }
     
-    .desktop-logo{
-        display: block;
-    }
+    .desktop-logo {
+    display: block;
+    margin-left: 16%;
+}
     .security-assurance{
         display: flex;
         flex-direction: row  !important;
@@ -2092,8 +2094,8 @@ li{
 
 
 
-     .header__menu__list a {
-    font-size: 17px;
+   .header__menu__list a {
+    font-size: 16px;
 }
     .for-customers__svg{
    width: 45% !important;
