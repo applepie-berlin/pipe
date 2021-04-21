@@ -5,6 +5,9 @@
 .section__button{
  font-family: 'PT Sans', sans-serif;
 }
+.mobile-slider__menu-list {
+    padding-bottom: 29%;
+}
 .section__button {
     border: 2px solid var(--main-button-color);
     border-radius: 50px;
@@ -28,8 +31,11 @@ p.services__item__text {
     text-align: center;
 }
 }
-@media screen and (max-width : 280px) {
-
+@media screen and (max-width : 325px) {
+.mobile-slider__menu-list {
+  
+    padding-bottom: 29%;
+}
 
 }
 
@@ -4284,6 +4290,9 @@ li{
   /* For landscape layouts only */
   .mobile-slider__menu-list-item {
     padding: 5% 0 0 0;
+}
+.mobile-slider__menu-list {
+    padding-bottom: 29%;
 }
 
 }

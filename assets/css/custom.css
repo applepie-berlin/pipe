@@ -297,8 +297,8 @@ svg{
 }
 .closebtn {
     position: absolute;
-    top: 4%;
-    right: 7%;
+    top: 2%;
+    right: 5%;
     font-size: 36px;
     margin-left: 50px;
 }
@@ -307,7 +307,7 @@ svg{
 }
 
 .mobile-slider__menu-list-item {
-    padding: 5% 0 0 0;
+    padding: 8% 0 0 0;
 }
 .mobile-slider__menu-list-logo{
     margin: 6rem 0 4rem 0;
