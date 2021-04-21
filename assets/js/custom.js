@@ -88,13 +88,18 @@ let showTimbtn = document.querySelector(".show-tim-btn");
 let toggleSimonBtn = document.querySelector(".toggle-simon-btn");
 let displaySimon = document.querySelector(".display-simon");
 let timDisplayed = document.querySelector(".tim-displayed");
+let timDisplayed__heading__tim = document.querySelector(".show-tim-btn__Tim");
+let timDisplayed__heading__Simon = document.querySelector(".show-tim-btn__Simon");
+
+
 
 
 toggleSimonBtn.addEventListener("click", function () {
-    showTimbtn.classList.remove("border-on-button")
-    toggleSimonBtn.classList.add("border-on-button")
+
+    timDisplayed__heading__Simon.classList.add("border-on-button")
+    timDisplayed__heading__tim.classList.remove("border-on-button")
     timDisplayed.style.display = "none";
-    displaySimon.classList.remove("toggle-class")
+    displaySimon.classList.remove("toggle-class");
     displaySimon.style.display = "block"
 
 })
@@ -102,8 +107,8 @@ toggleSimonBtn.addEventListener("click", function () {
 
 
 showTimbtn.addEventListener("click", function () {
-    showTimbtn.classList.add("border-on-button")
-    toggleSimonBtn.classList.remove("border-on-button")
+    timDisplayed__heading__Simon.classList.remove("border-on-button")
+    timDisplayed__heading__tim.classList.add("border-on-button")
     timDisplayed.style.display = "block";
     displaySimon.style.display = "none";
 
