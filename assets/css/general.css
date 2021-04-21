@@ -54,13 +54,17 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.black-block__svg-bottom__text{
+    display: none;
+}
 .black-box-below {
     display: flex;
     justify-content: center;
     flex-direction: column !important;
 }
-.black-box__below-text{
+.black-box__below-text {
     text-align: center;
+    font-size: 10px;
 }
 .blog-container:nth-child(even){
     position: relative;
