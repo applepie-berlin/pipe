@@ -16,7 +16,7 @@ function onYouTubeIframeAPIReady() {
 
     });
     $('.youtube-video-second').inViewAutoplay({
-        autoplay: 1,
+
         autohide: 1,
         modestbranding: 1,
         rel: 0,
