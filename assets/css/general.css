@@ -53,9 +53,25 @@ h1, h2, h3 {
 .more-articles{
     padding: 20% 0 20% 0;
 }
-.blog__lower__index-svg {
+.blog__lower-svg-desktop {
   display: none;
    
+}
+.blog__lower-svg-mobile {
+    position: absolute;
+    bottom: -7%;
+    right: -30%;
+}
+.blog__lower-svg-mobile-rotated {
+    position: absolute;
+    top: 18%;
+    left: -18%;
+    transform: rotate( 
+180deg
+ );
+}
+.blog__svg{
+    padding-bottom: 20%;
 }
 .blog-container svg{
     width: 40px;
