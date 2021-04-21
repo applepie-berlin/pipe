@@ -179,10 +179,10 @@ layout: general
                         <h1 class="blog__item-number">{{ post.number }}</h1>
 
                     </div>
-                    <p class="content-small">{{ post.subtitle }}</p>
+                    <p class="blog__post-subtitle">{{ post.subtitle }}</p>
 
                     <h2 class="blog__item-title"><a href="/pipe{{ post.url }}">{{ post.title }}</a></h2>
-                    <p>
+                    <p class="blog__post-excerpt">
                         {{ post.excerpt | strip_html | truncatewords:25 }}
 
                     </p>

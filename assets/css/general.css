@@ -44,6 +44,12 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.blog-container svg{
+    width: 40px;
+}
+.blogs .blog__post-svg{
+    width: 17px ;
+}
 .blog__post-excerpt {
     font-size: 11px;
     letter-spacing: 0.25px;
@@ -408,6 +414,12 @@ p.services__item__text {
     letter-spacing: 5.52px;
     font-size: 67px;
 }
+.blog-container svg{
+    width: 51px;
+}
+.blogs .blog__post-svg{
+    width: 17px ;
+}
 .blog-container {
     position: relative;
     padding: 23% 2% 21% 9%;
@@ -470,9 +482,9 @@ p.services__item__text {
     top: 0;
     left: 0;
 }
-.more-articles{
+.more-articles {
     margin-top: 15%;
-    margin-bottom: 23%;
+    margin-bottom: 9%;
 }
 .mobile-slider__menu{
     display: none;
@@ -702,6 +714,9 @@ p.services__item__text {
    /* media styles for customers page */
    .first-pipe {
     margin: 4rem 0 2rem 0 !important;
+}
+.more-articles {
+    padding: 5% 0 8% 0 !important;
 }
        .miku__svg {
     height: 500px;
@@ -1437,6 +1452,12 @@ li{
     .blog__item-number {
     padding: 0 0 9% 0;
   
+}
+.blog-container svg{
+    width: 53px;
+}
+.blogs .blog__post-svg{
+    width: 17px ;
 }
 .blog__item-title {
     font-size: 18px;
@@ -3259,6 +3280,9 @@ width: 43%;
     border-top: 0.7px solid white;
     border-right: 0.7px solid white;
     border-bottom: 0.5px solid white;
+}
+.more-articles {
+    padding: 5% 0 11% 0 !important;
 }
     .blog__post-excerpt {
     padding-top: 19%;
