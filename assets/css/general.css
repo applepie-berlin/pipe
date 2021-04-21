@@ -189,7 +189,9 @@ font-size: 8px;
 @media screen and (min-width : 769px) {
 /* Styles */
 
-
+.desktop__text-customers{
+    padding-left: 5%;
+}
 .lock-scroll {
     overflow: scroll;
 }
@@ -416,6 +418,9 @@ p.services__item__text {
 .mobile-logo-new{
     display: none;
 }
+ .contact-us__title{
+        letter-spacing: 5.08px;
+    }
  .blog__item-number {
     letter-spacing: 5.52px;
     font-size: 67px;
@@ -1459,6 +1464,12 @@ li{
     padding: 0 0 9% 0;
   
 }
+.contact-us-padding {
+    padding-left: 0;
+}
+ .contact-us__title{
+        letter-spacing: 6.08px;
+    }
 .blog-container svg{
     width: 53px;
 }
@@ -3280,6 +3291,9 @@ width: 43%;
         display: inline;
        
     }
+    .contact-us__title{
+        letter-spacing: 6.08px;
+    }
     .blog-container {
     position: relative;
     padding: 23% 0% 21% 9%;
@@ -3398,13 +3412,16 @@ margin: 0 auto;
     a.active {
     padding-top: 10px;
 }
-    .contact-us{
-        margin-left: 12%;
-    }
+   
     .mobile-logo{
         display: none;
     }
-    
+    .desktop__text-customers {
+    padding-left: 4% !important;
+}
+.we-believe__simon p {
+    font-size: 21px !important;
+}
     .desktop-logo{
         display: block;
     }

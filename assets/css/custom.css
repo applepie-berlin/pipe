@@ -272,6 +272,12 @@ svg{
     overflow-x: hidden;
    
 }
+.section__buttons{
+    z-index: 9;
+}
+.section__buttons a{
+    text-decoration: none;
+}
 .mobile-slider__menu {
     transform: translate(100%);
     -webkit-transform: translate(100%);
@@ -1312,9 +1318,7 @@ position: relative;
     padding: 10rem 0rem 3rem 3rem !important;
     max-width: 830px !important;
 }
-.contact-us-padding{
-    padding-left:10%;
-}
+
         .we-believe__text,.we-believe__Tim,.we-believe__simon{
             text-align: left;
             display: flex;
