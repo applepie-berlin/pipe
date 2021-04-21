@@ -45,9 +45,7 @@ section{
 .for-customers__text {
     padding-right: 0%;
 }
-.ytp-chrome-top, .ytp-chrome-bottom {
-    display: none !important;
-}
+
 .for-customers__svg-mobile{
     width: 300px;
     padding-bottom: 13%;
@@ -132,9 +130,7 @@ display: none;
 .blogs{
     position: relative;
 }
-.ytp-chrome-top{
-    display: none;
-}
+
 .footer__image-social a {
     text-decoration: none;
 }
@@ -274,6 +270,9 @@ svg{
 }
 .section__buttons{
     z-index: 9;
+}
+.pipe_youtube_logo-width{
+    width: 26px;
 }
 .section__buttons a{
     text-decoration: none;
@@ -421,7 +420,14 @@ display: none;
     .your-web__list {
         margin: 0 0 4rem 0;
     }
-
+    .main-svg{
+ stroke-dasharray: 3000px;
+  stroke-dashoffset: 3000px;
+  transition: 1.5s ease-in;
+    }
+.dash{
+  stroke-dashoffset: 0;
+}
     .your-hardware {
         margin-top: 8rem;
         position: relative;

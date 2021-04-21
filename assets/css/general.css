@@ -54,6 +54,17 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.blog-container:nth-child(even){
+    position: relative;
+    padding: 23% 18% 21% 9%;
+    border-top: 0.7px solid white;
+    border-top-width: 0.7px;
+    border-top-style: solid;
+    border-top-color: white;
+    border-right: 0 !important;
+    border-bottom: 0.5px solid white !important;
+    background-color: black;
+}
 .more-articles{
     padding: 20% 0 20% 0;
 }
@@ -824,9 +835,7 @@ p.services__item__text {
         .benefits__svg {
             width: 40%;
         } */
-     .ytp-chrome-top{
-         display: none;
-     }
+   
         .benefits-container {
     position: relative;
     margin-top: 10%;
@@ -1494,9 +1503,7 @@ li{
 .members-experience{
     margin-top:8rem;
 }
-.ytp-chrome-top{
-         display: none;
-     }
+
 .members-experience{
     display: none;
 }
@@ -1850,9 +1857,7 @@ li{
         .benefits__svg {
             width: 40%;
         } */
-     .ytp-chrome-top{
-         display: none;
-     }
+   
         .benefits-container {
     position: relative;
     margin-top: 10%;
@@ -2481,9 +2486,7 @@ li{
 .members-experience{
     margin-top:8rem;
 }
-.ytp-chrome-top{
-         display: none;
-     }
+
 .members-experience{
     display: none;
 }
@@ -2715,9 +2718,7 @@ li{
         .benefits__svg {
             width: 40%;
         } */
-     .ytp-chrome-top{
-         display: none;
-     }
+   
         .benefits-container {
             position: relative
         }
@@ -2953,9 +2954,7 @@ width:30%;
     margin-top: 12% !important;
 }
 
-    .ytp-chrome-top,.ytp-show-cards-title{
-         display: none !important;
-     }
+   
    .youtube-video, .youtube-video-second {
     height: 534px;
     width: 802px;
@@ -3682,9 +3681,7 @@ margin: 0 auto;
         .benefits__svg {
             width: 40%;
         } */
-     .ytp-chrome-top{
-         display: none;
-     }
+    
         .benefits-container {
     position: relative;
     margin-top: 10%;
@@ -4376,9 +4373,7 @@ li{
 .members-experience{
     margin-top:8rem;
 }
-.ytp-chrome-top{
-         display: none;
-     }
+
 .members-experience{
     display: none;
 }
