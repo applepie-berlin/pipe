@@ -45,10 +45,21 @@ section{
 .for-customers__text {
     padding-right: 0%;
 }
+.main-svg {
+ 
+    z-index: -1;
+}
+.section__button-large-screen{
+    cursor:default;
+}
+
 
 .for-customers__svg-mobile{
     width: 300px;
     padding-bottom: 13%;
+}
+.video__svg{
+    z-index: 9999px;
 }
 .header__logo a{
     text-decoration: none;
@@ -407,10 +418,15 @@ display: none;
         margin: 8rem 0 4rem 0
     }
 
-    .hardware-icons__conatainer {
-        margin: 8rem 0 0 0;
-        padding-bottom: 2rem;
-    }
+   .hardware-icons__conatainer {
+    margin: 8rem 0 0 0;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    /* background-color: #FFFFFF; */
+    border-top: 0.4px solid #FFFFFF;
+    border-bottom: 0.4px solid #FFFFFF;
+    border: 0.4000000059604645px dashed #FFFFFF;
+}
 
     .for-devs-title {
         padding: 1.5rem;
@@ -704,6 +720,7 @@ p{
 
 body {
 	line-height: 1;
+    cursor: default;
     margin: 0 auto;
     overflow-x: hidden;
       -webkit-overflow-scrolling: touch !important;

@@ -2,21 +2,12 @@
 var tag = document.createElement('script');
 tag.src = "http://www.youtube.com/player_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
-
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+let iframe = document.querySelector(".youtube-video")
 function onYouTubeIframeAPIReady() {
     $('.youtube-video').inViewAutoplay({
+        loop: 1,
         autoplay: 1,
-        autohide: 1,
-        modestbranding: 1,
-        rel: 0,
-        quality: 'hd720',
-        controls: 0,
-        showinfo: 0
-
-    });
-    $('.youtube-video-second').inViewAutoplay({
-
         autohide: 1,
         modestbranding: 1,
         rel: 0,
