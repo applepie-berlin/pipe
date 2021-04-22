@@ -526,8 +526,10 @@ p.services__item__text {
     right: -130%;
     top: -14%;
 }
-.desktop-hide{
-    display: none;
+.black-box-large-svg-container {
+
+    flex-direction: column;
+    justify-content: space-between;
 }
 .ptz-cam__svg-bottom::after {
     content: '';
@@ -1041,6 +1043,13 @@ p.services__item__text {
     justify-content: center;
     margin-top: 10%;
 }
+.black-box-below {
+    display: flex;
+    justify-content: space-around;
+}
+.tl-dr .desktop-hide {
+    display: none;
+}
 .webrtic-text {
     
             display: flex;
@@ -1260,7 +1269,7 @@ p.services__item__text {
    
    
   }
-    .desktop-hide{
+    .black-box-below svg{
         display:none;
     }
     ul.desktop__icons {
@@ -2329,9 +2338,7 @@ width:600px;
    
    
   }
-    .desktop-hide{
-        display:none;
-    }
+    
     ul.desktop__icons {
         display: block;
 }
@@ -3155,7 +3162,7 @@ width:30%;
     position: relative;
   }
 
-    .desktop-hide{
+    .black-box-below svg{
         display:none;
     }
     ul.desktop__icons {
