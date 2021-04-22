@@ -54,6 +54,15 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+
+.ptz-cam__svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    margin-top: 11%;
+}
+
 .black-block__svg-bottom__text{
     display: none;
 }
@@ -503,10 +512,10 @@ p.services__item__text {
 }
 .desktop-logo {
     display: block;
-    width: 145px;
+    width: 104px;
 }
  .header__menu__list a {
-    font-size: 15px;
+    font-size: 11px;
 }
 .blog__lower__index-svg {
     position: absolute;
@@ -691,9 +700,9 @@ p.services__item__text {
         display: none;
     }
     
-   .desktop-logo {
+  .desktop-logo {
     display: block;
-    margin-left: 15%;
+    margin-left: 38%;
 }
     .security-assurance{
         display: flex;
@@ -1414,8 +1423,8 @@ ul.services__list.text-center {
 .header__logo {
     margin-left: 2%;
 }
-.header__menu__list{
-    margin-right:3rem;
+.header__menu__list {
+    margin-right: 8%;
 }
   .desktop_services{
      display: flex;
@@ -1560,7 +1569,7 @@ li{
 
 
 
-@media screen and (min-width: 1400px) and (max-width: 1899px)  {
+@media screen and (min-width: 1400px) and (max-width: 1886px)  {
     .blog__item-number {
     padding: 0 0 9% 0;
   
@@ -1726,7 +1735,7 @@ li{
     
     .desktop-logo {
     display: block;
-    margin-left: 16%;
+    margin-left:40%;
 }
     .security-assurance{
         display: flex;
@@ -2117,11 +2126,15 @@ li{
 
 
    .header__menu__list a {
-    font-size: 16px;
+    font-size: 13px;
 }
     .for-customers__svg{
    width: 45% !important;
     }
+    .desktop-logo {
+    display: block;
+    width: 106px;
+}
     .for-customers__first-text{
         width: 55% !important;
         padding-right: 10%;
@@ -3241,8 +3254,8 @@ ul.services__list.text-center {
 .main-text {
     margin-left: 14% !important;
 }
-.header__menu__list{
-    margin-right:3rem;
+.header__menu__list {
+    margin-right: 9%;
 }
   .desktop_services{
      display: flex;
@@ -3414,6 +3427,7 @@ width: 43%;
     left: -16%  !important;
  
 }
+
     .contact-us__title{
         letter-spacing: 6.08px;
     }
@@ -4291,8 +4305,8 @@ ul.services__list.text-center {
 .header__logo {
     margin-left: 2%;
 }
-.header__menu__list{
-    margin-right:3rem;
+.header__menu__list {
+    margin-right: 8%;
 }
   .desktop_services{
      display: flex;
