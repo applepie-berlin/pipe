@@ -289,6 +289,14 @@ font-size: 22px;
     bottom: -5%;
     right: -15%;
 }
+.contact-us-svg-mobile{
+    display: none;
+}
+.contact-us-svg {
+    position: absolute;
+    top: 5%;
+    left: 75%;
+}
 .blog__lower-svg-mobile-rotated {
     position: absolute;
     top: 21%;
@@ -418,6 +426,12 @@ li.footer__list-item {
     line-height: 23px;
     letter-spacing: 0.79px;
     padding-bottom: 10%;
+}
+.contact-us-svg {
+    position: absolute;
+    top: 11%;
+    left: 90%;
+    width: 55%;
 }
     .blog__post-excerpt {
     font-size: 14px;
