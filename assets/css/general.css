@@ -510,6 +510,15 @@ p.services__item__text {
 .footer__image-social {
     margin-right: 4%;
 }
+.contact-us-svg {
+    position: absolute;
+    z-index: -1;
+    width: 16%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -36%;
+    right: -10%;
+}
 .ptz-cam__svg-top {
     position: absolute;
     bottom: 60%;
@@ -1620,6 +1629,15 @@ li{
 }
 .footer__image-social {
     margin-right: 4%;
+}
+.contact-us-svg {
+    position: absolute;
+    z-index: -1;
+    width: 29%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -36%;
+    right: -19%;
 }
 .black-box-large-svg-container {
     display: flex !important;
@@ -3515,6 +3533,15 @@ width: 43%;
    
     left: -16%  !important;
  
+}
+.contact-us-svg {
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -36%;
+    right: -33%;
 }
 .ptz-cam__svg-top,.ptz-cam__svg-bottom{
     font-size:20px;

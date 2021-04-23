@@ -274,10 +274,10 @@ svg{
     height: auto;
     width: auto ;
 }
-.general-container{
+.general-container {
     width: 100vw;
     overflow-x: hidden;
-   
+    overflow-y: hidden;
 }
 .section__buttons{
     z-index: 9;
@@ -1419,7 +1419,9 @@ position: relative;
         margin: 3rem 0;
         font-size: 2.1rem;
     }
-
+.contact-us-image{
+    position: relative;
+}
 
     .impressum {
         width: 90%;
