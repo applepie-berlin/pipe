@@ -54,6 +54,18 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.contact-us-svg{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+.contact-us-svg-mobile {
+    position: absolute;
+    top: 6%;
+    right: -73%;
+    z-index: -1;
+}
+
 
 .ptz-cam__svg {
     display: flex;
