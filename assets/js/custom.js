@@ -5,19 +5,122 @@ var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 let iframe = document.querySelector(".youtube-video")
 function onYouTubeIframeAPIReady() {
-    $('.youtube-video').inViewAutoplay({
-        loop: 1,
-        autoplay: 1,
-        autohide: 1,
-        modestbranding: 1,
-        rel: 0,
-        quality: 'hd720',
-        controls: 0,
-        showinfo: 0
-
+    player = new YT.Player('demo-1', {
+        height: '390',
+        width: '640',
+        playerVars: { 'controls': 0 },
+        videoId: '8Kot5vm-UWg',
+        events: {
+            'onStateChange': onPlayerStateChange
+        }
     });
 
+
+    function onPlayerStateChange(event) {
+        console.log(event.data)
+        if (event.data == 0) {
+            player.playVideo();
+        }
+    }
+
+    $(window).scroll(function () {
+        var top_of_element = $("#demo-1").offset().top;
+        var bottom_of_element = $("#demo-1").offset().top + $("#demo-1").outerHeight();
+        var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+        var top_of_screen = $(window).scrollTop();
+
+        if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+            // the element is visible, do something
+            setTimeout(
+                function () {
+                    player.playVideo();
+                }, 2000)
+
+        } else {
+            // the element is not visible, do something else
+            player.pauseVideo();
+        }
+    });
+    function stopVideo() {
+        player.playVideo();
+    }
+    /* setTimeout(
+        function () {
+
+
+            $('.youtube-video').inViewAutoplay({
+                loop: 1,
+                autoplay: 0,
+                autohide: 1,
+                modestbranding: 1,
+                rel: 0,
+                quality: 'hd720',
+                controls: 0,
+                showinfo: 0
+
+            });
+
+            $('.youtube-video').inViewAutoplay({
+                loop: 1,
+                autoplay: 0,
+                autohide: 1,
+                modestbranding: 1,
+                rel: 0,
+                quality: 'hd720',
+                controls: 0,
+                showinfo: 0
+
+            });
+
+
+        }, 5000
+
+    ) */
+
+
+
 }
+
+
+/*$(window).scroll(function () {
+    var top_of_element = $("#demo-1").offset().top;
+    var bottom_of_element = $("#demo-1").offset().top + $("#demo-1").outerHeight();
+    var bottom_of_screen = $(window).scrollTop() + $(window).innerHeight();
+    var top_of_screen = $(window).scrollTop();
+
+    if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
+        // the element is visible, do something
+        player.playVideo();
+    } else {
+        // the element is not visible, do something else
+        player.stopVideo();
+    }
+});*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 let buttons = document.querySelector(".mobile-slider__menu")
