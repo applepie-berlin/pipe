@@ -4319,6 +4319,13 @@ margin: 0 auto;
    .desktop-none{
   display:block !important;
 }
+.your-hardware__item svg {
+    width: 282px;
+    height: 282px;
+}
+#drone{
+    width: 459px !important;
+}
  .mobile-none{
     display:none;
 }
