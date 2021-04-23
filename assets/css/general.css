@@ -54,18 +54,17 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
-.contact-us-svg{
-    position: absolute;
-    top: 0%;
-    right: 0%;
-}
+
 .contact-us-svg-mobile {
+    /* width: 100%; */
     position: absolute;
-    top: 6%;
-    right: -73%;
+    top: 7%;
+    right: -86%;
     z-index: -1;
 }
-
+.contact-us-svg{
+    display: none;
+}
 
 .ptz-cam__svg {
     display: flex;
@@ -270,7 +269,9 @@ font-size: 22px;
 .desktop__text-customers{
     padding-left: 5%;
 }
- 
+ .contact-us-svg-mobile{
+     display: none;
+ }
 .blog__lower-svg-mobile-rotated,.blog__lower-svg-mobile {
    display: none;
 }
