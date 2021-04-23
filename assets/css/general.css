@@ -4323,6 +4323,9 @@ margin: 0 auto;
     width: 282px;
     height: 282px;
 }
+.your-hardware__item p{
+    font-size: 22px;
+}
 #drone{
     width: 459px !important;
 }
