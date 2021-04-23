@@ -423,9 +423,8 @@ display: none;
     padding-bottom: 2rem;
     padding-top: 3rem;
     /* background-color: #FFFFFF; */
-    border-top: 0.4px solid #FFFFFF;
-    border-bottom: 0.4px solid #FFFFFF;
-    border: 0.4000000059604645px dashed #FFFFFF;
+    border-top: 0.4000000059604645px dashed #FFFFFF;
+    border-bottom: 0.4000000059604645px dashed #FFFFFF;
 }
 
     .for-devs-title {
@@ -1524,15 +1523,7 @@ letter-spacing: 0.57px;
 font-style: italic;
 }
 
-    .services__item__text::before {
-    position: absolute;
-    left: 19%;
-    top: 32px;
-    height: 1px;
-    background: #096EF3;
-    content: '';
-    width: 37px;
-}
+  
     .footer__list-item a {
     font-size: 14px;
     line-height: 18px;

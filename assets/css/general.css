@@ -510,6 +510,15 @@ p.services__item__text {
 .footer__image-social {
     margin-right: 4%;
 }
+.hardware-icons__conatainer {
+    margin: 8rem 0 0 0;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    /* background-color: #FFFFFF; */
+    border-top:  0.4000000059604645px dashed #FFFFFF;
+    border-bottom:  0.4000000059604645px dashed #FFFFFF;
+  
+}
 .contact-us-svg {
     position: absolute;
     z-index: -1;
@@ -1629,6 +1638,15 @@ li{
 }
 .footer__image-social {
     margin-right: 4%;
+}
+.hardware-icons__conatainer {
+    margin: 8rem 0 0 0;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    /* background-color: #FFFFFF; */
+    border-top:  0.4000000059604645px dashed #FFFFFF;
+    border-bottom:  0.4000000059604645px dashed #FFFFFF;
+  
 }
 .contact-us-svg {
     position: absolute;
@@ -4257,8 +4275,8 @@ margin: 0 auto;
     .mobile-svg{
       display: none;
 }
-.your-hardware__list-width{
-    width: 80%;
+.your-hardware__list-width {
+    width: 90%;
 }
 .header__logo{
     margin-left:3rem;
@@ -4310,11 +4328,14 @@ margin: 0 auto;
 .services__item__text::before {
     position: absolute;
     left: 20%;
-    bottom: 0% !important;
+    bottom: 48% !important;
     height: 1px;
     background: #096EF3;
     content: '';
     width: 37px;
+}
+.services__item{
+    position: relative;
 }
    .desktop-none{
   display:block !important;
