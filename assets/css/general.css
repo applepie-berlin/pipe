@@ -4614,7 +4614,8 @@ ul.services__list.text-center {
     border-bottom: 1px solid #707070;
     padding-top: 2% !important;
     padding-bottom: 2% !important;
-    margin-left: 6%;
+ 
+    margin: 0 0 1% 6%;
 }
 .services__item-number {
     margin-bottom: 0 !important;
