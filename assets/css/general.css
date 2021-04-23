@@ -3198,15 +3198,14 @@ width:30%;
     padding-left: 23%;
     padding-right: 9%;
 }
-.services__item__text::before{
+.services__item__text::before {
     position: absolute;
     left: 20%;
-    top: 32px;
+    bottom: 0%;
     height: 1px;
     background: #096EF3;
     content: '';
     width: 37px;
-
 }
    .desktop-none{
   display:block !important;
@@ -4308,15 +4307,14 @@ margin: 0 auto;
  
     padding-right: 3%;
 }
-.services__item__text::before{
+.services__item__text::before {
     position: absolute;
     left: 20%;
-    top: 32px;
+    bottom: 0% !important;
     height: 1px;
     background: #096EF3;
     content: '';
     width: 37px;
-
 }
    .desktop-none{
   display:block !important;
