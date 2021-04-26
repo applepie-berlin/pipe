@@ -1616,7 +1616,7 @@ p.content-small {
     font-family: 'PT Sans';
 }
 .a-black-box-desktop svg {
-    width: 1545px;
+    width: 1515px;
 }
 .section-explanation{
     line-height: 32px;
@@ -1843,6 +1843,7 @@ p{
     line-height: 38px;
 }
 .we-believe__text {
+    padding-right: 22%;
     margin-bottom: 3.5rem;
     font-size: 22px;
 }

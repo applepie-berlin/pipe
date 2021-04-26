@@ -17,7 +17,7 @@ function onYouTubeIframeAPIReady() {
 
 
     function onPlayerStateChange(event) {
-        console.log(event.data)
+
         if (event.data == 0) {
             player.playVideo();
         }

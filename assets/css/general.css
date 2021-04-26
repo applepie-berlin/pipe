@@ -8,6 +8,11 @@
 .mobile-slider__menu-list {
     padding-bottom: 29%;
 }
+.your-web__multi-dots-mobile {
+    display: block;
+    width: 100% !important;
+}
+
 .active {
     border-top: 1px solid #096EF3;
     padding-top: 15%;
@@ -54,7 +59,12 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
-
+.ptz-cam-container{
+    margin-top: 35% ;
+}
+ .webrtic-agent {
+    margin: 8rem 0 54% 0 !important;
+}
 .contact-us-svg-mobile {
     /* width: 100%; */
     position: absolute;
@@ -204,7 +214,7 @@ font-size: 22px;
     left: 6%;
     margin: 0rem auto;
     position: absolute;
-    top: -28%;
+    top: -84%;
     transform: rotate( 
 180deg
  );
@@ -229,7 +239,7 @@ font-size: 22px;
 }
 .main-text__blue-border {
     margin-bottom: 10%;
-    margin-top: 18%;
+    margin-top: 29%;
 }
 
 .about-us__svg-desktop{
@@ -250,7 +260,10 @@ font-size: 22px;
 .section__button{
  font-family: 'PT Sans', sans-serif;
 }
-
+.your-web__multi-dots-mobile {
+    display: block;
+    width: 100% !important;
+}
 .inner__container {
     max-width: 1920px;
     width: 85%;
@@ -536,6 +549,12 @@ p.services__item__text {
 }
 .footer__image-social {
     margin-right: 4%;
+}
+.desktop__text-customers p{
+    font-size: 14px !important;
+}
+.benefits__svg {
+    height: 205px !important;
 }
 .hardware-icons__conatainer {
     margin: 8rem 0 0 0;
@@ -1665,6 +1684,12 @@ li{
 }
 .footer__image-social {
     margin-right: 4%;
+}
+.benefits__svg {
+    height: 205px !important;
+}
+.desktop__text-customers p{
+    font-size: 14px !important;
 }
 .hardware-icons__conatainer {
     margin: 8rem 0 0 0;
@@ -3571,6 +3596,7 @@ width: 43%;
     .footer__image-social {
     margin-right: 4%;
 }
+
     .blog__lower__index-svg {
     position: absolute;
     top: 34%;
@@ -4034,7 +4060,7 @@ margin: 0 auto;
 .ptz-cam__svg-top {
     position: absolute;
     bottom: 60%;
-    left: 10%;
+    left: 17%;
 }
 .ptz-cam__svg-top::after {
     content: '';
@@ -4043,9 +4069,9 @@ margin: 0 auto;
     display: block;
     margin: 1rem auto;
     position: absolute !important;
-        border-bottom: 3px dotted #FFFFFF;
-    right: -130%;
-    top: -14%;
+    border-bottom: 3px dotted #FFFFFF;
+    right: -90%;
+    top: 12%;
 }
 .desktop-hide{
     display: none;
@@ -4057,14 +4083,14 @@ margin: 0 auto;
     display: block;
     margin: 1rem auto;
     position: absolute !important;
-    right: 147%;
+    right: 122%;
     border-bottom: 3px dotted #FFFFFF;
-    top: -14%;
+    top: 3%;
 }
 .ptz-cam__svg-bottom {
     position: absolute;
-    right: 12%;
-    bottom: 20%;
+    right: 18%;
+    bottom: 18%;
 }
 .our-privacy p {
     padding-right: 23%;
@@ -4619,6 +4645,17 @@ ul.services__list.text-center {
 }
 .services__item-number {
     margin-bottom: 0 !important;
+}
+.your-web__multi-dots-desktop {
+    display: block;
+    margin-left: 7%;
+}
+.for-developers__svg img {
+    width: 261px;
+}
+.for-developers__svg svg {
+
+    width: 240px;
 }
 li{
     align-self: center;
