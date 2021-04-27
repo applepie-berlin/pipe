@@ -8,7 +8,7 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('demo-1', {
         height: '390',
         width: '640',
-        playerVars: { 'controls': 0, 'showinfo': 0, 'modestbranding': 1, 'playsinline': 1, 'iv_load_policy': 3, 'enablejsapi': 1 },
+        playerVars: { 'controls': 0, 'showinfo': 0, 'modestbranding': 1, 'playsinline': 1, 'iv_load_policy': 3, 'enablejsapi': 1, 'rel': 0 },
         videoId: '8Kot5vm-UWg',
         events: {
             'onStateChange': onPlayerStateChange

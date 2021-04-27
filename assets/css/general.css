@@ -553,6 +553,17 @@ p.services__item__text {
 .desktop__text-customers p{
     font-size: 14px !important;
 }
+.impressum {
+    width: 100%;
+    margin: 0 0 0 6.2%;
+    padding-right: 50%;
+}
+.our-privacy {
+    padding-right: 40%;
+    width: 100%;
+   
+    margin-left: 6%;
+}
 .benefits__svg {
     height: 205px !important;
 }
@@ -1687,6 +1698,17 @@ li{
 }
 .benefits__svg {
     height: 205px !important;
+}
+.impressum {
+    width: 100%;
+    margin: 0 0 0 7.4%;
+    padding-right: 50%;
+}
+.our-privacy {
+    padding-right: 40%;
+    width: 100%;
+   
+    margin-left: 6%;
 }
 .desktop__text-customers p{
     font-size: 14px !important;
