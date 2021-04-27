@@ -33,6 +33,7 @@ function onYouTubeIframeAPIReady() {
             // the element is visible, do something
             setTimeout(
                 function () {
+                    player.mute();
                     player.playVideo();
                 }, 1000)
 
