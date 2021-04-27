@@ -1,6 +1,6 @@
 
 var tag = document.createElement('script');
-tag.src = "http://www.youtube.com/player_api";
+tag.src = "//www.youtube.com/player_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 let iframe = document.querySelector(".youtube-video")
