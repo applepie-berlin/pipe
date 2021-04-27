@@ -31,10 +31,9 @@ function onYouTubeIframeAPIReady() {
 
         if ((bottom_of_screen > top_of_element) && (top_of_screen < bottom_of_element)) {
             // the element is visible, do something
-            setTimeout(
-                function () {
-                    player.playVideo();
-                }, 2000)
+
+            player.playVideo();
+
 
         } else {
             // the element is not visible, do something else
