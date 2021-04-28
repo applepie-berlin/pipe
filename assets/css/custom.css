@@ -1432,6 +1432,18 @@ position: relative;
 .contact-us-image{
     position: relative;
 }
+.video__svg{
+    position: relative;
+}
+.hide_youtube_placeholder{
+    display: none;
+}
+
+img.placeholder__image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 
     .impressum {
         width: 90%;
@@ -1452,6 +1464,7 @@ position: relative;
     font-size: 15px;
     letter-spacing: 0.57px;
 }
+
 tspan {
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
