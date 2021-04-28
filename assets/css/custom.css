@@ -1744,15 +1744,7 @@ p.content-small {
 .mobile-logo{
     display: none;
 }
-.video__svg {
-    margin-top: 2%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 54%;
-    border: 0.75px dashed #096EF3;
-    margin: 8% auto 0 auto;
-}
+
  .video__svg iframe{
      margin: 4% 0 4% 0;
  }
