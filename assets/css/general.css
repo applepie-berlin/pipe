@@ -598,6 +598,9 @@ p.content-small {
     bottom: 60%;
     left: 6%;
 }
+.ptz-cam__svg svg{
+    width: 700px;
+}
 .ptz-cam__svg-top::after {
     content: '';
     border-bottom: 4px solid var(--main-button-color);
@@ -1707,6 +1710,9 @@ li{
 }
 .benefits__svg {
     height: 205px !important;
+}
+.ptz-cam__svg svg{
+    width: 957px;
 }
 tspan {
     font-family: 'PT Sans', sans-serif;
@@ -4199,10 +4205,7 @@ margin: 0 auto;
 }
 
 
-.ptz-cam__svg svg{
-    width: 612px;
 
-}
    .position-absolute {
     position: absolute;
     right: -29%;
@@ -4215,11 +4218,12 @@ margin: 0 auto;
     margin-top: 10%;
 }
 
-        .ptz-cam__svg {
+      .ptz-cam__svg {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 11%;
+    padding-left: 3%;
 }
 
         .tl-dr__list {
