@@ -39,6 +39,8 @@ section{
 .video-container{
     position: relative;
 }
+
+
 #video-overlay{
 width: 100%;
 height: 100%;
@@ -1449,6 +1451,10 @@ position: relative;
 .outline-btn{
     font-size: 15px;
     letter-spacing: 0.57px;
+}
+tspan {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
 }
 .for-customers__first-text {
     width: 63% !important;
