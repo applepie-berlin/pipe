@@ -1704,6 +1704,14 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.main-svg {
+    display: block;
+    position: absolute;
+    left: -4%;
+    bottom: 0% !important;
+    width: 98%;
+    height: 95%;
+}
 .webrtic-agent__List {
     position: absolute;
     top: 19%;
