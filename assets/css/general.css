@@ -1714,11 +1714,11 @@ p.content-small {
     font-size: 15px;
     line-height: 45px;
 }
-.your-hardware__list, .your-hardware__list, .hardware-icons__conatainer {
+ .hardware-icons__conatainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 84% !important;
+    width: 100%  !important;
     margin: 6rem auto;
 }
 .contact-us__list-img {
@@ -3271,12 +3271,12 @@ width:30%;
 
         .your-hardware__list,
         
-.your-hardware__list, .your-hardware__list, .hardware-icons__conatainer {
+.your-hardware__list, .your-hardware__list, .your-hardware__list, .hardware-icons__conatainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 86%;
-    margin: 6rem auto;
+    margin: 15% auto;
 }
 
 
@@ -3301,10 +3301,22 @@ width:30%;
          font-size: 19px;
 
      }
+     
+     .a-black-box.content-wrapper{
+         margin-top: 15%;
+
+     }
      .benefits {
  
     margin: 13% auto;
     padding-bottom: 6%;
+}
+.your-hardware {
+    margin-top: 15rem;
+    position: relative;
+}
+.ptz-cam {
+    margin: 16rem 0 11rem 0;
 }
     .for-customers{
        position: relative;
