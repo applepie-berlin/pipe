@@ -1443,7 +1443,7 @@ ul.desktop-list{
     display: block;
     margin: 1rem auto;
     position: absolute !important;
-    left: -49%;
+    left: -55%;
 }
     .footer__list-desktop  {
 display: inline ;
@@ -1535,18 +1535,22 @@ display: flex;
         height: 70%;
         margin: 0 auto ;
     }
+    .services-border{
+        margin-right: 15%;
+    }
     ul.services__list.text-center {
     text-align: left;
     display: flex;
-    width: 56%;
+    
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
+    padding-left: 20%;
     justify-items: center;
     margin-bottom: 0%;
 }
-   ul.services__list.text-center li {
-    padding: 3% 9% 0 0;
+  ul.services__list.text-center li {
+    padding: 3% 6% 0 0;
 }
   
 ul.services__list.text-center {
