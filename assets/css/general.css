@@ -570,6 +570,10 @@ p.services__item__text {
 .mobile-logo-new{
     display: none;
 }
+ .header {
+   
+    margin-top: 4%;
+}
 .secure-yet__list-container{
     background-color: #000000;
     padding: 4% 0 4% 0;
@@ -2318,6 +2322,10 @@ p.content-small {
             margin-top: 0rem !important;
             padding: 2rem;
         }
+        .header {
+   
+    margin-top: 3%;
+}
 
         .benefits__list-container {
             /* border-top: 1px solid white;
@@ -3098,6 +3106,7 @@ li{
     justify-content: space-between;
     width: 76%;
     margin: 0 auto;
+    padding: 5% 0;
 }
 
         .desktop__display-none {
