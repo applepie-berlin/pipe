@@ -1696,7 +1696,16 @@ li{
 }
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1799px)  {
+   .desktop__main-container{
+       padding-left: 0 !important;
+   }
+   .container__text.desktop__display-show {
+    padding-left: 20% !important;
+    padding-right: 18% !important;
+}
 
+}
 
 
 
