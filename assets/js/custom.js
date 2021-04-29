@@ -25,10 +25,12 @@ function onYouTubeIframeAPIReady() {
     //video - bottom
 
     const placeHolderImageButton = document.querySelector(".placeholder__image");
+    const player2Iframe = document.querySelector("#video-bottom");
 
     function playYoutubeVideo() {
         if (placeHolderImageButton) {
             placeHolderImageButton.classList.toggle("hide_youtube_placeholder");
+            player2Iframe.style.visibility = 'visible';
             playerb.mute();
             playerb.playVideo();
         }
@@ -46,6 +48,7 @@ function onYouTubeIframeAPIReady() {
 
         if (event.data == 2) {
             placeHolderImageButton.classList.toggle("hide_youtube_placeholder");
+            player2Iframe.style.visibility = 'hidden';
         }
     }
 

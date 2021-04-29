@@ -225,11 +225,7 @@ font-size: 14px !important;
 }
 
 
-.video__svg{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .absoluted-svg{
     position: relative;
 }
@@ -1229,10 +1225,6 @@ position: relative;
 
 
 
-   
-    .video__svg{
-        margin-top: -4% ;
-    }
      .video.video-container {
     display: flex;
     justify-content: center;
@@ -1444,12 +1436,12 @@ position: relative;
 .hide_youtube_placeholder{
     display: none;
 }
-
 img.placeholder__image {
     position: absolute;
     height: 100%;
     width: 100%;
     cursor: pointer;
+    object-fit: contain;
 }
 
     .impressum {
