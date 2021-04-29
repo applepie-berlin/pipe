@@ -577,6 +577,9 @@ p.services__item__text {
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
  
 }
+.for-developers__svg img {
+    width: 115px;
+}
 .section-explanation {
     padding-left: 4%;
     margin-top: -7%;
@@ -1228,7 +1231,7 @@ p.content-small {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 22%;
+    padding-left: 0%;
 }
 
         .tl-dr__list {
@@ -3654,6 +3657,10 @@ width: 43%;
     .footer__image-social {
     margin-right: 4%;
 }
+.for-developers__svg img {
+    min-width: 194px;
+    max-width: 220px;
+}
 .video__svg {
     margin-left: 23%;
     width:fit-content;
@@ -4689,9 +4696,7 @@ ul.services__list.text-center {
     display: block;
     margin-left: 7%;
 }
-.for-developers__svg img {
-    width: 261px;
-}
+
 .for-developers__svg svg {
 
     width: 240px;
