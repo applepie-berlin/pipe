@@ -3147,7 +3147,7 @@ li{
             align-items: center;
         }
 .black-box-large-svg {
-    height: 611px;
+    height: 716px;
     padding-right: 15%;
 }
 .tl-dr__list{
@@ -4398,8 +4398,9 @@ margin: 0 auto;
     display: block;
 }
 .black-box-large-svg {
-    height: 763px;
+    min-height: 888px;
     padding-right: 15%;
+    max-height:888px ;
 }
 
     .mobile-svg{
