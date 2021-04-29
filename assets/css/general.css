@@ -1700,7 +1700,7 @@ li{
 }
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1799px)  {
+@media screen and (min-width: 1550px) and (max-width: 1799px)  {
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
@@ -4535,7 +4535,7 @@ display: inline ;
     display: flex;
 }
 li.footer__list-item {
-    padding: 1.5rem;
+    padding: 0.5rem;
 }
 .your-web__multi-dots-mobile{
     display: none;
