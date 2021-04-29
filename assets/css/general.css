@@ -1698,6 +1698,9 @@ li{
 }
 
 @media screen and (min-width: 1600px) and (max-width: 1799px)  {
+    .what-we-do__svg-container {
+    margin: 0 13% 0 23% !important;
+}
   .main-svg {
     display: block;
     position: absolute;
@@ -1722,6 +1725,7 @@ li{
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
  
 }
+
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1500px)  {
@@ -2421,7 +2425,7 @@ p.content-small {
     display: none;
 }
 .what-we-do__svg-container {
-    margin: 0 13% 0 23%;
+    margin: 0 13% 0 25%;
 }
 
    .section__one {
