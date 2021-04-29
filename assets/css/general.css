@@ -1684,9 +1684,10 @@ li{
 
 @media screen and (min-width: 1600px) and (max-width: 1799px)  {
   
- .container__text.desktop__display-show {
+.container__text.desktop__display-show {
     padding-left: 23% !important;
-    padding-right: 7% !important;
+    padding-right: 6% !important;
+    margin-top: -4%;
 }
 .secure-yet__list-container{
     background-color: #000000;
