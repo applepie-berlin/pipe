@@ -3301,6 +3301,11 @@ width:30%;
          font-size: 19px;
 
      }
+     .benefits {
+ 
+    margin: 13% auto;
+    padding-bottom: 6%;
+}
     .for-customers{
        position: relative;
        margin: 10% 0 20% 0;
