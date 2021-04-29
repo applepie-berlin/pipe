@@ -1578,7 +1578,7 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-between;
     width: 53%;
-    height: 30%;
+  
     margin: 0px auto;
     
     display: grid;
@@ -2700,7 +2700,7 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-between;
     width: 53%;
-    height: 30%;
+  
     margin: 0px auto;
     
     display: grid;
@@ -3510,8 +3510,9 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-between;
     width: 53%;
-    height: 30%;
+  
     margin: 0px auto;
+ 
     
     display: grid;
     grid-template-columns: 20% 70%;
@@ -4638,7 +4639,7 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-between;
     width: 53%;
-    height: 30%;
+   
     margin: 0px auto;
     
     display: grid;
