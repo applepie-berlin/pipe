@@ -1323,7 +1323,7 @@ p.content-small {
     display: block;
 }
 .black-box-large-svg {
-    height: 541px;
+    height: 654px;
     padding-right: 15%;
 }
 .a-black-box-desktop svg {
@@ -2482,7 +2482,7 @@ width:600px;
     }
  .a-black-box-desktop{
      display: flex;
-     justify-content: center;
+    
 
  }
  .webrtic-agent__List {
@@ -2496,7 +2496,7 @@ width:600px;
     padding-right: 15%;
 }
 .a-black-box-desktop svg {
-    width: 958px;
+    width: 1172px;
 }
     .mobile-svg{
       display: none;
@@ -3302,9 +3302,10 @@ width:30%;
     }
  .a-black-box-desktop{
      display: flex;
-     justify-content: center;
+     padding-left: 11%;
 
  }
+
     .mobile-svg{
       display: none;
 }
