@@ -3700,6 +3700,10 @@ width: 43%;
 .footer__image-social img {
     width: 60px;
 }
+.footer__image-logo svg{
+    width: 199px;
+    max-width:199px ;
+}
 .video__svg {
     margin-left: 23%;
     width:fit-content;
