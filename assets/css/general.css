@@ -1704,6 +1704,12 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.tl-dr{
+    padding-top: 10%;
+}
+.for-developers__svg img {
+    width: 123px;
+}
   .main-svg {
     display: block;
     position: absolute;
@@ -2371,7 +2377,7 @@ p.content-small {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 22%;
+    padding-left: 0%;
 }
 
         .tl-dr__list {
