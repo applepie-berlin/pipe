@@ -1103,15 +1103,15 @@ p.content-small {
         }
 
         .benefits__list-item {
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 0rem !important;
-            padding: 2rem;
-        }
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem !important;
+    padding: 4rem;
+}
 
-       .benefits__list {
+       .benefits__list-container{
     border-top: 0.4000000059604645px dashed #FFFFFF;
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
     margin-top: 15%;
@@ -1703,6 +1703,12 @@ li{
 @media screen and (min-width: 1550px) and (max-width: 1799px)  {
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
+}
+p.content-small {
+    font-family: 'PT Sans', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 45px;
 }
 .your-hardware__list, .your-hardware__list, .hardware-icons__conatainer {
     display: flex;
@@ -2313,7 +2319,7 @@ p.content-small {
             padding: 2rem;
         }
 
-        .benefits__list {
+        .benefits__list-container {
             /* border-top: 1px solid white;
             border-bottom: 1px solid white; */
             border-top: 0.4000000059604645px dashed #FFFFFF;
@@ -2782,7 +2788,7 @@ ul.services__list.text-center {
 }
 
 .section-three {
-    margin-bottom: 0%;
+    margin-bottom: 13%;
 }
 .second-section {
     margin-bottom: 10%;
@@ -3085,14 +3091,14 @@ li{
             right: -26%;
         }
 
-        .benefits__list {
-            display: flex !important;
-            flex-direction: row !important;
-            justify-content: space-between;
-            justify-content: space-between;
-            width: 90%;
-            margin: 0 auto;
-        }
+       .benefits__list {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    justify-content: space-between;
+    width: 76%;
+    margin: 0 auto;
+}
 
         .desktop__display-none {
             display: none;
@@ -3137,16 +3143,16 @@ li{
             padding-left: 4rem;
         }
 
-        .benefits__list-item {
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 0rem !important;
-            padding: 2rem;
-        }
+       .benefits__list-item {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem !important;
+    padding: 0 9% 0 0px;
+}
 
-        .benefits__list {
+        .benefits__list-container{
             /* border-top: 1px solid white;
             border-bottom: 1px solid white; */
             border-top: 0.4000000059604645px dashed #FFFFFF;
@@ -3715,6 +3721,9 @@ width: 43%;
 .footer__image-social img {
     width: 60px;
 }
+.hardware-icons svg{
+    width:111px ;
+}
 .footer__image-logo svg{
     width: 199px;
     max-width:199px ;
@@ -4135,7 +4144,7 @@ margin: 0 auto;
             padding: 2rem;
         }
 
-        .benefits__list {
+        .benefits__list-container {
             /* border-top: 1px solid white;
             border-bottom: 1px solid white; */
             border-top: 0.4000000059604645px dashed #FFFFFF;
