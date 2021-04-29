@@ -577,6 +577,7 @@ p.services__item__text {
 .secure-yet__list-container{
     background-color: #000000;
     padding: 4% 0 4% 0;
+    margin: 10% 0 10% 0;
     border-top: 0.4000000059604645px dashed #FFFFFF;
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
  
@@ -1708,6 +1709,7 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+
 p.content-small {
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
@@ -2455,7 +2457,7 @@ p.content-small {
 }
 .black-boxcontainer {
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 16%;
 }
 
 
@@ -2726,7 +2728,7 @@ display: flex;
     ul.services__list.text-center {
     text-align: left;
     display: flex;
-    width: 56%;
+    
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
@@ -3464,14 +3466,14 @@ ul.desktop-list{
     .mobile-display-none{
         display:none !important;
     }
-   .services__item-number ::after {
+  .services__item-number ::after {
     content: '';
     border-bottom: 4px solid var(--main-button-color);
     width: 120px;
     display: block;
     margin: 1rem auto;
     position: absolute !important;
-    left: -57%;
+    left: -130%;
 }
     .footer__list-desktop  {
 display: inline ;
@@ -3566,7 +3568,7 @@ display: flex;
     ul.services__list.text-center {
     text-align: left;
     display: flex;
-    width: 56%;
+    
     justify-content: space-around;
     margin: 0 auto;
     align-items: center;
@@ -3574,7 +3576,10 @@ display: flex;
     margin-bottom: 1.3rem;
 }
   ul.services__list.text-center li{
-      padding: 0 1rem;
+      padding: 0 0rem;
+  }
+  .services-border{
+      margin-left: 6%;
   }
     
 ul.services__list.text-center {
@@ -3603,30 +3608,27 @@ ul.services__list.text-center {
     margin-top: 11% !important;
     position: relative;
 }
-    ul.services__item,ul.our-services__item  {
-     display: flex;
+   ul.services__item, ul.our-services__item {
+    display: flex;
     justify-content: space-between;
     width: 53%;
-  
     margin: 0px auto;
- 
-    
     display: grid;
     grid-template-columns: 20% 70%;
-    
     vertical-align: center;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 .services__wrapper-first ul {
     margin-bottom: 3rem;
-    margin-left: 20%;
+   
 }
 .services__item-bold {
   margin-top: 0.5rem;
 }
-.services{
-    margin-top:8%;
+.services {
+    margin-top: 8%;
+    margin: 0 13% 0 22%;
 }
 .security-assurance div {
     padding-right: 3%;
