@@ -3284,6 +3284,9 @@ width:30%;
     width: 86%;
     margin: 15% auto;
 }
+.hardware-icons__conatainer {
+width: 100% !important;
+}
 
 
 
