@@ -3765,6 +3765,10 @@ width: 43%;
     min-width: 194px;
     max-width: 220px;
 }
+.header {
+   
+    margin-top: 2%;
+}
 .footer__image-social img {
     width: 60px;
 }
