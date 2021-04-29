@@ -1812,6 +1812,9 @@ p.content-small {
     padding-left: 4%;
     margin-top: -7%;
 }
+.services__item svg {
+    padding: 0 35% 0 27% !important;
+}
 img.placeholder__image {
    
     cursor: pointer;
@@ -3300,8 +3303,10 @@ width:30%;
      }
     .for-customers{
        position: relative;
-       height: 100%;
+       margin: 10% 0 20% 0;
+      
    }
+
     .desktop__display-hide{
     display: none;
 }
