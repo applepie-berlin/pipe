@@ -1704,6 +1704,19 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.webrtic-agent__List {
+    position: absolute;
+    top: 19%;
+    right: 34% !important;
+    display: block;
+}
+.black-box-large-svg {
+    height: 824px !important;
+     padding-right: 0% !important;
+}
+.tl-dr svg{
+    height: 400px;
+}
 .tl-dr{
     padding-top: 10%;
 }
