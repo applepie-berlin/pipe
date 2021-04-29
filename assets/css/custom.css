@@ -276,7 +276,13 @@ font-size: 14px !important;
 
 
 
-
+.what-we-do__svg-container {
+    margin: 0 13% 0 26%;
+}
+.what-we-do__svg-container svg {
+    width:100%;
+   
+}
 
 /* mobile-menu */
 
@@ -1748,11 +1754,7 @@ p.content-small {
  .video__svg iframe{
      margin: 4% 0 4% 0;
  }
- .container__text.desktop__display-show {
-    width: 58% !important;
-    padding-right: 0;
-    margin: 0rem 5% 5rem 22%;
-}
+ 
 
 .benefits.customer__fouth{
 margin-top: 12%;
@@ -1823,17 +1825,8 @@ h1.h1_large, .benefits__title {
     position: absolute !important;
     left: -26%;
 }
-.what-we-do__svg {
-    height: 650px;
-    width: 1146px;
-    margin-left: 0%;
-}
-.container__text.desktop__display-show {
-    width: 64% !important;
-    padding-right: 0;
-    padding-left: 6%;
-  
-}
+
+
 
 p{
     font-size: 18px;
