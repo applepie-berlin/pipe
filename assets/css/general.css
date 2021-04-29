@@ -1713,7 +1713,14 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
-
+.benefits__list-item {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0rem !important;
+    padding: 0 13% 0 0px !important;
+}
 p.content-small {
     font-family: 'PT Sans', sans-serif;
     font-style: italic;
