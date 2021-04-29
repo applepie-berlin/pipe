@@ -1704,6 +1704,13 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.your-hardware__list, .your-hardware__list, .hardware-icons__conatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 84% !important;
+    margin: 6rem auto;
+}
 .contact-us__list-img {
     padding: 9rem 0rem 0rem 9rem !important;
     max-width: 830px !important;
@@ -1723,7 +1730,7 @@ li{
 .webrtic-agent__List {
     position: absolute;
     top: 19%;
-    right: 34% !important;
+    right: 38% !important;
     display: block;
 }
 .black-box-large-svg {
@@ -1766,6 +1773,14 @@ li{
 
 }
 
+
+@media screen and (min-width:  1800px) and (max-width: 1899px)  {
+.a-black-box-desktop svg {
+    width: 1509px !important;
+}
+
+}
+
 @media screen and (min-width: 1400px) and (max-width: 1500px)  {
 }
 .container__text.desktop__display-show {
@@ -1773,7 +1788,7 @@ li{
     padding-right: 9%;
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1886px)  {
+@media screen and (min-width: 1400px) and (max-width: 1887px)  {
     .blog__item-number {
     padding: 0 0 9% 0;
   
@@ -3238,11 +3253,11 @@ width:30%;
 
         .your-hardware__list,
         
-.your-hardware__list, .hardware-icons__conatainer {
+.your-hardware__list, .your-hardware__list, .hardware-icons__conatainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
+    width: 86%;
     margin: 6rem auto;
 }
 
