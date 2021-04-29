@@ -283,7 +283,9 @@ font-size: 22px;
 }
 @media screen and (min-width : 769px) {
 /* Styles */
-
+ul.services__item{
+    position:  relative !important;
+}
 .desktop__text-customers{
     padding-left: 5%;
 }
