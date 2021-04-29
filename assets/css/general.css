@@ -1705,7 +1705,11 @@ li{
     padding: 0 0 9% 0;
   
 }
- 
+ .container__text.desktop__display-show {
+    padding-left: 23% !important;
+    padding-right: 6% !important;
+    margin-top: -4%;
+}
 .secure-yet__list-container{
     background-color: #000000;
     padding: 6% 0 6% 0;
@@ -3208,9 +3212,10 @@ width:30%;
     width: 802px;
     padding-left: 8%;
 }
-  .section__one{
-      margin-top: 6%;
-  }
+  .section__one {
+    margin-top: 10%;
+    padding-bottom: 6%;
+}
   
   .desktop-hidder{
       display: none;
@@ -4370,6 +4375,7 @@ margin: 0 auto;
     margin: 0 auto;
 }
 .container__text.desktop__display-show {
+    margin-top: -4%;
     padding-left: 23% !important;
     padding-right: 7% !important;
 }
@@ -4580,13 +4586,13 @@ ul.services__list.text-center {
      display: flex;
     justify-content: space-evenly;
     text-align: left;
-    margin-top: 5%;
-    width: 79%;
-    margin: 15% auto 0 auto;
+    margin-top:0%;
+    width: 100%;
+  
 
 }
-.desktop_services ul{
-    padding: 0 2rem;
+.desktop_services ul {
+    padding: 0 6rem;
 }
 .services__item  {
     position: relative;
