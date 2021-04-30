@@ -1750,7 +1750,10 @@ li{
 .for-developers-container{
     margin-top: 10%;
 }
-
+.our__container {
+  
+    padding-top: 3%;
+}
 .blog-rotated__svg {
     position: absolute;
     left: -128% !important;
@@ -1875,6 +1878,9 @@ p.content-small {
     left: -14%;
     top: 43%;
     z-index: -1000;
+}
+.for-developers-container{
+    margin-top: 10%;
 }
 .blog-rotated__img {
     z-index: -1000;
@@ -3848,6 +3854,9 @@ width: 43%;
 .for-developers__svg img {
     min-width: 194px;
     max-width: 220px;
+}
+.customer__first,.for-developers-container{
+    margin-top: 10%;
 }
 .blog-rotated__svg-top{
     position: absolute;
