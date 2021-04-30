@@ -64,6 +64,11 @@ h1, h2, h3 {
     align-items: center;
     justify-content: center;
 }
+.blog-svg-top,.blog-rotated__img,.blog-rotated__svg {
+ display: none;
+}
+
+
 .ptz-cam-container{
     margin-top: 35% ;
 }
@@ -307,6 +312,9 @@ ul.services__item{
     .visible {
     transform: translateX(0%);
 }
+.blog-svg-top,.blog-rotated__img,.blog-rotated__svg {
+ display: none;
+}
 .blog__lower-svg-mobile {
     position: absolute;
     bottom: -5%;
@@ -322,7 +330,7 @@ ul.services__item{
 }
 .blog__lower-svg-mobile-rotated {
     position: absolute;
-    top: 21%;
+    top: 24%;
     left: -18%;
     transform: rotate( 
 180deg
@@ -443,6 +451,9 @@ li.footer__list-item {
 .blog__item-number {
     padding: 0 0 9% 0;
   
+}
+.blog-svg-top,.blog-rotated__img,.blog-rotated__svg {
+ display: none;
 }
 .blog__item-title {
     font-size: 18px;
