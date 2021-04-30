@@ -1713,6 +1713,10 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.video__svg {
+    margin-left: 16% !important;
+    margin-right: 10%;
+}
 .benefits__list-item {
     justify-content: center;
     display: flex;
@@ -1812,7 +1816,7 @@ p.content-small {
     padding-right: 9%;
 }
 
-@media screen and (min-width: 1400px) and (max-width: 1887px)  {
+@media screen and (min-width: 1400px) and (max-width: 1888px)  {
     .blog__item-number {
     padding: 0 0 9% 0;
   
