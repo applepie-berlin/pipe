@@ -574,6 +574,29 @@ p.services__item__text {
    
     margin-top: 4%;
 }
+.blog-svg-top {
+    position: absolute;
+    left: -14%;
+    top: 43%;
+    z-index: -1000;
+}
+.blog-rotated__img {
+    z-index: -1000;
+    position: absolute;
+    left: 4%;
+    bottom: -20%;
+}
+.blog-rotated__svg {
+    position: absolute;
+    left: -164%;
+    bottom: -81%;
+    transform: rotateX( 
+180deg
+ );
+}
+.blogs{
+    padding-bottom: 15%  !important;
+}
 .secure-yet__list-container{
     background-color: #000000;
     padding: 4% 0 4% 0;
@@ -1713,6 +1736,20 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.blog-rotated__svg {
+    position: absolute;
+    left: -128% !important;
+    bottom: -77% !important;
+    transform: rotateX( 
+180deg
+ );
+}
+.blog-rotated__img {
+    z-index: -1000;
+    position: absolute;
+    left: 4%;
+    bottom: -25% !important;
+}
 .video__svg {
     margin-left: 16% !important;
     margin-right: 10%;
@@ -1817,6 +1854,32 @@ p.content-small {
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1888px)  {
+
+.blog-svg-top {
+    position: absolute;
+    left: -14%;
+    top: 43%;
+    z-index: -1000;
+}
+.blog-rotated__img {
+    z-index: -1000;
+    position: absolute;
+    left: 4%;
+    bottom: -20%;
+}
+.blog-rotated__svg {
+    position: absolute;
+    left: -148%;
+    bottom: -76%;
+    transform: rotateX( 
+180deg
+ );
+}
+.blogs{
+    padding-bottom: 10%;
+}
+
+
     .blog__item-number {
     padding: 0 0 9% 0;
   
@@ -3771,6 +3834,32 @@ width: 43%;
     min-width: 194px;
     max-width: 220px;
 }
+.blog-rotated__svg-top{
+    position: absolute;
+    left: 8%;
+    bottom: 9%;
+}
+
+.blog-svg-top {
+    position: absolute;
+    left: -14%;
+    top: 43%;
+    z-index: -1000;
+}
+.blog-rotated__img {
+    z-index: -1000;
+    position: absolute;
+    left: 4%;
+    bottom: -18%;
+}
+.blog-rotated__svg {
+    position: absolute;
+    left: -108%;
+    bottom: -49%;
+    transform: rotateX( 
+180deg
+ );
+}
 .header {
    
     margin-top: 2%;
@@ -3865,10 +3954,11 @@ width: 43%;
         letter-spacing: 0.37px;
         line-height: 30px;
     }
-   .blog {
+  .blog {
     width: 100%;
     margin: 0 auto;
     padding: 4% 0% 0% 0%;
+    padding-bottom: 15%;
 }
     .blog__item-number:after {
     position: absolute;
