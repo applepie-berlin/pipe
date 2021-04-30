@@ -584,12 +584,12 @@ p.services__item__text {
     z-index: -1000;
     position: absolute;
     left: 10%;
-    bottom: -19%;
+    bottom: -16%;
 }
 .blog-rotated__svg {
     position: absolute;
     left: -167%;
-    bottom: -81%;
+    bottom: -79%;
     transform: rotateX( 
 180deg
  );
