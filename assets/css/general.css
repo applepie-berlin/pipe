@@ -1747,6 +1747,12 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.for-developers-container{
+    margin-top: 10%;
+}
+.services{
+    padding-top: 5%;
+}
 .blog-rotated__svg {
     position: absolute;
     left: -128% !important;
