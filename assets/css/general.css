@@ -599,8 +599,8 @@ p.services__item__text {
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -167%;
-    bottom: -79%;
+    left: 3%;
+    bottom: -27%;
     transform: rotateX( 
 180deg
  );
@@ -1756,8 +1756,8 @@ li{
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -128% !important;
-    bottom: -75% !important;
+    left: -1% !important;
+    bottom: -37% !important;
     transform: rotateX( 
 180deg
  );
@@ -1875,7 +1875,7 @@ p.content-small {
 
 .blog-svg-top {
     position: absolute;
-    left: -14%;
+    left: -26%;
     top: 43%;
     z-index: -1000;
 }
@@ -1885,13 +1885,13 @@ p.content-small {
 .blog-rotated__img {
     z-index: -1000;
     position: absolute;
-    left: 4%;
+    left: 3%;
     bottom: -19%;
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -148%;
-    bottom: -76%;
+    left: 3%;
+    bottom: -32%;
     transform: rotateX( 
 180deg
  );
@@ -3875,11 +3875,12 @@ width: 43%;
     position: absolute;
     left: 4%;
     bottom: -15%;
+    max-width: 1767px;
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -110%;
-    bottom: -48%;
+    left: -3%;
+    bottom: -32%;
     transform: rotateX( 
 180deg
  );
