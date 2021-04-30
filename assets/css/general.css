@@ -135,7 +135,7 @@ h1, h2, h3 {
 }
 .blog__lower-svg-mobile-rotated {
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: -18%;
     transform: rotate( 
 180deg
