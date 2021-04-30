@@ -583,12 +583,12 @@ p.services__item__text {
 .blog-rotated__img {
     z-index: -1000;
     position: absolute;
-    left: 4%;
-    bottom: -20%;
+    left: 10%;
+    bottom: -19%;
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -164%;
+    left: -167%;
     bottom: -81%;
     transform: rotateX( 
 180deg
@@ -1739,7 +1739,7 @@ li{
 .blog-rotated__svg {
     position: absolute;
     left: -128% !important;
-    bottom: -77% !important;
+    bottom: -75% !important;
     transform: rotateX( 
 180deg
  );
@@ -1748,7 +1748,7 @@ li{
     z-index: -1000;
     position: absolute;
     left: 4%;
-    bottom: -25% !important;
+    bottom: -22% !important;
 }
 .video__svg {
     margin-left: 16% !important;
@@ -1865,11 +1865,11 @@ p.content-small {
     z-index: -1000;
     position: absolute;
     left: 4%;
-    bottom: -20%;
+    bottom: -19%;
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -148%;
+    left: -152%;
     bottom: -76%;
     transform: rotateX( 
 180deg
@@ -3850,12 +3850,12 @@ width: 43%;
     z-index: -1000;
     position: absolute;
     left: 4%;
-    bottom: -18%;
+    bottom: -15%;
 }
 .blog-rotated__svg {
     position: absolute;
-    left: -108%;
-    bottom: -49%;
+    left: -110%;
+    bottom: -48%;
     transform: rotateX( 
 180deg
  );
