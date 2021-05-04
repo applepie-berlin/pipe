@@ -585,6 +585,10 @@ p.services__item__text {
    
     margin-top: 4%;
 }
+.ptz-sides {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+}
 .blog-svg-top {
     position: absolute;
     left: -14%;
@@ -918,7 +922,7 @@ p.content-small {
    
  .page-number-about{
         position: absolute;
-        bottom: 39%;
+        bottom: 35%;
         right: 1%;
         border-top: 1px solid white;
         display: block;
@@ -993,7 +997,7 @@ p.content-small {
     }
 
     .text__container-tim-inner {
-      margin-top: 30%;
+      margin-top: 19%;
     }
 
     .main-text__blue-border::before {
@@ -1644,7 +1648,7 @@ ul.services__list.text-center {
   margin-top: 0.5rem;
 }
 .services {
-    padding-top: 1%;
+    padding-top: 10%;
     padding-bottom: 10%;
 }
 .section-three {
@@ -1882,6 +1886,10 @@ p.content-small {
 .for-developers-container{
     margin-top: 10%;
 }
+.ptz-sides {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+}
 .blog-rotated__img {
     z-index: -1000;
     position: absolute;
@@ -1940,7 +1948,7 @@ img.placeholder__image {
 }
 tspan {
     font-family: 'PT Sans', sans-serif;
-    font-size: 13px;
+    font-size: 15px;
 }
 p.content-small {
    
@@ -2038,6 +2046,11 @@ p.content-small {
 }
 .contact-us-padding {
     padding-left: 0;
+    font-style: italic ;
+    
+}
+.we-believe__bold-text,.we-believe__text-bold{
+    font-weight: bold;
 }
 .we-belive-paragraph p{
     font-size: 22px;
@@ -3043,7 +3056,7 @@ li{
  /* about-desktop-style */
   .page-number-about{
         position: absolute;
-        bottom: 34%;
+        bottom: 29%;
         right: 1%;
         border-top: 1px solid white;
         display: block;
@@ -3116,7 +3129,7 @@ li{
     }
 
     .text__container-tim-inner {
-      margin-top: 30%;
+      margin-top: 16%;
     }
 
     .main-text__blue-border::before {
@@ -3731,8 +3744,8 @@ ul.services__list.text-center {
   margin-top: 0.5rem;
 }
 .services {
-    margin-top: 8%;
-    margin: 0 13% 0 22%;
+  
+    margin: 16% 13% 0 22%;
 }
 .security-assurance div {
     padding-right: 3%;
@@ -3858,6 +3871,14 @@ width: 43%;
 .customer__first,.for-developers-container{
     margin-top: 10%;
 }
+.ptz-sides {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+}
+tspan {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
 .blog-rotated__svg-top{
     position: absolute;
     left: 8%;
@@ -3866,7 +3887,7 @@ width: 43%;
 
 .blog-svg-top {
     position: absolute;
-    left: -14%;
+    left: -22%;
     top: 43%;
     z-index: -1000;
 }
@@ -4166,7 +4187,7 @@ margin: 0 auto;
     }
 
     .text__container-tim-inner {
-      margin-top: 30%;
+      margin-top: 17%;
     }
 
     .main-text__blue-border::before {
@@ -4460,7 +4481,7 @@ margin: 0 auto;
 }
 .our__image-relative .page-number-about {
     right: 4% !important;
-    bottom: 32% !important;
+    bottom: 29% !important;
     
 }
 .ptz-cam {
