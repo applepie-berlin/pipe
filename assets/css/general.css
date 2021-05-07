@@ -1774,6 +1774,9 @@ li{
 .services-border {
     margin-left: 6% !important;
 }
+.services__item svg{
+    width: 197px;
+}
 .services__item__text::before {
     position: absolute;
     left: 22% !important;
