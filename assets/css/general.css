@@ -1898,7 +1898,15 @@ p.content-small {
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1500px)  {
-
+.services__item__text::before {
+    position: absolute;
+    left: 22% !important;
+    top: 50%;
+    height: 1px;
+    background: #096EF3;
+    content: '';
+    width: 37px;
+}
     
 }
 .container__text.desktop__display-show {
