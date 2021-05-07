@@ -803,6 +803,9 @@ table {
     top:0;
     left:0
 }
+.background-wrapper {
+    background-color: black;
+}
 .container__wrapper{
     max-width: 1920px;
    width:100%;
@@ -1705,10 +1708,6 @@ p.content-small {
     margin-top: 7%;
     margin-bottom: 15%;
 }
-.second-section {
-   
-    padding-bottom: 3%;
-}
 
 .video.video-container {
     display: flex;
@@ -1719,7 +1718,7 @@ p.content-small {
 .services__wrapper-first {
     width: 80%;
     text-align: center;
-    margin: 15rem 23rem 7rem auto;
+    margin: 9rem 23rem 7rem auto;
 }
 .section-three .services {
     margin-top: -5%;

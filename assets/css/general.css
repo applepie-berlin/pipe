@@ -3990,7 +3990,7 @@ tspan {
 .secure-yet__list-container{
     background-color: #000000;
     padding: 6% 0 6% 0;
-    margin-top: 23%;
+    margin-top: 17%;
     border-top: 0.4000000059604645px dashed #FFFFFF;
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
  
@@ -4676,11 +4676,10 @@ margin: 0 auto;
     height: 620px;
     width: 1221px;
 }
- .youtube-video{
-    height: 841px;
+.youtube-video {
+    height: 718px;
     width: 1600px;
 }
-
 
     .contact-us,.contact-us-image{
         width: 40%;
@@ -4779,7 +4778,7 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    bottom: -4%;
+    bottom: -9%;
 }
     .desktop__icons__container{
         display: block;
