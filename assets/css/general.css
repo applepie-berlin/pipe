@@ -4104,13 +4104,8 @@ margin: 0 auto;
     margin-top: 10%;
     justify-content: space-between;
 }
-    .main-svg{
-        width: 1820px;
-        height: 5595px;
-    }
-    .main-svg{
-        width: 1820px;
-    }
+    
+    
     .mobile-slider__menu{
     display: none;
 }
@@ -4784,7 +4779,7 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    bottom: 3%;
+    bottom: -4%;
 }
     .desktop__icons__container{
         display: block;
