@@ -1228,11 +1228,7 @@ position: relative;
 
 
 
-     .video.video-container {
-    display: flex;
-    justify-content: center;
-        margin-top: 5% !important;
-}
+    
     .outline__container,
     #con {
         display: flex;

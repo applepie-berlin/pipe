@@ -297,6 +297,12 @@ ul.services__item{
 .display-mobile-section-one{
     display: none;
 }
+.black-background-absolute{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
  .contact-us-svg-mobile{
      display: none;
  }
@@ -1841,10 +1847,8 @@ p.content-small {
 .main-svg {
     display: block;
     position: absolute;
-    left: -4%;
-    bottom: 0% !important;
-    width: 98%;
-    height: 95%;
+    left: -3% !important;
+  
 }
 .webrtic-agent__List {
     position: absolute;
@@ -1981,12 +1985,11 @@ img.placeholder__image {
     cursor: pointer;
 
 }
-.secure-yet__list-container{
+.secure-yet__list-container {
     background-color: #000000;
-    padding: 6% 0 6% 0;
+    padding: 5% 0 5% 0;
     border-top: 0.4000000059604645px dashed #FFFFFF;
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
- 
 }
 .footer__image-social {
     margin-right: 4%;
@@ -2964,12 +2967,11 @@ ul.services__list.text-center {
     
    margin-top: 13%;
 }
-
 .section-three {
-    margin-bottom: 13%;
+    margin-bottom: 5%;
 }
 .second-section {
-    margin-bottom: 10%;
+    margin-bottom: 6%;
 }
  .section_four{
      margin-bottom: 12%;
@@ -3513,12 +3515,12 @@ width: 100% !important;
 .video.video-container {
     display: flex;
     justify-content: center;
-    margin-top: 12% !important;
+    margin-top: 3% ;
 }
 
   
    .youtube-video, .youtube-video-second {
-    height: 534px;
+    height: 500px;
     width: 802px;
     padding-left: 8%;
 }
@@ -3618,10 +3620,10 @@ ul.desktop-list{
 .main-svg {
     display: block;
     position: absolute;
-    left: -4%;
-    bottom: 1%;
-    width: 98%;
-    height: 95%;
+    left: -2%;
+    bottom: -6.33%;
+    width: 108%;
+    height: 100%;
 }
 
 
