@@ -300,9 +300,7 @@ font-size: 22px;
 ul.services__item{
     position:  relative !important;
 }
-.ptz-cam__svg-mobile{
-    display: none;
-}
+
 .desktop__text-customers{
     padding-left: 5%;
 }
@@ -341,9 +339,13 @@ ul.services__item{
     .visible {
     transform: translateX(0%);
 }
+.ptz-cam__svg svg{
+    display: none;
+}
 .blog-svg-top,.blog-rotated__img,.blog-rotated__svg {
  display: none;
 }
+
 .blog__lower-svg-mobile {
     position: absolute;
     bottom: -5%;
@@ -476,6 +478,9 @@ p.services__item__text {
 /* Styles */
 li.footer__list-item {
     padding: 0rem !important;
+}
+.ptz-cam__svg {
+    display: none;
 }
 .blog__item-number {
     padding: 0 0 9% 0;
@@ -614,6 +619,9 @@ p.services__item__text {
 @media (min-width: 1100px) and (max-width: 1399px) {
     /* Styles */
 .mobile-logo-new{
+    display: none;
+}
+.ptz-cam__svg-mobile{
     display: none;
 }
  .header {
@@ -1939,6 +1947,9 @@ p.content-small {
 .you-plus-your-things .services__item svg {
   width: 197px;
 }
+.ptz-cam__svg-mobile{
+    display: none;
+}
 .main-svg {
     display: block;
     position: absolute;
@@ -1993,6 +2004,9 @@ p.content-small {
 }
 .for-developers-container{
     margin-top: 10%;
+}
+.ptz-cam__svg-mobile{
+    display: none;
 }
 .ptz-sides {
     font-family: 'PT Sans', sans-serif;
@@ -3978,6 +3992,9 @@ width: 43%;
 .for-developers__svg img {
     min-width: 194px;
     max-width: 220px;
+}
+.ptz-cam__svg-mobile{
+    display: none;
 }
 .customer__first,.for-developers-container{
     margin-top: 10%;
