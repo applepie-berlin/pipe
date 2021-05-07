@@ -3564,7 +3564,7 @@ width: 100% !important;
 }
 .services__item__text::before {
     position: absolute;
-    left: 20%;
+    left: 22%;
     top: 50%;
     height: 1px;
     background: #096EF3;
