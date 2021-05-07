@@ -1997,6 +1997,10 @@ img.placeholder__image {
 .ptz-cam__svg svg{
     width: 957px;
 }
+.services__item svg {
+    padding: 0 0% 0 41%;
+    width: 197px;
+}
 tspan {
     font-family: 'PT Sans', sans-serif;
     font-size: 15px;
