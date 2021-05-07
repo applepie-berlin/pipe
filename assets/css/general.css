@@ -1905,7 +1905,7 @@ p.content-small {
     height: 1px;
     background: #096EF3;
     content: '';
-    width: 37px;
+    width: 5%;
 }
     
 }
@@ -3491,6 +3491,11 @@ width: 100% !important;
   .youtube-video-second {
     height: 620px;
     width: 890px;
+}
+.youtube-video {
+    height: 534px;
+    width: 1094px !important;
+    padding-left: 8%;
 }
 .video.video-container {
     display: flex;
