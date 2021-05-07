@@ -1751,6 +1751,9 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.services-border {
+    margin-left: 6% !important;
+}
 .services__item__text::before {
     position: absolute;
     left: 22% !important;
