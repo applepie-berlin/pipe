@@ -452,6 +452,12 @@ li.footer__list-item {
     padding: 0 0 9% 0;
   
 }
+.mobile-svg {
+    position: absolute;
+    top: 80px;
+    width: 1443px;
+    left: -22%;
+}
 .blog-svg-top,.blog-rotated__img,.blog-rotated__svg {
  display: none;
 }
