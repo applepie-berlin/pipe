@@ -1751,6 +1751,15 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.services__item__text::before {
+    position: absolute;
+    left: 22% !important;
+    top: 50%;
+    height: 1px;
+    background: #096EF3;
+    content: '';
+    width: 37px;
+}
 .youtube-video, .youtube-video-second {
     height: 590px;
     width: 1160px !important;
@@ -3564,7 +3573,7 @@ width: 100% !important;
 }
 .services__item__text::before {
     position: absolute;
-    left: 22% !important;
+    left: 22% ;
     top: 50%;
     height: 1px;
     background: #096EF3;
