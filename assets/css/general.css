@@ -294,6 +294,9 @@ ul.services__item{
 .desktop__text-customers{
     padding-left: 5%;
 }
+.services__item-explanation{
+    padding-right: 8%;
+}
 .display-mobile-section-one{
     display: none;
 }
@@ -1858,7 +1861,7 @@ p.content-small {
 .main-svg {
     display: block;
     position: absolute;
-    left: -3% !important;
+    left: -4% !important;
   
 }
 .webrtic-agent__List {
@@ -1912,8 +1915,16 @@ p.content-small {
 .a-black-box-desktop svg {
     width: 1509px !important;
 }
-.services__item svg {
+.you-plus-your-things .services__item svg {
   width: 197px;
+}
+.main-svg {
+    display: block;
+    position: absolute;
+    left: -5% !important;
+    bottom: -6.33%;
+    width: 108%;
+    height: 100%;
 }
 .services__item-explanation {
     font-size: 22px;
@@ -1931,6 +1942,14 @@ p.content-small {
     content: '';
     width: 5%;
 }
+.main-svg {
+    display: block;
+    position: absolute;
+    left: -4% !important;
+    bottom: -6.33%;
+    width: 108%;
+    height: 100%;
+}
 .services-border {
     margin-left: 11% !important;
 }
@@ -1942,7 +1961,9 @@ p.content-small {
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1888px)  {
-
+.services-border{
+    margin-right:15%;
+}
 .blog-svg-top {
     position: absolute;
     left: -26%;
@@ -4788,7 +4809,7 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    bottom: -8.33%;
+    bottom: -9.33%;
 }
     .desktop__icons__container{
         display: block;
