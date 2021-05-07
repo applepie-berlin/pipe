@@ -59,6 +59,15 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.ptz-cam-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.ptz-cam__svg svg{
+    display: none;
+}
 .video__svg{
     display: flex;
     align-items: center;
@@ -291,6 +300,9 @@ font-size: 22px;
 ul.services__item{
     position:  relative !important;
 }
+.ptz-cam__svg-mobile{
+    display: none;
+}
 .desktop__text-customers{
     padding-left: 5%;
 }
@@ -307,12 +319,12 @@ ul.services__item{
 }
 .black-background-absolute {
     position: absolute;
-    bottom: -5%;
+    bottom: -11%;
     right: 0%;
     z-index: -1;
     background-color: black;
     width: 327px;
-    height: 427px;
+    height: 629px;
 }
  .contact-us-svg-mobile{
      display: none;
