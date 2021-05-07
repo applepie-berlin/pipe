@@ -1774,7 +1774,7 @@ li{
 .services-border {
     margin-left: 6% !important;
 }
-.services__item svg{
+.you-plus-your-things .services__item svg{
     width: 197px;
 }
 .services__item__text::before {
