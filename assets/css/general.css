@@ -1758,6 +1758,14 @@ li{
   
     padding-top: 3%;
 }
+
+.services__item svg {
+    padding: 0 10% 0 27% !important;
+}
+
+.for-developers__svg img {
+    width: 179px !important;
+}
 .blog-rotated__svg {
     position: absolute;
     left: -1% !important;
@@ -1865,10 +1873,18 @@ p.content-small {
 .a-black-box-desktop svg {
     width: 1509px !important;
 }
-
+.services__item svg {
+  width: 197px;
+}
+.services__item-explanation {
+    font-size: 22px;
+    line-height: 29px;
+}
 }
 
 @media screen and (min-width: 1400px) and (max-width: 1500px)  {
+
+    
 }
 .container__text.desktop__display-show {
     padding-left: 20%;
@@ -1923,7 +1939,7 @@ p.content-small {
     margin-top: -7%;
 }
 .services__item svg {
-    padding: 0 35% 0 27% !important;
+    padding: 0 0% 0 41% ;
 }
 img.placeholder__image {
    
@@ -3465,9 +3481,9 @@ width: 100% !important;
     width: 802px;
     padding-left: 8%;
 }
-  .section__one {
+ .section__one {
     margin-top: 10%;
-    padding-bottom: 6%;
+    margin-bottom: 6%;
 }
   
   .desktop-hidder{
@@ -3931,6 +3947,7 @@ tspan {
 .secure-yet__list-container{
     background-color: #000000;
     padding: 6% 0 6% 0;
+    margin-top: 23%;
     border-top: 0.4000000059604645px dashed #FFFFFF;
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
  
@@ -4617,9 +4634,13 @@ margin: 0 auto;
   .video-container{
       margin-top:15% ;
   }
- .youtube-video,.youtube-video-second{
+.youtube-video-second{
     height: 620px;
     width: 1221px;
+}
+ .youtube-video{
+    height: 841px;
+    width: 1600px;
 }
 
 
