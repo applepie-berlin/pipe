@@ -3739,10 +3739,9 @@ display: flex;
   ul.services__list.text-center li{
       padding: 0 0rem;
   }
-  .services-border{
-      margin-left: 6%;
-  }
-    
+  .services-border {
+    margin-left: 11%;
+}
 ul.services__list.text-center {
     text-align: left;
 }
