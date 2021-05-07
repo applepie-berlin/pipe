@@ -1751,6 +1751,12 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.youtube-video, .youtube-video-second {
+    height: 590px;
+    width: 1160px !important;
+    padding-left: 8%;
+}
+
 .for-developers-container{
     margin-top: 10%;
 }
@@ -3475,7 +3481,7 @@ width: 100% !important;
     margin-top: 12% !important;
 }
 
-   
+  
    .youtube-video, .youtube-video-second {
     height: 534px;
     width: 802px;
