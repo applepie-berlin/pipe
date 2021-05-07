@@ -1907,6 +1907,9 @@ p.content-small {
     content: '';
     width: 5%;
 }
+.services-border {
+    margin-left: 11% !important;
+}
     
 }
 .container__text.desktop__display-show {
