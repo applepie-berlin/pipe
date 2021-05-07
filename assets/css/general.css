@@ -635,13 +635,16 @@ p.services__item__text {
 .blogs{
     padding-bottom: 15%  !important;
 }
-.secure-yet__list-container{
+.secure-yet__list-container {
     background-color: #000000;
     padding: 4% 0 4% 0;
-    margin: 10% 0 10% 0;
+    margin: 2% 0 10% 0;
     border-top: 0.4000000059604645px dashed #FFFFFF;
     border-bottom: 0.4000000059604645px dashed #FFFFFF;
- 
+}
+.video {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 .for-developers__svg img {
     width: 115px;
@@ -1355,7 +1358,7 @@ p.content-small {
 
  .section__one {
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 7%;
 }
   
  
@@ -1472,8 +1475,8 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    width: 96%;
-    bottom: -2%;
+    width: 100%;
+    bottom: -8%;
     height: 100%;
 }
     .desktop__icons__container{
@@ -1671,23 +1674,29 @@ ul.services__list.text-center {
   margin-top: 0.5rem;
 }
 .services {
-    padding-top: 10%;
+    padding-top: 1%;
     padding-bottom: 10%;
 }
 .section-three {
     margin-bottom: 0%;
 }
 .second-section {
-    margin-bottom: 15%;
+    margin-bottom: 3%;
+}
+.video.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
 }
  .section_four{
      margin-bottom: 12%;
  }
-.services-border{
-      border-top: 1px solid #707070;
-        border-bottom: 1px solid #707070;
-        padding-top: 0.1rem  !important ;
-        padding-bottom: 0.9rem !important;
+.services-border {
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+    padding-top: 0.1rem !important;
+    padding-bottom: 0.9rem !important;
+    margin-right: 23%;
 }
 .services__item-number {
     margin-bottom: 0 !important;
