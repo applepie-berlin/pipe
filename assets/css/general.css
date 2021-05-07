@@ -297,11 +297,19 @@ ul.services__item{
 .display-mobile-section-one{
     display: none;
 }
-.black-background-absolute{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.section__buttons_item {
+ 
+     margin-top: 0rem;
 
+}
+.black-background-absolute {
+    position: absolute;
+    bottom: -5%;
+    right: 0%;
+    z-index: -1;
+    background-color: black;
+    width: 327px;
+    height: 427px;
 }
  .contact-us-svg-mobile{
      display: none;
