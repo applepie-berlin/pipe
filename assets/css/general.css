@@ -59,6 +59,13 @@ h1, h2, h3 {
     font-weight: Bold;
     line-height: 52px;
 }
+.second-section{
+    margin-top: 22%;
+}
+.section-explanation {
+    font-size: 15px;
+    padding-top: 20%;
+}
 .ptz-cam-container{
     display:flex;
     flex-direction: column;
