@@ -803,9 +803,7 @@ table {
     top:0;
     left:0
 }
-.background-wrapper {
-    background-color: black;
-}
+
 .container__wrapper{
     max-width: 1920px;
    width:100%;
@@ -1725,7 +1723,7 @@ p.content-small {
 }
 
 .section_four {
-    margin-top: 15%;
+    margin-top: 7%;
 }
 .desktop-logo {
     display: block;
@@ -1772,11 +1770,14 @@ margin-bottom: 12%;
 }
 
 .you-plus-your-things .services {
-    margin: 12% 0 0 0;
+    margin: 5% 0 0 0;
 }
 .security-assurance{
     display: flex;
     flex-direction: row;
+}
+.section-button-margin {
+    margin-top: 22% !important;
 }
 .security-assurance div{
     padding-right: 3%;
