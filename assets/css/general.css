@@ -1824,9 +1824,20 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.section_four {
+    margin-top: 8% !important;
+}
 .section-button-margin {
-    margin-top: 24% !important;
+    margin-top: 17% !important;
     position: relative;
+}
+.you-plus-your-things {
+    margin-top: 3rem;
+    padding-bottom: 12% !important;
+}
+
+.section_four {
+    margin-bottom: 12% !important;
 }
 .main-svg {
     display: block;
@@ -1930,8 +1941,12 @@ p.content-small {
     margin-top: 11% !important;
 }
 .section-three .services {
-    margin-top: 18% !important;
-    margin-bottom: 10%;
+    margin-top: 10% !important;
+    margin-bottom: 11% !important;
+}
+.section-three .services {
+    margin-top: 10% !important;
+    margin-bottom: 7% !important;
 }
 .services {
     margin: 7% 13% 0 22% !important;
@@ -2075,10 +2090,10 @@ p.content-small {
     margin: 16% 13% 0 22%;
 }
 .section-button-margin {
-    
-    margin-top: 14% ;
+    margin-top: 20% !important;
     position: relative;
 }
+
 .section_four {
     margin-top: 4% !important;
 }
@@ -3133,7 +3148,7 @@ ul.services__list.text-center {
    margin-top: 13%;
 }
 .section-three {
-    margin-bottom: 5%;
+    margin-bottom: 13%;
 }
 .second-section {
     margin-bottom: 6%;
