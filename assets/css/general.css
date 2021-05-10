@@ -1803,6 +1803,10 @@ li{
     .what-we-do__svg-container {
     margin: 0 13% 0 23% !important;
 }
+.section-button-margin {
+    margin-top: 24% !important;
+    position: relative;
+}
 .main-svg {
     display: block;
     position: absolute;
@@ -1974,8 +1978,28 @@ p.content-small {
     position: absolute;
     left: -5% !important;
     bottom: -6.33%;
-    width: 108%;
+    width: 98%;
     height: 100%;
+}
+.youtube-video, .youtube-video-second {
+    height: 616px !important;
+    width: 1102px;
+    padding-left: 8%;
+}
+.services {
+    margin: 2% 13% 0 22% !important;
+}
+.second-section {
+    margin-bottom: 16% !important;
+}
+.section-three {
+    margin-bottom: 16% !important;
+}
+.section_four {
+    margin-top: 9% !important;
+}
+.second-section {
+    margin-top: 12% !important;
 }
 .services__item-explanation {
     font-size: 22px;
@@ -3061,9 +3085,7 @@ ul.services__list.text-center {
 .services__item  {
     position: relative;
 }
-.section-button-margin{
-    margin-top: 7rem !important;
-}
+
     ul.services__item,ul.our-services__item  {
      display: flex;
     justify-content: space-between;
@@ -3902,7 +3924,7 @@ ul.services__list.text-center {
     position: relative;
 }
 .section-button-margin {
-    margin-top: 23% !important;
+    margin-top: 21% ;
     position: relative;
 }
    ul.services__item, ul.our-services__item {
