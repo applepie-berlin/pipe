@@ -661,6 +661,10 @@ p.services__item__text {
 .ptz-cam__svg-mobile{
     display: none;
 }
+p.section-explanation.display-mobile-section-one {
+    color: #0000ff !important;
+    display: none;
+}
  .header {
    
     margin-top: 4%;
@@ -2149,6 +2153,10 @@ p.content-small {
     left: -26%;
     top: 43%;
     z-index: -1000;
+}
+p.section-explanation.display-mobile-section-one {
+    color: #0000ff !important;
+    display: none;
 }
 .section-explanation {
   
@@ -4155,6 +4163,10 @@ width: 43%;
   
     color: blue;
 }
+p.section-explanation.display-mobile-section-one {
+    color: #0000ff !important;
+    display: none;
+}
 .for-developers__svg img {
     min-width: 194px;
     max-width: 220px;
@@ -5017,7 +5029,7 @@ ul.desktop-list{
     display: block;
     position: absolute;
     left: -40px;
-    bottom: 6.67%;
+    bottom: 8.3%;
 }
     .desktop__icons__container{
         display: block;
