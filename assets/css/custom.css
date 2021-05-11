@@ -110,9 +110,7 @@ time, mark, audio, video {
 .page-number-addition{
     display: none;
 }
-p.section-explanation.display-mobile-section-one {
-    color: 	#0000ff  !important;
-}
+
 p.section-explanation.display-mobile-section-one span {
     color: #FFFFFF !important;
 }
