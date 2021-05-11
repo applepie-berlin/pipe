@@ -314,7 +314,9 @@ ul.services__item{
 .services__item-explanation{
     padding-right: 8%;
 }
-
+.display-mobile-section-one{
+    display: none;
+}
 .section__buttons_item {
  
      margin-top: 0rem;
@@ -503,6 +505,9 @@ li.footer__list-item {
 .blog__item-number {
     padding: 0 0 9% 0;
   
+}
+.display-mobile-section-one{
+    display: block;
 }
 .mobile-svg {
     position: absolute;
@@ -1525,8 +1530,8 @@ p.content-small {
    .desktop-none{
   display:block !important;
 }
-.what-we-do__svg-container p{
-font-size: 13px;
+.what-we-do__svg-container p {
+    font-size: 13.7px;
 }
  .mobile-none{
     display:none;
@@ -1849,6 +1854,10 @@ li{
 .section_four {
     margin-top: 8% !important;
 }
+.section-explanation {
+   
+    font-size: 18.1px;
+}
 .section-button-margin {
     margin-top: 17% !important;
     position: relative;
@@ -2075,7 +2084,9 @@ p.content-small {
     content: '';
     width: 5%;
 }
-
+.section-explanation {
+    font-size: 15.62px;
+}
 
 
 .main-svg {
@@ -4137,6 +4148,9 @@ width: 43%;
     .footer__image-social {
     margin-right: 4%;
 }
+.section-explanation span{
+    color: white;
+}
 .section-explanation {
   
     color: blue;
@@ -4875,8 +4889,8 @@ margin: 0 auto;
     .desktop__display-hide{
     display: none;
 }
-.section-explanation{
-    font-size: 18px;
+.section-explanation {
+    font-size: 20.5px;
 }
 .services__item__text{
     font-size: 22px;

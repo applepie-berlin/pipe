@@ -33,6 +33,9 @@ width: 161px;
 section{
     position: relative;
 }
+.text-center{
+    text-align: center;
+}
 .for-developers__svg svg{
     display: inline;
 }
