@@ -4165,7 +4165,7 @@ width: 43%;
 }
 p.section-explanation.display-mobile-section-one {
     color: #0000ff !important;
-    display: none;
+    display: none !important;
 }
 .for-developers__svg img {
     min-width: 194px;
