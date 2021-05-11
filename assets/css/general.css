@@ -346,6 +346,12 @@ ul.services__item{
     .visible {
     transform: translateX(0%);
 }
+.mobile-svg {
+    position: absolute;
+    top: 128px;
+    left: -19%;
+    width: 1122px;
+}
 .ptz-cam__svg svg{
     display: none;
 }
@@ -426,10 +432,13 @@ ul.services__item{
     left: 6%;
     margin: 0rem auto;
     position: absolute;
-    top: -28%;
+    top: -97%;
     transform: rotate( 
 180deg
  );
+}
+.our__container{
+    margin-bottom: 25%;
 }
 .main-text__blue-border {
     margin-bottom: 7%;
@@ -651,7 +660,7 @@ p.services__item__text {
 }
 .ptz-sides {
     font-family: 'PT Sans', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
 }
 .blog-svg-top {
     position: absolute;
@@ -705,7 +714,7 @@ p.services__item__text {
 }
 tspan {
     font-family: 'PT Sans', sans-serif;
-    font-size: 13px;
+    font-size: 18px;
 }
 p.content-small {
    
@@ -748,8 +757,8 @@ p.content-small {
     bottom: 60%;
     left: 6%;
 }
-.ptz-cam__svg svg{
-    width: 700px;
+.ptz-cam__svg svg {
+    width: 1000px;
 }
 .ptz-cam__svg-top::after {
     content: '';
@@ -1506,6 +1515,9 @@ p.content-small {
    .desktop-none{
   display:block !important;
 }
+.what-we-do__svg-container p{
+font-size: 13px;
+}
  .mobile-none{
     display:none;
 }
@@ -2179,8 +2191,9 @@ img.placeholder__image {
 .benefits__svg {
     height: 205px !important;
 }
-.ptz-cam__svg svg{
-    width: 957px;
+.ptz-cam__svg svg {
+    height: 671px;
+    width: 1209px;
 }
 
 tspan {
@@ -2865,6 +2878,7 @@ p.content-small {
   .youtube-video-second{
       width: 700px;
       height: 450px;
+      min-width: 700px ;
   }
   .video-container{
       margin-top:15% ;
@@ -4095,9 +4109,12 @@ width: 43%;
 }
 }
 
-@media (min-width: 1888px) {
+@media (min-width: 1889px) {
     .desktop-only{
         display: inline;
+    }
+    .ptz-cam__svg svg{
+        width: 1600px;
     }
     .footer__image-social {
     margin-right: 4%;
@@ -4850,6 +4867,7 @@ margin: 0 auto;
   .youtube-video-second{
       width: 700px;
       height: 450px;
+       min-width: 700px ;
   }
   .video-container{
       margin-top:15% ;
@@ -4861,6 +4879,8 @@ margin: 0 auto;
 .youtube-video {
     height: 718px;
     width: 1600px;
+    min-height: 718px;
+    min-width:1600px ;
 }
 
     .contact-us,.contact-us-image{
