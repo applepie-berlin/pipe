@@ -314,9 +314,7 @@ ul.services__item{
 .services__item-explanation{
     padding-right: 8%;
 }
-.display-mobile-section-one{
-    display: none;
-}
+
 .section__buttons_item {
  
      margin-top: 0rem;
@@ -345,6 +343,10 @@ ul.services__item{
 @media screen and (min-width : 500px) and (max-width : 768px) {
     .visible {
     transform: translateX(0%);
+}
+tspan {
+    font-size: 13px;
+    font-family: 'PT Sans';
 }
 .mobile-svg {
     position: absolute;
@@ -657,6 +659,14 @@ p.services__item__text {
  .header {
    
     margin-top: 4%;
+}
+.section-explanation {
+  
+    color: blue;
+}
+.section-explanation span {
+  
+    color: white;
 }
 .ptz-sides {
     font-family: 'PT Sans', sans-serif;
@@ -2128,6 +2138,14 @@ p.content-small {
     left: -26%;
     top: 43%;
     z-index: -1000;
+}
+.section-explanation {
+  
+    color: blue;
+}
+.section-explanation span {
+  
+    color: white;
 }
 .for-developers-container{
     margin-top: 10%;
@@ -4119,6 +4137,10 @@ width: 43%;
     .footer__image-social {
     margin-right: 4%;
 }
+.section-explanation {
+  
+    color: blue;
+}
 .for-developers__svg img {
     min-width: 194px;
     max-width: 220px;
@@ -4570,7 +4592,8 @@ margin: 0 auto;
         }
 
         p {
-            font-size: 0.9rem;
+            font-size: 18px;
+            font-family: 'PT Sans', sans-serif;
         }
 
         .benefits__width {

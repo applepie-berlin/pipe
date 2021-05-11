@@ -108,7 +108,7 @@ time, mark, audio, video {
     display: none;
 }
 p.section-explanation.display-mobile-section-one {
-    color: 	#0000ff;
+    color: 	#0000ff  !important;
 }
 p.section-explanation.display-mobile-section-one span {
     color: #FFFFFF !important;
