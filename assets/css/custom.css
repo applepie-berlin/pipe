@@ -111,9 +111,7 @@ time, mark, audio, video {
     display: none;
 }
 
-p.section-explanation.display-mobile-section-one span {
-    color: #FFFFFF !important;
-}
+
 
 p span{
     color:var(--main-button-color);
